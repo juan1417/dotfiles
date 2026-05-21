@@ -1,0 +1,69 @@
+2026-05-14 11:38:46.487 [info] Extension host with pid 14245 started
+2026-05-14 11:38:46.487 [info] Skipping acquiring lock for /home/juan/.config/Antigravity/User/workspaceStorage/dd22eedc4e138519ccd34675f50e9851.
+2026-05-14 11:38:46.539 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-14 11:38:46.565 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-14 11:38:46.671 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-14 11:38:46.831 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-05-14 11:38:50.985 [info] Extension host terminating: renderer closed the MessagePort
+2026-05-14 11:38:51.003 [info] Extension host with pid 14245 exiting with code 0
+2026-05-14 11:38:55.026 [info] Extension host with pid 14360 started
+2026-05-14 11:38:55.026 [info] Skipping acquiring lock for /home/juan/.config/Antigravity/User/workspaceStorage/dd22eedc4e138519ccd34675f50e9851.
+2026-05-14 11:38:55.053 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-14 11:38:55.092 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-14 11:38:55.185 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-14 11:38:55.296 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-05-14 11:38:56.550 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-14 11:39:05.063 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-05-14 11:39:05.101 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-14 11:39:05.106 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-14 11:39:11.655 [info] Eager extensions activated
+2026-05-14 11:43:15.913 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-14 11:43:15.947 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-14 11:43:16.106 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-14 12:08:35.665 [info] ExtensionService#_doActivateExtension meta.pyrefly, startup: false, activationEvent: 'onLanguage:python'
+2026-05-14 12:08:35.766 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-05-14 12:08:36.145 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-05-14 12:08:36.440 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-14 12:08:36.456 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-14 12:08:36.565 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-14 12:08:37.628 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-05-14 12:11:57.951 [error] LR: Language server has not been started!
+	at get client (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1989124)
+	at Timeout.e [as _onTimeout] (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1947176)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-05-14 12:11:59.244 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:2350665)
+	at Object.dispose (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:426929)
+	at S.handleConnectionClosed (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:427327)
+	at S.handleConnectionClosed (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:2596)
+	at /opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:427073
+	at o.invoke (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:808599)
+	at r.fire (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:809364)
+	at te (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:2338818)
+	at o.invoke (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:808599)
+	at r.fire (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:809364)
+	at g.fireClose (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:316328)
+	at Socket.<anonymous> (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:317055)
+	at Socket.emit (node:events:531:35)
+	at TCP.<anonymous> (node:net:346:12)
+2026-05-14 12:11:59.245 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at S.shutdown (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:422279)
+	at S.stop (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:421860)
+	at S.stop (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:2199)
+	at S.doInitialize (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:421683)
+	at async S.start (/opt/Antigravity/resources/app/extensions/antigravity/dist/extension.js:2:418265)
+2026-05-14 12:34:15.374 [info] Extension host terminating: renderer closed the MessagePort
+2026-05-14 12:34:15.469 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.Z [as deactivate] (/home/juan/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal/dist/extension.js:2:706516)
+	at lIe.eb (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13096)
+	at file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11244
+	at Array.map (<anonymous>)
+	at lIe.$ (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11232)
+	at lIe.terminate (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:11475)
+	at A6.terminate (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:921)
+	at mr (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:11402)
+	at MessagePortMain.<anonymous> (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:7613)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-05-14 12:34:15.479 [info] Extension host with pid 14360 exiting with code 0

@@ -1,0 +1,14 @@
+2026-05-16 15:51:23.774 [info] Started local extension host with pid 35610.
+2026-05-16 15:51:25.606 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-16 15:51:27.379 [info] [perf] Render performance baseline is 52ms
+2026-05-16 15:51:30.654 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-16 15:51:31.470 [error] [Extension Host] (node:35610) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-16 15:52:04.622 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/juan/.config/opencode/opencode.jsonc 
+2026-05-16 15:52:04.751 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled
+2026-05-16 15:52:06.427 [info] Started local extension host with pid 36500.
+2026-05-16 15:52:07.464 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-16 15:52:09.510 [info] [perf] Render performance baseline is 48ms
+2026-05-16 15:52:12.474 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-16 15:52:15.883 [error] [Extension Host] (node:36500) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

@@ -1,0 +1,18 @@
+2026-05-19 08:23:56.852 [info] Extension host with pid 36454 started
+2026-05-19 08:23:56.852 [info] Skipping acquiring lock for /home/juan/.config/Code - OSS/User/workspaceStorage/3de5b77540408fbb2eb84547b6eb9445.
+2026-05-19 08:23:57.105 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-19 08:23:57.166 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-19 08:23:57.516 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-19 08:23:57.809 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-19 08:23:57.910 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-19 08:23:58.038 [info] Eager extensions activated
+2026-05-19 08:23:58.153 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-19 08:23:58.246 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-19 08:23:58.250 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-19 08:23:58.282 [info] ExtensionService#_doActivateExtension alexdauenhauer.catppuccin-noctis-icons, startup: false, activationEvent: 'onStartupFinished'
+2026-05-19 08:23:58.295 [info] ExtensionService#_doActivateExtension miguelsolorio.symbols, startup: false, activationEvent: 'onStartupFinished'
+2026-05-19 08:23:58.480 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-19 08:23:58.500 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-19 08:23:58.648 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-19 08:24:04.114 [info] Extension host terminating: received terminate message from renderer
+2026-05-19 08:24:04.135 [info] Extension host with pid 36454 exiting with code 0

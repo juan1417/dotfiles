@@ -1,0 +1,13 @@
+2026-05-18 11:46:46.229 [info] Started local extension host with pid 23372.
+2026-05-18 11:46:48.718 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-18 11:46:49.727 [error] [Extension Host] (node:23372) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-18 11:46:52.836 [info] [perf] Render performance baseline is 41ms
+2026-05-18 11:46:53.036 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/juan/.config/Code%20-%20OSS/User/settings.json 
+2026-05-18 11:46:53.054 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled
+2026-05-18 11:46:53.074 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/juan/.config/Code%20-%20OSS/User/settings.json 
+2026-05-18 11:46:54.606 [info] Started local extension host with pid 23779.
+2026-05-18 11:46:55.550 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-18 11:46:57.586 [info] [perf] Render performance baseline is 50ms
+2026-05-18 11:47:00.552 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-18 13:03:13.740 [error] An unknown error occurred. Please consult the log for more details.

@@ -1,0 +1,28 @@
+2026-05-15 11:12:09.219 [info] Experiment 'pythonSurveyNotificationcf' is active
+2026-05-15 11:12:09.219 [warning] Dir "/home/juan/projects/TermChat/.pixi/envs" is not watchable (directory does not exist)
+2026-05-15 11:12:09.656 [info] Python interpreter path: /bin/python
+2026-05-15 11:12:10.778 [info] > pyenv which python
+2026-05-15 11:12:10.778 [info] cwd: .
+2026-05-15 11:12:10.920 [info] Editor support is inactive since language server is set to None.
+2026-05-15 11:12:13.725 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.14.4 (main, May  3 2026, 17:15:29) [GCC 16.1.1 20260430]',
+  version: {
+    raw: '3.14.4',
+    major: 3,
+    minor: 14,
+    patch: 4,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.14.4 64-bit',
+  detailedDisplayName: 'Python 3.14.4 64-bit',
+  type: undefined
+} /home/juan/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /home/juan/projects/TermChat/pyproject.toml
+2026-05-15 11:12:13.725 [info] > /bin/python ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ./pyproject.toml

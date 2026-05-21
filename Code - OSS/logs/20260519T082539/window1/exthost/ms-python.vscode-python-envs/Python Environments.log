@@ -1,0 +1,317 @@
+2026-05-19 08:31:59.379 [info] Python-envs extension version: 1.30.0
+2026-05-19 08:31:59.379 [info] 
+=== Python Envs Configuration Levels ===
+2026-05-19 08:31:59.379 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-05-19 08:31:59.379 [info] [pet] Starting Python Locator /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-05-19 08:31:59.379 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-05-19 08:31:59.379 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-05-19 08:31:59.379 [info] Registering poetry manager (environments will be discovered lazily)
+2026-05-19 08:31:59.379 [error] [pet] Process error: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:31:59.379 [warning] [pet] Restarting Python Environment Tools (attempt 1/3, waiting 1000ms)
+2026-05-19 08:32:00.385 [info] [pet] Starting Python Locator /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-05-19 08:32:00.385 [info] [pet] Python Environment Tools restarted successfully
+2026-05-19 08:32:00.389 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/juan/projects/TermChat"],"environmentDirectories":["/home/juan/projects/TermChat/.venv","/home/juan/projects/TermChat/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-05-19 08:32:00.389 [error] [pet] Process error: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:32:30.393 [warning] [pet] Configure request timed out (attempt 1/2), will retry on next request without killing process
+2026-05-19 08:32:30.393 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-05-19 08:32:30.394 [warning] [pet] Restarting Python Environment Tools (attempt 2/3, waiting 2000ms)
+2026-05-19 08:32:30.395 [info] Conda not found, turning off conda features. [M: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/home/juan/.vscode-oss/extensions/ms-python.vscode-python-envs-1.30.0-universal/dist/extension.js:2:551628)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7)] {
+  method: 'configure'
+}
+2026-05-19 08:32:30.397 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-05-19 08:32:32.403 [info] [pet] Starting Python Locator /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-05-19 08:32:32.403 [info] [pet] Python Environment Tools restarted successfully
+2026-05-19 08:32:32.405 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/juan/projects/TermChat"],"environmentDirectories":["/home/juan/projects/TermChat/.venv","/home/juan/projects/TermChat/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-05-19 08:32:32.405 [error] [pet] Process error: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:33:02.405 [warning] [pet] Configure request timed out (attempt 1/2), will retry on next request without killing process
+2026-05-19 08:33:02.406 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-05-19 08:33:02.407 [error] [venv] Background initialization failed: [M: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/home/juan/.vscode-oss/extensions/ms-python.vscode-python-envs-1.30.0-universal/dist/extension.js:2:551628)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7)] {
+  method: 'configure'
+}
+2026-05-19 08:33:02.409 [warning] [pet] Restarting Python Environment Tools (attempt 3/3, waiting 4000ms)
+2026-05-19 08:33:06.421 [info] [pet] Starting Python Locator /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-05-19 08:33:06.421 [info] [pet] Python Environment Tools restarted successfully
+2026-05-19 08:33:06.423 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/juan/projects/TermChat"],"environmentDirectories":["/home/juan/projects/TermChat/.venv","/home/juan/projects/TermChat/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-05-19 08:33:06.423 [error] [pet] Process error: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:33:36.424 [warning] [pet] Configure request timed out (attempt 1/2), will retry on next request without killing process
+2026-05-19 08:33:36.425 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-05-19 08:33:36.427 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-05-19 08:33:36.436 [info] [pet] JSON CLI fallback refresh: /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/juan/projects/TermChat --cache-directory /home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/juan/projects/TermChat/.venv --environment-directories /home/juan/projects/TermChat/*/.venv
+2026-05-19 08:33:36.436 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:33:36.438 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-05-19 08:33:36.446 [info] [pet] JSON CLI fallback refresh: /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/juan/projects/TermChat --cache-directory /home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/juan/projects/TermChat/.venv --environment-directories /home/juan/projects/TermChat/*/.venv
+2026-05-19 08:33:36.447 [error] [system] Background initialization failed: [Error: spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/juan/projects/TermChat',
+    '--cache-directory',
+    '/home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/.venv',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/*/.venv'
+  ]
+}
+2026-05-19 08:33:36.447 [info] [SYS_GET] uri=/home/juan/projects/TermChat, normalizedKey=/home/juan/projects/TermChat, project=/home/juan/projects/TermChat, projectKey=/home/juan/projects/TermChat, mapKeys=[], directHit=false, projectHit=false, fallbackToGlobal=true, globalEnv=none
+2026-05-19 08:33:36.450 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:33:36.450 [error] [venv] Background initialization failed: [Error: spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/juan/projects/TermChat',
+    '--cache-directory',
+    '/home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/.venv',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/*/.venv'
+  ]
+}
+2026-05-19 08:33:36.456 [info] [interpreterSelection] TermChat: none (source: autoDiscovery)
+2026-05-19 08:33:36.457 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-05-19 08:33:36.464 [info] [pet] JSON CLI fallback refresh: /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/juan/projects/TermChat --cache-directory /home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/juan/projects/TermChat/.venv --environment-directories /home/juan/projects/TermChat/*/.venv
+2026-05-19 08:33:36.465 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:33:36.466 [error] [interpreterSelection] Failed to set global environment: Error: spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+2026-05-19 08:33:36.469 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-05-19 08:33:36.476 [info] [pet] JSON CLI fallback refresh: /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/juan/projects/TermChat --cache-directory /home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/juan/projects/TermChat/.venv --environment-directories /home/juan/projects/TermChat/*/.venv
+2026-05-19 08:33:36.476 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:33:36.477 [error] [venv] Background initialization failed: [Error: spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/juan/projects/TermChat',
+    '--cache-directory',
+    '/home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/.venv',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/*/.venv'
+  ]
+}
+2026-05-19 08:33:36.479 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-05-19 08:33:36.486 [info] [pet] JSON CLI fallback refresh: /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/juan/projects/TermChat --cache-directory /home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/juan/projects/TermChat/.venv --environment-directories /home/juan/projects/TermChat/*/.venv
+2026-05-19 08:33:36.487 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:33:36.488 [error] [venv] Background initialization failed: [Error: spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/juan/projects/TermChat',
+    '--cache-directory',
+    '/home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/.venv',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/*/.venv'
+  ]
+}
+2026-05-19 08:33:36.491 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-05-19 08:33:36.500 [info] [pet] JSON CLI fallback refresh: /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/juan/projects/TermChat --cache-directory /home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/juan/projects/TermChat/.venv --environment-directories /home/juan/projects/TermChat/*/.venv
+2026-05-19 08:33:36.501 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:33:36.501 [error] [venv] Background initialization failed: [Error: spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/juan/projects/TermChat',
+    '--cache-directory',
+    '/home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/.venv',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/*/.venv'
+  ]
+}
+2026-05-19 08:33:36.504 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-05-19 08:33:36.513 [info] [pet] JSON CLI fallback refresh: /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/juan/projects/TermChat --cache-directory /home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/juan/projects/TermChat/.venv --environment-directories /home/juan/projects/TermChat/*/.venv
+2026-05-19 08:33:36.514 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:33:36.514 [error] [venv] Background initialization failed: [Error: spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/juan/projects/TermChat',
+    '--cache-directory',
+    '/home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/.venv',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/*/.venv'
+  ]
+}
+2026-05-19 08:33:36.516 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-05-19 08:33:36.524 [info] [pet] JSON CLI fallback refresh: /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/juan/projects/TermChat --cache-directory /home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/juan/projects/TermChat/.venv --environment-directories /home/juan/projects/TermChat/*/.venv
+2026-05-19 08:33:36.525 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:33:36.531 [info] Refreshing pyenv environments
+2026-05-19 08:33:36.532 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-05-19 08:33:36.539 [info] [pet] JSON CLI fallback refresh: /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/juan/projects/TermChat --cache-directory /home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/juan/projects/TermChat/.venv --environment-directories /home/juan/projects/TermChat/*/.venv
+2026-05-19 08:33:36.539 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:33:36.540 [error] Pyenv lazy initialization failed [Error: spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/juan/projects/TermChat',
+    '--cache-directory',
+    '/home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/.venv',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/*/.venv'
+  ]
+}
+2026-05-19 08:33:36.546 [info] Pipenv not found via settings, cache, or PATH
+2026-05-19 08:33:36.547 [info] Refreshing pipenv environments
+2026-05-19 08:33:36.548 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-05-19 08:33:36.555 [info] [pet] JSON CLI fallback refresh: /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/juan/projects/TermChat --cache-directory /home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/juan/projects/TermChat/.venv --environment-directories /home/juan/projects/TermChat/*/.venv
+2026-05-19 08:33:36.555 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:33:36.556 [error] Pipenv lazy initialization failed [Error: spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/juan/projects/TermChat',
+    '--cache-directory',
+    '/home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/.venv',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/*/.venv'
+  ]
+}
+2026-05-19 08:33:36.560 [info] Refreshing poetry environments
+2026-05-19 08:33:36.561 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-05-19 08:33:36.567 [info] [pet] JSON CLI fallback refresh: /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/juan/projects/TermChat --cache-directory /home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/juan/projects/TermChat/.venv --environment-directories /home/juan/projects/TermChat/*/.venv
+2026-05-19 08:33:36.568 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-19 08:33:36.569 [error] Poetry lazy initialization failed [Error: spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/juan/projects/TermChat',
+    '--cache-directory',
+    '/home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/.venv',
+    '--environment-directories',
+    '/home/juan/projects/TermChat/*/.venv'
+  ]
+}
+2026-05-19 08:33:36.569 [warning] No Python environments were found. Try running "Python Environments: Run Python Environment Tool (PET) in Terminal..." from the Command Palette to diagnose. If environments should be detected, please report this: https://github.com/microsoft/vscode-python-environments/issues/new
+2026-05-19 08:41:22.435 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-05-19 08:41:22.455 [info] [pet] JSON CLI fallback refresh: /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/juan/projects/TermChat --cache-directory /home/juan/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/juan/projects/TermChat/.venv --environment-directories /home/juan/projects/TermChat/*/.venv
+2026-05-19 08:41:22.456 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)

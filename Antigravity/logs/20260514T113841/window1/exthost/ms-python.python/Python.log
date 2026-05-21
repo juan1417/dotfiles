@@ -1,0 +1,62 @@
+2026-05-14 12:08:37.335 [info] Experiment 'pythonSurveyNotificationcf' is active
+2026-05-14 12:08:37.357 [warning] Dir "/home/juan/projects/TermChat/.pixi/envs" is not watchable (directory does not exist)
+2026-05-14 12:08:37.514 [info] Starting Environment refresh
+2026-05-14 12:08:37.514 [info] Searching for interpreters in posix paths locator
+2026-05-14 12:08:37.531 [info] Searching for pyenv environments
+2026-05-14 12:08:37.531 [info] Searching for conda environments
+2026-05-14 12:08:37.532 [info] Searching for global virtual environments
+2026-05-14 12:08:37.532 [info] Searching for custom virtual environments
+2026-05-14 12:08:37.539 [info] pyenv is not installed
+2026-05-14 12:08:37.539 [info] Finished searching for pyenv environments: 23 milliseconds
+2026-05-14 12:08:37.539 [info] Finished searching for custom virtual envs: 21 milliseconds
+2026-05-14 12:08:37.554 [info] > conda info --json
+2026-05-14 12:08:37.569 [info] > hatch env show --json
+2026-05-14 12:08:37.569 [info] cwd: .
+2026-05-14 12:08:37.599 [info] > pyenv which python
+2026-05-14 12:08:37.599 [info] cwd: .
+2026-05-14 12:08:37.599 [info] Finished searching for global virtual envs: 82 milliseconds
+2026-05-14 12:08:37.801 [info] Found: /bin/python --> /bin/python3.14
+2026-05-14 12:08:37.807 [info] Found: /bin/python3 --> /bin/python3.14
+2026-05-14 12:08:37.813 [info] Found: /bin/python3.14 --> /bin/python3.14
+2026-05-14 12:08:37.847 [info] Found: /sbin/python --> /sbin/python3.14
+2026-05-14 12:08:37.847 [info] Found: /sbin/python3 --> /sbin/python3.14
+2026-05-14 12:08:37.847 [info] Found: /sbin/python3.14 --> /sbin/python3.14
+2026-05-14 12:08:37.854 [info] Found: /usr/bin/python --> /usr/bin/python3.14
+2026-05-14 12:08:37.854 [info] Found: /usr/bin/python3 --> /usr/bin/python3.14
+2026-05-14 12:08:37.854 [info] Found: /usr/bin/python3.14 --> /usr/bin/python3.14
+2026-05-14 12:08:37.897 [info] Found: /usr/sbin/python --> /usr/sbin/python3.14
+2026-05-14 12:08:37.897 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.14
+2026-05-14 12:08:37.897 [info] Found: /usr/sbin/python3.14 --> /usr/sbin/python3.14
+2026-05-14 12:08:37.925 [info] > /bin/python -I ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-05-14 12:08:37.947 [info] > /sbin/python -I ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-05-14 12:08:37.957 [info] Finished searching for interpreters in posix paths locator: 446 milliseconds
+2026-05-14 12:08:37.967 [info] Environments refresh paths discovered (event): 458 milliseconds
+2026-05-14 12:08:37.967 [info] Environments refresh paths discovered: 458 milliseconds
+2026-05-14 12:08:38.021 [info] > /usr/bin/python -I ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-05-14 12:08:38.040 [info] > /usr/sbin/python -I ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-05-14 12:08:38.099 [info] Environments refresh finished (event): 590 milliseconds
+2026-05-14 12:08:38.113 [info] Environment refresh took 603 milliseconds
+2026-05-14 12:08:38.124 [info] Editor support is inactive since language server is set to None.
+2026-05-14 12:08:38.125 [info] Python interpreter path: /bin/python
+2026-05-14 12:12:54.618 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.14.4 (main, May  3 2026, 17:15:29) [GCC 16.1.1 20260430]',
+  version: {
+    raw: '3.14.4',
+    major: 3,
+    minor: 14,
+    patch: 4,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.14.4 64-bit',
+  detailedDisplayName: 'Python 3.14.4 64-bit',
+  type: undefined
+} /home/juan/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /home/juan/projects/TermChat/pyproject.toml
+2026-05-14 12:12:54.618 [info] > /bin/python ~/.antigravity/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ./pyproject.toml

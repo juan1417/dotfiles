@@ -1,0 +1,8 @@
+{
+    "initial_working_directory": "~",
+    "editor_theme": "Dracula",
+    "pdf_previewer": "none",
+    "posix_terminal_shell": "bash",
+    "font_size_points": 12,
+    "source_with_echo": true
+}

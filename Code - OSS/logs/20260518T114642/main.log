@@ -1,0 +1,10 @@
+2026-05-18 11:46:43.194 [info] StorageMainService: creating application shared storage
+2026-05-18 11:46:43.194 [info] StorageMainService: creating application shared storage with local application storage fallback
+2026-05-18 11:46:43.344 [info] [shared storage] Creating shared storage database at '/home/juan/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-05-18 11:46:43.345 [info] [shared storage] Initializing fallback application storage (type: local, path: /home/juan/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-05-18 11:46:43.420 [info] [shared storage] Fallback application storage initialized with 68 items
+2026-05-18 11:46:43.426 [info] update#setState disabled
+2026-05-18 11:46:43.427 [info] update#ctor - updates are disabled as there is no update URL
+2026-05-18 11:46:53.009 [info] Extension host with pid 23372 exited with code: 0, signal: unknown.
+2026-05-18 15:08:16.150 [info] Extension host with pid 23779 exited with code: 0, signal: unknown.
+2026-05-18 15:08:16.247 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 23765]: crashed with code 15 and reason 'killed'

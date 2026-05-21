@@ -1,0 +1,96 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "97bda48f650bea56a4eeb1eac667db33c77595ccfc15857d18c1f458e551a4b0",
+    "telemetry.devDeviceId": "8807960d-0451-49f3-af39-afa1c0b25f4c",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/juan/projects/TermChat"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/juan/.config/opencode": "__default__profile__",
+            "file:///home/juan/projects/XDitor": "__default__profile__",
+            "file:///home/juan/projects/sigma": "__default__profile__",
+            "file:///home/juan/projects/TermChat": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 180,
+            "auxiliaryBarWidth": 413,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 180,
+            "auxiliaryBarWidth": 413,
+            "workspaces": {
+                "9cffb26bdaeb406f0ef88881861630d1": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "aebcfd856a778bbeaef60fb1a84b608c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "3de5b77540408fbb2eb84547b6eb9445": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "dd22eedc4e138519ccd34675f50e9851": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "9d9927baa6a31e8ec4de25d6fc7a3340": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/juan/projects/TermChat",
+            "backupPath": "/home/juan/.config/Code - OSS/Backups/a371afbe59d69fd3b5e2e8979f553e6f",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080
+            }
+        },
+        "openedWindows": []
+    }
+}

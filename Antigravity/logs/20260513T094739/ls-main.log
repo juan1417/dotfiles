@@ -1,0 +1,92 @@
+2026-05-13 09:47:39.868 [info] [LS Main] Starting language server from: /opt/Antigravity/resources/app/extensions/antigravity/bin/language_server_linux_x64
+2026-05-13 09:47:39.909 [info] [LS Main] Args: --csrf_token 7505a6fb-1d80-4ce3-bb2b-a3e613b37323 --extension_server_port 37411 --extension_server_csrf_token 75f28422-9479-418b-bd26-e4f21195ab00 --app_data_dir antigravity --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-05-13 09:47:39.916 [info] [LS Main] Process spawned with PID: 106351
+2026-05-13 09:47:40.034 [error] [LS Main stderr] I0513 09:47:40.010163 106351 server.go:1236] Starting language server process with pid 106351
+I0513 09:47:40.010271 106351 server.go:301] Setting GOMAXPROCS to 4
+I0513 09:47:40.011796 106351 server.go:440] Language server will attempt to listen on host 127.0.0.1
+I0513 09:47:40.012124 106351 server.go:454] Language server listening on random port at 39603 for HTTPS (gRPC)
+I0513 09:47:40.012165 106351 server.go:461] Language server listening on random port at 42895 for HTTP
+
+2026-05-13 09:47:40.642 [error] [LS Main stderr] I0513 09:47:40.641811 106351 server.go:433] Created extension server client at port 37411
+
+2026-05-13 09:47:40.666 [error] [LS Main stderr] I0513 09:47:40.665011 106351 cascade_manager.go:773] Reactive state is disabled
+
+2026-05-13 09:47:40.675 [error] [LS Main stderr] E0513 09:47:40.675347 106351 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+
+2026-05-13 09:47:40.681 [info] [LS Main] LS started on port 39603
+2026-05-13 09:47:40.686 [error] [LS Main stderr] E0513 09:47:40.675898 106351 server.go:544] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+W0513 09:47:40.675936 106351 client.go:167] failed to set auth token
+W0513 09:47:40.681531 106351 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+I0513 09:47:40.685191 106351 server.go:1693] initialized server successfully in 674.798056ms
+
+2026-05-13 09:47:40.691 [error] [LS Main stderr] W0513 09:47:40.690644 106351 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:47:40.690714 106351 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+E0513 09:47:40.690775 106351 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-05-13 09:48:40.667 [error] [LS Main stderr] E0513 09:48:40.666638 106351 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+
+2026-05-13 09:48:40.668 [error] [LS Main stderr] W0513 09:48:40.668027 106351 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:48:40.668109 106351 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+E0513 09:48:40.668193 106351 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-05-13 09:49:40.667 [error] [LS Main stderr] E0513 09:49:40.666386 106351 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+
+2026-05-13 09:49:40.668 [error] [LS Main stderr] W0513 09:49:40.667458 106351 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:49:40.667547 106351 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+E0513 09:49:40.667634 106351 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-05-13 09:49:44.625 [error] [LS Main stderr] W0513 09:49:44.624406 106351 log_context.go:118] Cache(peopleInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:49:44.624485 106351 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0513 09:49:44.624519 106351 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:49:44.624556 106351 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0513 09:49:44.624569 106351 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0513 09:49:44.624670 106351 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:49:44.624758 106351 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0513 09:49:44.624871 106351 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:49:44.624961 106351 log_context.go:118] Cache(fetchAdminControls): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0513 09:49:44.625017 106351 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0513 09:49:44.624592 106351 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+
+2026-05-13 09:49:45.871 [error] [LS Main stderr] W0513 09:49:45.871256 106351 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:49:45.871426 106351 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0513 09:49:45.871255 106351 log_context.go:118] Cache(peopleInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:49:45.871485 106351 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+
+2026-05-13 09:49:45.872 [error] [LS Main stderr] W0513 09:49:45.871614 106351 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:49:45.871735 106351 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0513 09:49:45.871697 106351 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0513 09:49:45.871804 106351 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0513 09:49:45.871863 106351 log_context.go:118] Cache(fetchAdminControls): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0513 09:49:45.871926 106351 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-05-13 09:49:48.061 [error] [LS Main stderr] W0513 09:49:48.061705 106351 log_context.go:118] Cache(peopleInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:49:48.061763 106351 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0513 09:49:48.061730 106351 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:49:48.061797 106351 log_context.go:118] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-05-13 09:49:48.062 [error] [LS Main stderr] W0513 09:49:48.061811 106351 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0513 09:49:48.061824 106351 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0513 09:49:48.061730 106351 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:49:48.061843 106351 log_context.go:118] Failed to refresh cache in background: error getting token source: state syncing error: key not found
+W0513 09:49:48.061880 106351 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+W0513 09:49:48.061909 106351 log_context.go:118] Cache(fetchAdminControls): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+W0513 09:49:48.061915 106351 log_context.go:118] Failed to refresh cache in background: failed to get load code assist response: error getting token source: state syncing error: key not found
+
+2026-05-13 09:50:41.107 [error] [LS Main stderr] I0513 09:50:41.107816 106351 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2ad64aabbb6eaa45
+
+2026-05-13 09:50:41.492 [error] [LS Main stderr] I0513 09:50:41.491694 106351 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x829e2908fb0a3a79
+
+2026-05-13 09:50:42.098 [error] [LS Main stderr] I0513 09:50:42.097764 106351 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf513c5c1b1ba4bd2
+
+2026-05-13 09:52:41.402 [error] [LS Main stderr] I0513 09:52:41.402257 106351 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8e758156f7c238a
+
+2026-05-13 09:52:42.103 [error] [LS Main stderr] I0513 09:52:42.103120 106351 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9bf53afbd6d2c63d
+
+2026-05-13 09:52:42.422 [error] [LS Main stderr] I0513 09:52:42.422089 106351 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x624049ef0b9d3020
+
+2026-05-13 09:57:41.327 [error] [LS Main stderr] I0513 09:57:41.327193 106351 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2192b5733c448ccd
+
+2026-05-13 09:57:41.859 [error] [LS Main stderr] I0513 09:57:41.858821 106351 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x94d9ad72c36f8806
+
+2026-05-13 09:57:42.244 [error] [LS Main stderr] I0513 09:57:42.243492 106351 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6ed34c328dd24128
+

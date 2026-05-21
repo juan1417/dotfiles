@@ -1,0 +1,21 @@
+2026-05-19 11:55:39.816 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-05-19 11:55:39.967 [info] [getSessions] [all] starting
+2026-05-19 11:55:39.967 [info] [getSessions] [all] returned 0 session(s)
+2026-05-19 11:55:39.968 [info] [getSessions] [all] starting
+2026-05-19 11:55:39.968 [info] [getSessions] [all] returned 0 session(s)
+2026-05-19 11:55:39.968 [info] [getSessions] [all] starting
+2026-05-19 11:55:39.968 [info] [getSessions] [all] returned 0 session(s)
+2026-05-19 11:55:40.155 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-05-19 11:55:40.155 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-05-19 11:55:40.304 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-05-19 11:55:41.133 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-05-19 11:55:41.134 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-05-19 11:55:41.391 [info] [getSessions] [all] starting
+2026-05-19 11:55:41.391 [info] [getSessions] [all] returned 0 session(s)
+2026-05-19 12:17:33.916 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-05-19 12:17:33.917 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-05-19 12:39:18.872 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-05-19 12:39:18.872 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-05-19 13:00:21.502 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-05-19 13:00:21.502 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-05-19 13:16:29.354 [info] Microsoft Authentication is deactivating...

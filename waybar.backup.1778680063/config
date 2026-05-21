@@ -1,0 +1,96 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 28,
+    "spacing": 0,
+    "margin": "0 0 0 0",
+    "modules-left": ["custom/clock", "custom/mic"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["custom/backlight", "custom/bluetooth", "custom/network", "custom/volume", "custom/memory", "custom/cpu", "custom/battery", "mpris"],
+    
+    "custom/clock": {
+        "format": "{} - {}",
+        "exec": "date '+%H:%M' && date '+%a, %d'",
+        "interval": 1,
+        "tooltip": false
+    },
+    
+    "custom/mic": {
+        "format": "️ {} {}",
+        "exec": "echo 'Alacritty  chonsai --screensave ~'",
+        "tooltip": false
+    },
+    
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "I",
+            "2": "II",
+            "3": "III",
+            "4": "IV",
+            "5": "V",
+            "6": "VI",
+            "7": "VII",
+            "8": "VIII",
+            "9": "IX",
+            "10": "X"
+        },
+        "on-click": "activate",
+        "persistent-workspaces": {
+            "*": 10
+        }
+    },
+    
+    "custom/backlight": {
+        "format": "BL {}%",
+        "exec": "brightnessctl get | awk '{printf \"%.0f\", ($1 / 255) * 100}'",
+        "interval": 1,
+        "on-click": "brightnessctl set +10%",
+        "on-click-right": "brightnessctl set 10%-"
+    },
+    
+    "custom/bluetooth": {
+        "format": "BT {}",
+        "exec": "bluetoothctl show | grep Powered | grep -q yes && echo 'on' || echo 'off'",
+        "interval": 2
+    },
+    
+    "custom/network": {
+        "format": "NET {}%",
+        "exec": "iwget -r | awk -F'\"' '{print $2}' && nmcli -t -f IN-USE,SIGNAL device wifi | grep '^\\*' | cut -d: -f2 || echo '0'",
+        "interval": 10
+    },
+    
+    "custom/volume": {
+        "format": "VOL {}%",
+        "exec": "pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\\d+%' | head -1 | tr -d '%'",
+        "interval": 1 ,
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    },
+    
+    "custom/memory": {
+        "format": "MEM {}%",
+        "exec": "free | awk '/Mem/ {printf \"%.0f\", $3/$2 * 100}'",
+        "interval":5 
+    },
+    
+    "custom/cpu": {
+        "format": "CPU {}%",
+        "exec": "top -bn1 | grep '%Cpu' | awk '{printf \"%.0f\", $2}'",
+        "interval": 5
+    },
+    
+    "custom/battery": {
+        "format": "BAT_c {}%",
+        "exec": "cat /sys/class/power_supply/BAT*/capacity 2>/dev/null | head -1 || echo '0'",
+        "interval": 30
+    },
+    
+    "mpris": {
+        "format": "🎵 {} - {}",
+        "format-song": "{title}",
+        "format-artist": "{artist}",
+        "max-length": 50,
+        "interval": 5
+    }
+}

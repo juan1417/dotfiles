@@ -1,0 +1,13 @@
+2026-05-15 08:30:36.425 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2026-05-15 08:30:37.030 [info] Installing extension: catppuccin.catppuccin-vsc {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/juan/.antigravity/extensions/extensions.json","path":"/home/juan/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-04-16T08:28:19.366Z"}}
+2026-05-15 08:30:37.768 [info] Extracted extension to file:///home/juan/.antigravity/extensions/catppuccin.catppuccin-vsc-3.19.0-universal: catppuccin.catppuccin-vsc
+2026-05-15 08:30:37.772 [info] Renamed to /home/juan/.antigravity/extensions/catppuccin.catppuccin-vsc-3.19.0-universal
+2026-05-15 08:30:37.798 [info] Extension installed successfully: catppuccin.catppuccin-vsc vscode-userdata:/home/juan/.antigravity/extensions/extensions.json
+2026-05-15 08:30:37.799 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at _a.value (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62766)
+    at U.C (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2328)
+    at U.D (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2398)
+    at U.fire (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2615)
+    at gf.L (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:10866)
+    at async gf.installGalleryExtensions (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:2621)
+    at async gf.installFromGallery (file:///opt/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1870)

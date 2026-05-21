@@ -1,0 +1,13 @@
+2026-05-14 11:38:41.280 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-05-14 11:38:41.280 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:45435
+2026-05-14 11:38:41.280 [info] update#setState idle
+2026-05-14 11:38:51.004 [info] Extension host with pid 14245 exited with code: 0, signal: unknown.
+2026-05-14 11:39:11.279 [info] update#setState checking for updates
+2026-05-14 11:39:11.616 [info] update#setState idle
+2026-05-14 12:32:00.012 [warning] [perf] profiling STARTED 62499d79-3bc7-455e-b176-507d213044a3
+2026-05-14 12:32:05.104 [warning] [perf] profiling DONE 62499d79-3bc7-455e-b176-507d213044a3
+2026-05-14 12:32:20.911 [warning] [perf] profiling STARTED 62499d79-3bc7-455e-b176-507d213044a3
+2026-05-14 12:32:26.015 [warning] [perf] profiling DONE 62499d79-3bc7-455e-b176-507d213044a3
+2026-05-14 12:32:41.887 [warning] [perf] profiling STARTED 62499d79-3bc7-455e-b176-507d213044a3
+2026-05-14 12:32:46.995 [warning] [perf] profiling DONE 62499d79-3bc7-455e-b176-507d213044a3
+2026-05-14 12:34:15.482 [info] Extension host with pid 14360 exited with code: 0, signal: unknown.

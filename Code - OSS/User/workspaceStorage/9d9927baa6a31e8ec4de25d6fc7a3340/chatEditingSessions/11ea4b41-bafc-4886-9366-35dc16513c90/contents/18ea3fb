@@ -1,0 +1,5 @@
+[ui]
+panel_opacity = 24
+panel_color = "#1e1e2e"
+accent = "#7aa2f7"
+transparent_background = true

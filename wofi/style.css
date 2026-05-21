@@ -1,0 +1,41 @@
+window {
+    background: #1a1a2e;
+    border: 2px solid #4a5568;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+* {
+    font-family: "IBM Plex Sans Medium";
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+#input {
+    background: #16213e;
+    color: #ffffff;
+    border: 1px solid #4a5568;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 5px;
+}
+
+#entry {
+    padding: 8px;
+    margin: 2px;
+    border-radius: 6px;
+    background: transparent;
+}
+
+#entry:selected {
+    background: #0f3460;
+}
+
+#text {
+    color: #e0e0e0;
+}
+
+#text:selected {
+    color: #ffffff;
+}
+

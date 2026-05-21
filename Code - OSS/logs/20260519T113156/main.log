@@ -1,0 +1,8 @@
+2026-05-19 11:31:57.061 [info] StorageMainService: creating application shared storage
+2026-05-19 11:31:57.061 [info] StorageMainService: creating application shared storage with local application storage fallback
+2026-05-19 11:31:57.070 [info] [shared storage] Creating shared storage database at '/home/juan/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-05-19 11:31:57.071 [info] [shared storage] Initializing fallback application storage (type: local, path: /home/juan/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-05-19 11:31:57.107 [info] [shared storage] Fallback application storage initialized with 86 items
+2026-05-19 11:31:57.109 [info] update#setState disabled
+2026-05-19 11:31:57.109 [info] update#ctor - updates are disabled as there is no update URL
+2026-05-19 11:55:17.896 [info] Extension host with pid 57517 exited with code: 0, signal: unknown.

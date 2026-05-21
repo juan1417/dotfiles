@@ -1,0 +1,75 @@
+2026-05-19 11:31:58.509 [info] Started local extension host with pid 57517.
+2026-05-19 11:31:59.308 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-19 11:31:59.309 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-19 11:31:59.309 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-19 11:32:01.234 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-19 11:32:01.787 [error] [Extension Host] (node:57517) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-19 11:32:01.821 [error] [Extension Host] (node:57517) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-05-19 11:32:02.134 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+	at n._resolveFilename (node:electron/js2c/utility_init:2:16319)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:29133)
+	at defaultResolveImpl (node:internal/modules/cjs/loader:1032:19)
+	at defaultResolve (node:internal/modules/cjs/loader:1067:31)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:655:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:395:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1076:25)
+	at Module._load (node:internal/modules/cjs/loader:1199:37)
+	at c._load (node:electron/js2c/node_init:2:18041)
+	at i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:6589)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:28855)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:644:25997)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:494:36345)
+	at require (node:internal/modules/helpers:147:16)
+	at Object.Ies [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1396)
+	at s0n (/usr/lib/code/extensions/copilot/dist/extension.js:1166:8321)
+	at Ses (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1547)
+	at Ld._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18592)
+	at Ld._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18302)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:16276
+	at async Ub._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15965)
+	at async Ub._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15907)
+	at async Ub._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15274)
+2026-05-19 11:32:02.421 [error] Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+    at finalizeResolution (node:internal/modules/esm/resolve:279:11)
+    at moduleResolve (node:internal/modules/esm/resolve:873:10)
+    at defaultResolve (node:internal/modules/esm/resolve:997:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolve (data:text/javascript;base64,CglleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQsIG5leHRSZXNvbHZlKSB7CgkJaWYgKHNwZWNpZmllciA9PT0gJ2ZzJykgewoJCQlyZXR1cm4gewoJCQkJZm9ybWF0OiAnYnVpbHRpbicsCgkJCQlzaG9ydENpcmN1aXQ6IHRydWUsCgkJCQl1cmw6ICdub2RlOm9yaWdpbmFsLWZzJwoJCQl9OwoJCX0KCgkJLy8gRGVmZXIgdG8gdGhlIG5leHQgaG9vayBpbiB0aGUgY2hhaW4sIHdoaWNoIHdvdWxkIGJlIHRoZQoJCS8vIE5vZGUuanMgZGVmYXVsdCByZXNvbHZlIGlmIHRoaXMgaXMgdGhlIGxhc3QgdXNlci1zcGVjaWZpZWQgbG9hZGVyLgoJCXJldHVybiBuZXh0UmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQpOwoJfQ==:13:10)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at Hooks.resolve (node:internal/modules/esm/hooks:240:30)
+    at MessagePort.handleMessage (node:internal/modules/esm/worker:199:24)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+2026-05-19 11:32:03.876 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:32:03.880 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:32:03.928 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:32:03.929 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:32:06.234 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-19 11:36:58.441 [info] [perf] Render performance baseline is 30ms
+2026-05-19 11:47:04.184 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:47:04.186 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:48:32.129 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:48:32.129 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:48:55.581 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:48:55.582 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:50:28.208 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:50:28.211 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:50:36.343 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:50:36.343 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:54:20.195 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:54:20.196 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:54:26.090 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:54:26.091 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:17.890 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-05-19 11:55:17.891 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-05-19 11:55:17.891 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'

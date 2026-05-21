@@ -1,0 +1,33 @@
+2026-05-16 15:13:53.102 [info] I0516 15:13:53.101233 32596 server.go:1236] Starting language server process with pid 32596
+2026-05-16 15:13:53.102 [info] I0516 15:13:53.101405 32596 server.go:301] Setting GOMAXPROCS to 4
+2026-05-16 15:13:53.103 [info] I0516 15:13:53.103093 32596 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-16 15:13:53.103 [info] I0516 15:13:53.103345 32596 server.go:454] Language server listening on random port at 39345 for HTTPS (gRPC)
+2026-05-16 15:13:53.103 [info] I0516 15:13:53.103379 32596 server.go:461] Language server listening on random port at 43215 for HTTP
+2026-05-16 15:13:53.415 [info] I0516 15:13:53.413674 32596 server.go:433] Created extension server client at port 45527
+2026-05-16 15:13:53.465 [info] I0516 15:13:53.465277 32596 cascade_manager.go:773] Reactive state is disabled
+2026-05-16 15:13:53.503 [info] (Antigravity) 2026-05-16 15:13:53.499 [INFO]: Language server started
+2026-05-16 15:13:53.539 [info] I0516 15:13:53.519598 32596 server.go:1693] initialized server successfully in 418.151973ms
+2026-05-16 15:13:53.593 [info] (Antigravity) 2026-05-16 15:13:53.593 [INFO]: LS lspClient started successfully
+2026-05-16 15:13:54.482 [info] I0516 15:13:54.241407 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x96e4a3ceff47cc2c
+2026-05-16 15:13:54.702 [info] I0516 15:13:54.701717 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x299651737b42547d
+2026-05-16 15:13:55.089 [info] I0516 15:13:55.089204 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9fb45e112d3fff03
+2026-05-16 15:17:16.190 [info] (Antigravity) 2026-05-16 15:17:16.190 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-16 15:17:17.353 [info] (Antigravity) 2026-05-16 15:17:17.353 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-16 15:18:53.908 [info] I0516 15:18:53.907971 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x428e738bc85473c7
+2026-05-16 15:18:54.204 [info] I0516 15:18:54.203373 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6030867beee7d5ec
+2026-05-16 15:18:54.424 [info] I0516 15:18:54.424088 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbd4c25451ae1c813
+2026-05-16 15:22:32.137 [info] E0516 15:22:32.136871 32596 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-05-16 15:24:53.883 [info] I0516 15:24:53.882499 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5e61472622017c77
+2026-05-16 15:24:54.057 [info] I0516 15:24:54.056584 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x477f7f54ac675b22
+2026-05-16 15:24:54.308 [info] I0516 15:24:54.308208 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbffdd7fe2841b263
+2026-05-16 15:26:09.647 [info] (Antigravity) 2026-05-16 15:26:09.647 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-16 15:28:32.829 [info] (Antigravity) 2026-05-16 15:28:32.829 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-16 15:28:35.109 [info] (Antigravity) 2026-05-16 15:28:35.109 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-16 15:28:37.156 [info] (Antigravity) 2026-05-16 15:28:37.156 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-16 15:30:53.820 [info] I0516 15:30:53.819664 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd46be45599cc4242
+2026-05-16 15:30:54.035 [info] I0516 15:30:54.034896 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x72cb1beb95059dcf
+2026-05-16 15:30:54.336 [info] I0516 15:30:54.335685 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x319c9bd2a16504c8
+2026-05-16 15:36:24.546 [info] (Antigravity) 2026-05-16 15:36:24.546 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-05-16 15:36:53.878 [info] I0516 15:36:53.877795 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x86d57e2d012c5be5
+2026-05-16 15:36:54.177 [info] I0516 15:36:54.176959 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6a3a67db2c9bbdd5
+2026-05-16 15:36:54.550 [info] I0516 15:36:54.550157 32596 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb93d8bb7fb6f9149

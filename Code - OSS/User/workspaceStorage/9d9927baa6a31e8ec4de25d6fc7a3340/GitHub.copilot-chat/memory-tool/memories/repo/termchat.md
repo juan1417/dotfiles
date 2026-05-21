@@ -1,0 +1,2 @@
+- TermChat is now packaged with setuptools so `uv sync` installs the `termchat` script.
+- `textual` works in the current `.venv`; transparency mitigation uses a transparent screen plus a semi-transparent panel.

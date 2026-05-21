@@ -1,0 +1,7 @@
+2026-05-14 19:23:29.485 [info] Experiment 'pythonSurveyNotificationcf' is active
+2026-05-14 19:23:29.485 [warning] Dir "/home/juan/projects/TermChat/.pixi/envs" is not watchable (directory does not exist)
+2026-05-14 19:23:29.682 [info] Python interpreter path: /bin/python
+2026-05-14 19:23:30.001 [error] Unable to find workspace for given file
+2026-05-14 19:23:30.547 [info] > pyenv which python
+2026-05-14 19:23:30.547 [info] cwd: .
+2026-05-14 19:23:30.798 [info] Editor support is inactive since language server is set to None.

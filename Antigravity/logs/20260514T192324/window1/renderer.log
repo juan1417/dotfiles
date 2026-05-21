@@ -1,0 +1,115 @@
+2026-05-14 19:23:26.081 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.081 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.081 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.082 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.082 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.082 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.083 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.083 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.083 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.083 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.083 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.084 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.084 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.084 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.084 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:26.269 [error] [createInstance] ooe depends on UNKNOWN service agentSessions.: Error: [createInstance] ooe depends on UNKNOWN service agentSessions.
+    at jrs.y (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:4186)
+    at jrs.o (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1360)
+    at jrs.createInstance (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1207)
+    at new Bei (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6603:8181)
+    at new G6n (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6603:15815)
+    at jrs.o (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1710)
+    at jrs.createInstance (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1207)
+    at new _ei (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6603:18528)
+    at jrs.o (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1710)
+    at jrs.createInstance (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1207)
+2026-05-14 19:23:27.082 [info] Started local extension host with pid 18519.
+2026-05-14 19:23:27.570 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+2026-05-14 19:23:27.571 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-14 19:23:27.616 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-05-14 19:23:27.617 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-05-14 19:23:27.622 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-05-14 19:23:27.623 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-05-14 19:23:27.623 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-05-14 19:23:33.747 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.748 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.748 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.748 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.748 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.749 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.749 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.749 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.749 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.750 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.750 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.750 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.750 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.751 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:33.751 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-05-14 19:23:34.286 [info] Started local extension host with pid 19378.
+2026-05-14 19:23:34.432 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-05-14 19:23:34.896 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+2026-05-14 19:23:34.896 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-14 19:23:34.911 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-05-14 19:23:34.912 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-05-14 19:23:34.915 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-05-14 19:23:34.916 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-05-14 19:23:34.917 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-05-14 19:23:36.251 [error] [createInstance] ooe depends on UNKNOWN service agentSessions.: Error: [createInstance] ooe depends on UNKNOWN service agentSessions.
+    at jrs.y (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:4186)
+    at jrs.o (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1360)
+    at jrs.createInstance (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1207)
+    at new Bei (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6603:8181)
+    at new G6n (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6603:15815)
+    at jrs.o (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1710)
+    at jrs.createInstance (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1207)
+    at new _ei (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6603:18528)
+    at jrs.o (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1710)
+    at jrs.createInstance (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1207)
+2026-05-14 19:28:48.295 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-14 19:29:21.667 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-14 19:31:30.052 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at VS.getLineContent (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3042:4237)
+    at Hk._computeFn (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3263:8064)
+    at Hk.A (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:10228)
+    at Hk.get (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:9847)
+    at Hk.reportChanges (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:576)
+    at Hk.get (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:9774)
+    at Hk.reportChanges (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:576)
+    at N6e.endUpdate (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:6185)
+    at Hk.endUpdate (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:10981)
+    at Hk.endUpdate (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:10981)
+2026-05-14 19:32:10.261 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at VS.getLineContent (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3042:4237)
+    at Hk._computeFn (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:3263:8064)
+    at Hk.A (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:10228)
+    at Hk.get (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:9847)
+    at Hk.reportChanges (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:576)
+    at Hk.get (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:9774)
+    at Hk.reportChanges (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:576)
+    at N6e.endUpdate (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:6185)
+    at Hk.endUpdate (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:10981)
+    at Hk.endUpdate (vscode-file://vscode-app/opt/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:2793:10981)
+2026-05-14 19:45:52.122 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ',' or '}' after property value in JSON at position 131 (line 5 column 5)
+2026-05-14 19:45:52.225 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ',' or '}' after property value in JSON at position 131 (line 5 column 5)
+2026-05-14 19:45:52.229 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ',' or '}' after property value in JSON at position 131 (line 5 column 5)
+2026-05-14 19:45:54.479 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ',' or '}' after property value in JSON at position 131 (line 5 column 5)
+2026-05-14 19:45:54.583 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ',' or '}' after property value in JSON at position 131 (line 5 column 5)
+2026-05-14 19:45:54.586 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ',' or '}' after property value in JSON at position 131 (line 5 column 5)
+2026-05-14 19:45:56.347 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ',' or '}' after property value in JSON at position 131 (line 5 column 5)
+2026-05-14 19:45:56.451 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ',' or '}' after property value in JSON at position 131 (line 5 column 5)
+2026-05-14 19:45:56.454 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ',' or '}' after property value in JSON at position 131 (line 5 column 5)
+2026-05-14 19:45:58.843 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ':' after property name in JSON at position 138 (line 6 column 1)
+2026-05-14 19:45:58.940 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ':' after property name in JSON at position 138 (line 6 column 1)
+2026-05-14 19:45:58.943 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ':' after property name in JSON at position 138 (line 6 column 1)
+2026-05-14 19:46:01.878 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ':' after property name in JSON at position 137 (line 6 column 1)
+2026-05-14 19:46:01.959 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ':' after property name in JSON at position 137 (line 6 column 1)
+2026-05-14 19:46:01.960 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ':' after property name in JSON at position 137 (line 6 column 1)
+2026-05-14 19:46:03.090 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ':' after property name in JSON at position 139 (line 6 column 1)
+2026-05-14 19:46:03.194 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ':' after property name in JSON at position 139 (line 6 column 1)
+2026-05-14 19:46:03.198 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/juan/.config/Antigravity/User/settings.json: Expected ':' after property name in JSON at position 139 (line 6 column 1)

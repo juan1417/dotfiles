@@ -1,0 +1,515 @@
+2026-05-19 11:55:39.396 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-05-19 11:55:39.396 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-05-19 11:55:39.396 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLISDK] Failed to initialize logger: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLIModels] Failed to fetch available models: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLIAgents] Failed to fetch custom agents: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLIAgents] Failed to fetch custom agents: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLIAgents] Failed to fetch custom agents: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] Failed to initialize Copilot CLI Session Manager: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLIAgents] Failed to fetch custom agents: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [error] [CopilotCLIAgents] Failed to fetch custom agents: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:39.396 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-05-19 11:55:39.396 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-05-19 11:55:39.396 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-05-19 11:55:39.396 [info] [CopilotCLI] MCP server started. Lock file: /home/juan/.copilot/ide/9a31f8d4-1c0c-4111-95b5-c2723e910aa9.lock
+2026-05-19 11:55:39.396 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-hoYrIw/mcp.sock#%2Fmcp
+2026-05-19 11:55:39.580 [info] Logged in as juan1417
+2026-05-19 11:55:39.601 [info] Using the Electron fetcher.
+2026-05-19 11:55:40.254 [info] Got Copilot token for juan1417
+2026-05-19 11:55:40.254 [info] Copilot Chat: 0.47.0, VS Code: 1.119.0
+2026-05-19 11:55:40.274 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-05-19 11:55:40.276 [info] activationBlocker from 'languageModelAccess' took for 1895ms
+2026-05-19 11:55:40.608 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:40.608 [error] [CopilotCLIAgents] Failed to fetch custom agents: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:40.623 [info] Fetched model metadata in 2214ms f320aee1-5e4d-4298-99b5-a2dcac08f4a3
+2026-05-19 11:55:40.685 [info] Latest entry: ccreq:latest.copilotmd
+2026-05-19 11:55:40.686 [info] ccreq:4e624f67.copilotmd | markdown
+2026-05-19 11:55:40.705 [info] Logged in as juan1417
+2026-05-19 11:55:40.791 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-05-19 11:55:40.791 [info] copilot token sku: free_educational_quota
+2026-05-19 11:55:40.791 [info] ConversationFeature: Activating contributions
+2026-05-19 11:55:40.791 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-05-19 11:55:40.817 [info] Registering default platform agent...
+2026-05-19 11:55:40.818 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-05-19 11:55:40.821 [info] [code-referencing] Public code references are enabled.
+2026-05-19 11:55:40.822 [info] activationBlocker from 'conversationFeature' took for 2465ms
+2026-05-19 11:55:40.843 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-05-19 11:55:40.848 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-05-19 11:55:40.851 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:40.852 [error] [CopilotCLIModels] Failed to fetch available models: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:40.889 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:40.889 [error] [CopilotCLIAgents] Failed to fetch custom agents: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:40.892 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:40.892 [error] [CopilotCLIAgents] Failed to fetch custom agents: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:40.895 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:40.895 [error] [CopilotCLIAgents] Failed to fetch custom agents: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:40.898 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:40.898 [error] [CopilotCLIAgents] Failed to fetch custom agents: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:40.917 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:41.003 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:41.007 [info] Fetched model metadata in 216ms 6cc2b81b-899e-4b08-81c5-431c33c2e30c
+2026-05-19 11:55:41.035 [info] ccreq:5d2dca1a.copilotmd | markdown
+2026-05-19 11:55:41.083 [info] Got Copilot token for juan1417
+2026-05-19 11:55:41.083 [info] Copilot Chat: 0.47.0, VS Code: 1.119.0
+2026-05-19 11:55:41.093 [error] AbortError: This operation was aborted
+	at new DOMException (node:internal/per_context/domexception:76:18)
+	at AbortController.abort (node:internal/abort_controller:504:18)
+	at qX.value (/usr/lib/code/extensions/copilot/dist/extension.js:6720:15595)
+	at lt._deliver (/usr/lib/code/extensions/copilot/dist/extension.js:24:2892)
+	at lt.fire (/usr/lib/code/extensions/copilot/dist/extension.js:24:3210)
+	at $X.cancel (/usr/lib/code/extensions/copilot/dist/extension.js:24:4323)
+	at Ki.cancel (/usr/lib/code/extensions/copilot/dist/extension.js:24:4863)
+	at Ki.dispose (/usr/lib/code/extensions/copilot/dist/extension.js:24:4919)
+	at Object.dispose (/usr/lib/code/extensions/copilot/dist/extension.js:6720:15197)
+	at LB (/usr/lib/code/extensions/copilot/dist/extension.js:5:15320)
+	at n.clear (/usr/lib/code/extensions/copilot/dist/extension.js:22:862)
+	at n.dispose (/usr/lib/code/extensions/copilot/dist/extension.js:22:772)
+	at e1._run (/usr/lib/code/extensions/copilot/dist/extension.js:1167:6384)
+	at e1.endUpdate (/usr/lib/code/extensions/copilot/dist/extension.js:1167:7050)
+	at g9.finish (/usr/lib/code/extensions/copilot/dist/extension.js:1166:14688)
+	at xw (/usr/lib/code/extensions/copilot/dist/extension.js:1166:14076)
+	at A9e (/usr/lib/code/extensions/copilot/dist/extension.js:1166:14113)
+	at qX.handleEvent [as value] (/usr/lib/code/extensions/copilot/dist/extension.js:1167:17337)
+	at lt._deliver (/usr/lib/code/extensions/copilot/dist/extension.js:24:2892)
+	at lt._deliverQueue (/usr/lib/code/extensions/copilot/dist/extension.js:24:2981)
+	at lt.fire (/usr/lib/code/extensions/copilot/dist/extension.js:24:3315)
+	at set copilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1400:6254)
+	at Mge.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1400:7867)
+	at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+	at async Mge._handleAuthChangeEvent (/usr/lib/code/extensions/copilot/dist/extension.js:1400:8864): Failed to fetch model list
+2026-05-19 11:55:41.141 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-05-19 11:55:41.141 [info] copilot token sku: free_educational_quota
+2026-05-19 11:55:41.141 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-05-19 11:55:41.141 [info] [code-referencing] Public code references are enabled.
+2026-05-19 11:55:41.146 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:41.146 [error] [CopilotCLIModels] Failed to fetch available models: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:55:41.283 [info] Fetched model metadata in 144ms 4c9a5699-90cd-47eb-a1cd-97965cf67f34
+2026-05-19 11:55:41.289 [info] ccreq:62daf220.copilotmd | markdown
+2026-05-19 11:55:41.446 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-05-19 11:55:49.636 [info] message 0 returned. finish reason: [stop]
+2026-05-19 11:55:49.641 [info] request done: requestId: [58f590e2-89ce-4233-bf9b-312247bd25b6] model deployment ID: []
+2026-05-19 11:55:49.644 [info] ccreq:caef25a8.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1029ms | [copilotLanguageModelWrapper]
+2026-05-19 11:55:49.842 [info] message 0 returned. finish reason: [stop]
+2026-05-19 11:55:49.844 [info] request done: requestId: [a9224e28-5c0c-44da-a5e9-5e606cedd7ff] model deployment ID: []
+2026-05-19 11:55:49.846 [info] ccreq:9ce3e384.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1239ms | [copilotLanguageModelWrapper]
+2026-05-19 11:55:49.937 [info] message 0 returned. finish reason: [stop]
+2026-05-19 11:55:49.939 [info] request done: requestId: [9e0af92c-46ea-4a76-8a9f-43fb13e4749b] model deployment ID: []
+2026-05-19 11:55:49.940 [info] ccreq:55060b1d.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1350ms | [copilotLanguageModelWrapper]
+2026-05-19 11:55:51.434 [info] ccreq:55cb6f3e.copilotmd | markdown
+2026-05-19 11:55:51.472 [warning] [relatedFiles] unknown language python
+2026-05-19 11:55:51.572 [info] ccreq:d33823e9.copilotmd | markdown
+2026-05-19 11:55:52.157 [info] message 0 returned. finish reason: [stop]
+2026-05-19 11:55:52.158 [info] request done: requestId: [d6695d65-8933-45ab-ab94-62643d00a2af] model deployment ID: []
+2026-05-19 11:55:52.168 [info] ccreq:a044240a.copilotmd | success | nes-callisto-003 | 468ms | [XtabProvider]
+2026-05-19 11:55:52.273 [info] [fetchCompletions] Request 50fcdf01-42b4-4d28-9d82-4d036f4b6720 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 552.463463ms
+2026-05-19 11:55:52.308 [info] ccreq:ce711b2c.copilotmd | markdown
+2026-05-19 11:55:55.627 [info] ccreq:2ef7fd4d.copilotmd | markdown
+2026-05-19 11:56:28.130 [info] ccreq:ee15e3d2.copilotmd | markdown
+2026-05-19 11:56:28.203 [info] ccreq:0f2a4493.copilotmd | markdown
+2026-05-19 11:56:28.649 [info] [fetchCompletions] Request 9a5731c6-e521-41ba-aff9-eafa43b396cf at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 440.19627200000104ms
+2026-05-19 11:56:28.745 [info] ccreq:dd8cabfc.copilotmd | markdown
+2026-05-19 11:56:30.707 [info] message 0 returned. finish reason: [stop]
+2026-05-19 11:56:30.708 [info] request done: requestId: [f1580918-f421-49ac-9ac1-6a81dbfbb4bb] model deployment ID: []
+2026-05-19 11:56:31.265 [info] ccreq:9227874d.copilotmd | success | nes-callisto-003 | 973ms | [XtabProvider]
+2026-05-19 11:56:32.342 [info] ccreq:366b6baa.copilotmd | markdown
+2026-05-19 11:56:32.754 [info] message 0 returned. finish reason: [stop]
+2026-05-19 11:56:32.755 [info] request done: requestId: [c8a41a69-cbb7-4ca2-92ae-e821d2f1b8c4] model deployment ID: []
+2026-05-19 11:56:32.757 [info] ccreq:01424355.copilotmd | success | nes-callisto-003 | 326ms | [XtabProvider]
+2026-05-19 11:56:45.960 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 11:56:48.039 [info] message 0 returned. finish reason: [stop]
+2026-05-19 11:56:48.043 [info] request done: requestId: [96d2e30b-49e3-481f-ac62-f233556769c3] model deployment ID: []
+2026-05-19 11:56:48.044 [info] ccreq:8c9b28bd.copilotmd | success | gpt-4o-mini-2024-07-18 | 2290ms | [progressMessages]
+2026-05-19 11:56:48.077 [info] message 0 returned. finish reason: [stop]
+2026-05-19 11:56:48.079 [info] request done: requestId: [35cae38e-9c79-4a67-afab-7fd2d344626d] model deployment ID: []
+2026-05-19 11:56:48.080 [info] ccreq:ed69fb55.copilotmd | success | gpt-4o-mini-2024-07-18 | 2315ms | [progressMessages]
+2026-05-19 11:56:51.692 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 11:56:51.787 [info] ccreq:34f9a56d.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5235ms | [panel/editAgent]
+2026-05-19 11:56:52.449 [info] message 0 returned. finish reason: [stop]
+2026-05-19 11:56:52.452 [info] request done: requestId: [8ef0d41a-3477-4366-ab27-4ba69ae3a555] model deployment ID: []
+2026-05-19 11:56:52.454 [info] ccreq:c24f7c63.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1639ms | [copilotLanguageModelWrapper]
+2026-05-19 11:56:56.172 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 11:56:56.218 [info] ccreq:d98304a3.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4183ms | [panel/editAgent]
+2026-05-19 11:56:56.803 [info] message 0 returned. finish reason: [stop]
+2026-05-19 11:56:56.805 [info] request done: requestId: [bf59bc05-78a4-48a0-8c3a-3d546853d0bf] model deployment ID: []
+2026-05-19 11:56:56.806 [info] ccreq:f2081b52.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1448ms | [copilotLanguageModelWrapper]
+2026-05-19 11:56:59.896 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 11:56:59.950 [info] ccreq:9ddc9d49.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3472ms | [panel/editAgent]
+2026-05-19 11:57:03.289 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 11:57:03.352 [info] ccreq:041aeb60.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3239ms | [panel/editAgent]
+2026-05-19 11:57:03.372 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 11:57:04.176 [info] message 0 returned. finish reason: [stop]
+2026-05-19 11:57:04.178 [info] request done: requestId: [6101689a-2dd6-437c-9f90-e37604e12edc] model deployment ID: []
+2026-05-19 11:57:04.179 [info] ccreq:98fff117.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1318ms | [copilotLanguageModelWrapper]
+2026-05-19 12:01:58.972 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 12:03:21.800 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:03:21.804 [info] request done: requestId: [3b442fb2-23b7-4958-a41f-09b62700ddf0] model deployment ID: []
+2026-05-19 12:03:21.806 [info] ccreq:4f830b9d.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1294ms | [copilotLanguageModelWrapper]
+2026-05-19 12:03:22.081 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:03:22.142 [info] ccreq:ae411c56.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 7394ms | [panel/editAgent]
+2026-05-19 12:03:27.245 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:03:27.249 [info] request done: requestId: [6870ccde-3498-42bb-a080-af6346fac4fa] model deployment ID: []
+2026-05-19 12:03:27.250 [info] ccreq:234decc0.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1428ms | [copilotLanguageModelWrapper]
+2026-05-19 12:03:33.188 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:03:33.281 [info] ccreq:d4e6ebea.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 10932ms | [panel/editAgent]
+2026-05-19 12:03:33.300 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 12:14:27.398 [info] Fetched model metadata in 919ms 54366a29-cd03-43bd-a554-dba41de59ccf
+2026-05-19 12:14:27.505 [info] ccreq:ba59bc75.copilotmd | markdown
+2026-05-19 12:14:33.533 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:14:33.590 [info] ccreq:5b5e3715.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5283ms | [panel/editAgent]
+2026-05-19 12:14:34.091 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:14:34.094 [info] request done: requestId: [d74812bd-b8fa-437a-8053-e67dc74dcf3b] model deployment ID: []
+2026-05-19 12:14:34.095 [info] ccreq:43afb1c4.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1391ms | [copilotLanguageModelWrapper]
+2026-05-19 12:14:38.890 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:14:38.937 [info] ccreq:59e66cba.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5100ms | [panel/editAgent]
+2026-05-19 12:14:39.034 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:14:39.037 [info] request done: requestId: [f4492464-5bfe-47f0-9da9-b34e104f93db] model deployment ID: []
+2026-05-19 12:14:39.038 [info] ccreq:31ae20f1.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1136ms | [copilotLanguageModelWrapper]
+2026-05-19 12:14:46.611 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:14:46.614 [info] request done: requestId: [1a78cc12-87b7-47d3-932c-43e424b6a4c0] model deployment ID: []
+2026-05-19 12:14:46.615 [info] ccreq:9863d290.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1128ms | [copilotLanguageModelWrapper]
+2026-05-19 12:14:59.880 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:14:59.888 [info] ccreq:90dd7e27.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 20680ms | [panel/editAgent]
+2026-05-19 12:15:04.212 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:15:04.260 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:15:04.264 [info] request done: requestId: [481e80e0-ba4c-499f-9a12-68717336be03] model deployment ID: []
+2026-05-19 12:15:04.265 [info] ccreq:abc14af7.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1285ms | [copilotLanguageModelWrapper]
+2026-05-19 12:15:04.268 [info] ccreq:e571b6ee.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4114ms | [panel/editAgent]
+2026-05-19 12:15:08.213 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:15:08.355 [info] ccreq:f101c4b5.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3879ms | [panel/editAgent]
+2026-05-19 12:15:09.075 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:15:09.077 [info] request done: requestId: [a0f443f8-6b6b-4865-ae0f-1b0d609ee8f6] model deployment ID: []
+2026-05-19 12:15:09.078 [info] ccreq:8e7a8677.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1276ms | [copilotLanguageModelWrapper]
+2026-05-19 12:15:12.055 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:15:12.104 [info] ccreq:589407fd.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3550ms | [panel/editAgent]
+2026-05-19 12:15:17.061 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:15:17.067 [info] ccreq:41d917ec.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4746ms | [panel/editAgent]
+2026-05-19 12:15:17.129 [warning] Error compiling input schema for tool run_in_terminal: Error: strict mode: unknown keyword: "enumDescriptions"
+2026-05-19 12:15:17.269 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:15:17.271 [info] request done: requestId: [34820ac5-c91f-4e3e-92dd-fc881cbd3ec6] model deployment ID: []
+2026-05-19 12:15:17.272 [info] ccreq:7dc00f34.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1141ms | [copilotLanguageModelWrapper]
+2026-05-19 12:16:04.287 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:16:04.337 [info] ccreq:88677c24.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4401ms | [panel/editAgent]
+2026-05-19 12:16:04.963 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:16:04.965 [info] request done: requestId: [5a5d43b4-e564-4bf1-ae0a-ff33ee9beb03] model deployment ID: []
+2026-05-19 12:16:04.967 [info] ccreq:f9ec3e4f.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1423ms | [copilotLanguageModelWrapper]
+2026-05-19 12:17:33.351 [info] Logged in as juan1417
+2026-05-19 12:17:33.871 [info] Got Copilot token for juan1417
+2026-05-19 12:17:33.871 [info] Copilot Chat: 0.47.0, VS Code: 1.119.0
+2026-05-19 12:17:33.934 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-05-19 12:17:33.934 [info] copilot token sku: free_educational_quota
+2026-05-19 12:17:33.934 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-05-19 12:17:33.934 [info] [code-referencing] Public code references are enabled.
+2026-05-19 12:17:33.960 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 12:17:33.960 [error] [CopilotCLIModels] Failed to fetch available models: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 12:17:34.470 [info] Fetched model metadata in 540ms d162f676-61bf-41f2-a0d1-421f23d4a220
+2026-05-19 12:17:34.474 [info] ccreq:67c9ef53.copilotmd | markdown
+2026-05-19 12:17:39.089 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:17:39.166 [info] ccreq:86d26712.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5830ms | [panel/editAgent]
+2026-05-19 12:17:39.700 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:17:39.703 [info] request done: requestId: [aa579b5e-32cc-4827-b47e-16bf90dd1147] model deployment ID: []
+2026-05-19 12:17:39.704 [info] ccreq:c54319da.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1288ms | [copilotLanguageModelWrapper]
+2026-05-19 12:17:45.127 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:17:45.131 [info] ccreq:c1021eb6.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5580ms | [panel/editAgent]
+2026-05-19 12:17:45.539 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:17:45.541 [info] request done: requestId: [461855db-3b4a-46fb-bd1b-62fab09a1e78] model deployment ID: []
+2026-05-19 12:17:45.542 [info] ccreq:bdb75c69.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1241ms | [copilotLanguageModelWrapper]
+2026-05-19 12:19:06.227 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:19:06.231 [info] ccreq:d566eb3c.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5222ms | [panel/editAgent]
+2026-05-19 12:19:06.889 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:19:06.891 [info] request done: requestId: [994b3905-3134-403c-91de-21d99eff94c0] model deployment ID: []
+2026-05-19 12:19:06.892 [info] ccreq:0284208a.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1405ms | [copilotLanguageModelWrapper]
+2026-05-19 12:19:17.767 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:19:17.827 [info] ccreq:43143257.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5746ms | [panel/editAgent]
+2026-05-19 12:19:18.196 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:19:18.199 [info] request done: requestId: [46920cc5-522f-4911-89c8-ba7fd3355cf8] model deployment ID: []
+2026-05-19 12:19:18.201 [info] ccreq:c9925c1b.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1440ms | [copilotLanguageModelWrapper]
+2026-05-19 12:19:31.006 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:19:31.064 [info] ccreq:0710b06b.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6341ms | [panel/editAgent]
+2026-05-19 12:19:32.029 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:19:32.031 [info] request done: requestId: [f5281d15-b34d-44e0-98bd-bc04d767ae59] model deployment ID: []
+2026-05-19 12:19:32.033 [info] ccreq:56016524.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 976ms | [copilotLanguageModelWrapper]
+2026-05-19 12:19:42.411 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:19:42.453 [info] ccreq:ccdcc978.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5160ms | [panel/editAgent]
+2026-05-19 12:19:42.988 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:19:42.990 [info] request done: requestId: [7e583ae0-b087-4564-bfaf-a916ceaacb48] model deployment ID: []
+2026-05-19 12:19:42.991 [info] ccreq:81f08b67.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1404ms | [copilotLanguageModelWrapper]
+2026-05-19 12:19:52.212 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:19:52.271 [info] ccreq:793a35d7.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6717ms | [panel/editAgent]
+2026-05-19 12:19:52.623 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:19:52.625 [info] request done: requestId: [d2009e0b-46a8-4136-a46f-26d773c7e19e] model deployment ID: []
+2026-05-19 12:19:52.626 [info] ccreq:84b6c59b.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1402ms | [copilotLanguageModelWrapper]
+2026-05-19 12:19:58.042 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:19:58.048 [info] ccreq:7525b8c3.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5470ms | [panel/editAgent]
+2026-05-19 12:19:58.124 [error] Error from tool replace_string_in_file with args {"filePath": "/home/juan/projects/TermChat/UI/rich_app.py", "newString": "from agent.config import AppConfig, load_config, save_config\nfrom agent.ollama_client import OllamaClient, ModelInfo\nfrom UI.models import ChatEntry", "oldString": "from agent.config import AppConfig, load_config, save_config\nfrom agent.ollama_client import OllamaClient, ModelInfo\nfrom UI.widgets import ChatEntry"}: Tool replace_string_in_file is currently disabled by the user, and cannot be called.: Error: Tool replace_string_in_file is currently disabled by the user, and cannot be called.
+	at Object.m [as call] (/usr/lib/code/extensions/copilot/dist/extension.js:1644:905)
+	at MIt.render (/usr/lib/code/extensions/copilot/dist/extension.js:1644:3700)
+	at /usr/lib/code/extensions/copilot/dist/extension.js:174:28361
+	at mIn (/usr/lib/code/extensions/copilot/dist/extension.js:176:4083)
+	at /usr/lib/code/extensions/copilot/dist/extension.js:174:28349
+	at Array.map (<anonymous>)
+	at on._processPromptPieces (/usr/lib/code/extensions/copilot/dist/extension.js:174:28274)
+	at async on._processPromptRenderPiece (/usr/lib/code/extensions/copilot/dist/extension.js:174:28848)
+	at async on._processPromptPieces (/usr/lib/code/extensions/copilot/dist/extension.js:174:28498)
+	at async on._processPromptRenderPiece (/usr/lib/code/extensions/copilot/dist/extension.js:174:28848)
+	at async on._processPromptPieces (/usr/lib/code/extensions/copilot/dist/extension.js:174:28498)
+	at async on._processPromptRenderPiece (/usr/lib/code/extensions/copilot/dist/extension.js:174:28848)
+	at async on._processPromptPieces (/usr/lib/code/extensions/copilot/dist/extension.js:174:28498)
+	at async on._processPromptRenderPiece (/usr/lib/code/extensions/copilot/dist/extension.js:174:28848)
+	at async on._processPromptPieces (/usr/lib/code/extensions/copilot/dist/extension.js:174:28498)
+	at async on._processPromptRenderPiece (/usr/lib/code/extensions/copilot/dist/extension.js:174:28848)
+	at async on._processPromptPieces (/usr/lib/code/extensions/copilot/dist/extension.js:174:28498)
+	at async on._processPromptRenderPiece (/usr/lib/code/extensions/copilot/dist/extension.js:174:28848)
+	at async on._processPromptPieces (/usr/lib/code/extensions/copilot/dist/extension.js:174:28498)
+	at async on._processPromptRenderPiece (/usr/lib/code/extensions/copilot/dist/extension.js:174:28848)
+	at async on._processPromptPieces (/usr/lib/code/extensions/copilot/dist/extension.js:174:28498)
+	at async on.renderRaw (/usr/lib/code/extensions/copilot/dist/extension.js:174:29289)
+	at async on.render (/usr/lib/code/extensions/copilot/dist/extension.js:174:29173)
+	at async on.render (/usr/lib/code/extensions/copilot/dist/extension.js:1640:17065)
+	at async y4.buildPrompt (/usr/lib/code/extensions/copilot/dist/extension.js:2255:10808)
+	at async RIe.buildPrompt (/usr/lib/code/extensions/copilot/dist/extension.js:2249:6548)
+	at async RIe.buildPrompt2 (/usr/lib/code/extensions/copilot/dist/extension.js:1757:18656)
+	at async RIe.runOne (/usr/lib/code/extensions/copilot/dist/extension.js:1757:11620)
+	at async RIe._runLoop (/usr/lib/code/extensions/copilot/dist/extension.js:1757:5981)
+	at async /usr/lib/code/extensions/copilot/dist/extension.js:1757:4129
+	at async /usr/lib/code/extensions/copilot/dist/extension.js:6066:2555
+	at async nC.runWithToolCalling (/usr/lib/code/extensions/copilot/dist/extension.js:2249:11)
+	at async nC.getResult (/usr/lib/code/extensions/copilot/dist/extension.js:2248:1740)
+	at async MIe.getResult (/usr/lib/code/extensions/copilot/dist/extension.js:2253:10130)
+	at async C4.getResult (/usr/lib/code/extensions/copilot/dist/extension.js:2265:9117)
+	at async dw._requestHandler (/usr/lib/code/extensions/copilot/dist/extension.js:6775:1738)
+	at async i.$invokeAgent (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:531:20787)
+2026-05-19 12:19:58.214 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:19:58.216 [info] request done: requestId: [db7f5662-d73b-4dcd-8949-483fe1c2c5b3] model deployment ID: []
+2026-05-19 12:19:58.217 [info] ccreq:0f8bf35f.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1206ms | [copilotLanguageModelWrapper]
+2026-05-19 12:20:04.279 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:20:04.385 [info] ccreq:97927c6a.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6156ms | [panel/editAgent]
+2026-05-19 12:20:09.712 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:20:09.811 [info] ccreq:563c3178.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5143ms | [panel/editAgent]
+2026-05-19 12:20:10.272 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:20:10.274 [info] request done: requestId: [1ddb444e-d2ea-4df2-a0cf-1419e09dbb2d] model deployment ID: []
+2026-05-19 12:20:10.275 [info] ccreq:2207d86d.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1504ms | [copilotLanguageModelWrapper]
+2026-05-19 12:20:19.030 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-19 12:20:19.129 [info] ccreq:089ef3d1.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5384ms | [panel/editAgent]
+2026-05-19 12:20:19.145 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 12:20:19.234 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:20:19.235 [info] request done: requestId: [ee6fe4a4-0ef5-4d0e-9528-ea53d305e301] model deployment ID: []
+2026-05-19 12:20:19.236 [info] ccreq:4d0c00f1.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1355ms | [copilotLanguageModelWrapper]
+2026-05-19 12:21:54.341 [info] ccreq:238c8a11.copilotmd | success | gpt-5.4-mini -> gpt-5.4-mini-2026-03-17 | 8898ms | [panel/editAgent]
+2026-05-19 12:22:06.391 [info] ccreq:f68e0bd1.copilotmd | success | gpt-5.4-mini -> gpt-5.4-mini-2026-03-17 | 11637ms | [panel/editAgent]
+2026-05-19 12:22:06.846 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:22:06.849 [info] request done: requestId: [ad6a9c48-8425-415c-822a-6e39698ac6a4] model deployment ID: []
+2026-05-19 12:22:06.850 [info] ccreq:09ffd27e.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1500ms | [copilotLanguageModelWrapper]
+2026-05-19 12:22:12.819 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:22:12.822 [info] request done: requestId: [528b3cab-435a-4c18-af0c-37112dbbc621] model deployment ID: []
+2026-05-19 12:22:12.824 [info] ccreq:f258a5f0.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1163ms | [copilotLanguageModelWrapper]
+2026-05-19 12:22:23.743 [info] ccreq:736d45e5.copilotmd | success | gpt-5.4-mini -> gpt-5.4-mini-2026-03-17 | 17035ms | [panel/editAgent]
+2026-05-19 12:22:30.681 [info] ccreq:22645f9a.copilotmd | success | gpt-5.4-mini -> gpt-5.4-mini-2026-03-17 | 6495ms | [panel/editAgent]
+2026-05-19 12:22:30.947 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:22:30.949 [info] request done: requestId: [bdc863b1-9cb6-442c-9f40-f608d89a46fd] model deployment ID: []
+2026-05-19 12:22:30.950 [info] ccreq:50acd40d.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1361ms | [copilotLanguageModelWrapper]
+2026-05-19 12:22:32.553 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:22:32.555 [info] request done: requestId: [41ff4d08-9183-4542-a0bf-1c99363561bb] model deployment ID: []
+2026-05-19 12:22:32.556 [info] ccreq:a4566396.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1250ms | [copilotLanguageModelWrapper]
+2026-05-19 12:23:19.513 [info] ccreq:981a6427.copilotmd | success | gpt-5.4-mini -> gpt-5.4-mini-2026-03-17 | 8630ms | [panel/editAgent]
+2026-05-19 12:23:19.544 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:23:19.547 [info] request done: requestId: [62813325-6019-42c4-aaee-2c054edea81a] model deployment ID: []
+2026-05-19 12:23:19.548 [info] ccreq:3cad0119.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1186ms | [copilotLanguageModelWrapper]
+2026-05-19 12:23:22.733 [info] ccreq:7506d15d.copilotmd | success | gpt-5.4-mini -> gpt-5.4-mini-2026-03-17 | 2989ms | [panel/editAgent]
+2026-05-19 12:23:22.752 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 12:24:53.734 [info] ccreq:24d10b3b.copilotmd | success | gpt-5.4-mini -> gpt-5.4-mini-2026-03-17 | 6770ms | [panel/editAgent]
+2026-05-19 12:24:55.765 [info] ccreq:c7d8fe04.copilotmd | success | gpt-5.4-mini -> gpt-5.4-mini-2026-03-17 | 1824ms | [panel/editAgent]
+2026-05-19 12:25:26.798 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:25:26.801 [info] request done: requestId: [946edb0a-1c24-4c84-8d5a-4867f8aa7a23] model deployment ID: []
+2026-05-19 12:25:26.803 [info] ccreq:405f558c.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1424ms | [copilotLanguageModelWrapper]
+2026-05-19 12:25:27.826 [info] ccreq:2fb91f11.copilotmd | success | gpt-5.4-mini -> gpt-5.4-mini-2026-03-17 | 31753ms | [panel/editAgent]
+2026-05-19 12:25:32.705 [info] ccreq:6839b220.copilotmd | success | gpt-5.4-mini -> gpt-5.4-mini-2026-03-17 | 4448ms | [panel/editAgent]
+2026-05-19 12:25:32.730 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:25:32.732 [info] request done: requestId: [28bb10b1-45a2-4aee-9a66-2ecdf126dbe2] model deployment ID: []
+2026-05-19 12:25:32.733 [info] ccreq:c0a6ea48.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1324ms | [copilotLanguageModelWrapper]
+2026-05-19 12:25:34.463 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:25:34.466 [info] request done: requestId: [f71dc724-6f13-41c4-8aaa-710ce66a1b47] model deployment ID: []
+2026-05-19 12:25:34.467 [info] ccreq:333dac5d.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1251ms | [copilotLanguageModelWrapper]
+2026-05-19 12:25:41.926 [info] ccreq:cf80323a.copilotmd | success | gpt-5.4-mini -> gpt-5.4-mini-2026-03-17 | 2839ms | [panel/editAgent]
+2026-05-19 12:25:44.828 [info] ccreq:6475dd53.copilotmd | success | gpt-5.4-mini -> gpt-5.4-mini-2026-03-17 | 2706ms | [panel/editAgent]
+2026-05-19 12:25:44.848 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 12:39:18.257 [info] Logged in as juan1417
+2026-05-19 12:39:18.840 [info] Got Copilot token for juan1417
+2026-05-19 12:39:18.840 [info] Copilot Chat: 0.47.0, VS Code: 1.119.0
+2026-05-19 12:39:18.889 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-05-19 12:39:18.889 [info] copilot token sku: free_educational_quota
+2026-05-19 12:39:18.889 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-05-19 12:39:18.889 [info] [code-referencing] Public code references are enabled.
+2026-05-19 12:39:18.906 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 12:39:18.906 [error] [CopilotCLIModels] Failed to fetch available models: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 12:39:19.443 [info] Fetched model metadata in 1254ms f171ab7b-7e3d-41a7-9a9c-3e1930890602
+2026-05-19 12:39:19.549 [info] ccreq:6e37ea59.copilotmd | markdown
+2026-05-19 12:39:42.812 [info] ccreq:affc5f28.copilotmd | success | gpt-5.3-codex | 22205ms | [panel/editAgent]
+2026-05-19 12:39:51.509 [info] ccreq:f0c30ea7.copilotmd | success | gpt-5.3-codex | 8050ms | [panel/editAgent]
+2026-05-19 12:39:54.821 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:39:54.824 [info] request done: requestId: [26ba76d1-4f99-4d41-bae6-5e40321aa1b8] model deployment ID: []
+2026-05-19 12:39:54.825 [info] ccreq:bd0fb0f9.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1351ms | [copilotLanguageModelWrapper]
+2026-05-19 12:39:55.235 [info] ccreq:ea69d82e.copilotmd | success | gpt-5.3-codex | 3405ms | [panel/editAgent]
+2026-05-19 12:39:56.963 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:39:56.965 [info] request done: requestId: [2105875c-bf3c-412d-a76e-12e920b11566] model deployment ID: []
+2026-05-19 12:39:56.966 [info] ccreq:71627dca.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1318ms | [copilotLanguageModelWrapper]
+2026-05-19 12:40:44.940 [info] ccreq:c1bbed50.copilotmd | success | gpt-5.3-codex | 4360ms | [panel/editAgent]
+2026-05-19 12:40:50.821 [info] ccreq:5b98fa89.copilotmd | success | gpt-5.3-codex | 5665ms | [panel/editAgent]
+2026-05-19 12:40:50.834 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 12:41:18.176 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 12:41:22.995 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 12:41:27.082 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 12:42:52.715 [info] ccreq:75218fa6.copilotmd | success | gpt-5.3-codex | 25674ms | [panel/editAgent]
+2026-05-19 12:42:57.329 [info] ccreq:df562438.copilotmd | success | gpt-5.3-codex | 3622ms | [panel/editAgent]
+2026-05-19 12:42:59.320 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:42:59.323 [info] request done: requestId: [167def01-868f-4803-8d8c-ec3ce184577e] model deployment ID: []
+2026-05-19 12:42:59.324 [info] ccreq:cfe88c2a.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1552ms | [copilotLanguageModelWrapper]
+2026-05-19 12:43:09.798 [info] ccreq:ddc8121d.copilotmd | success | gpt-5.3-codex | 4224ms | [panel/editAgent]
+2026-05-19 12:43:09.816 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 12:44:08.537 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 12:44:47.007 [info] ccreq:e3dafb0f.copilotmd | success | gpt-5.3-codex | 11020ms | [panel/editAgent]
+2026-05-19 12:44:47.023 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 12:46:32.070 [info] ccreq:3720a7d4.copilotmd | success | gpt-5.3-codex | 8880ms | [panel/editAgent]
+2026-05-19 12:47:33.947 [info] ccreq:935be2fb.copilotmd | success | gpt-5.3-codex | 61676ms | [panel/editAgent]
+2026-05-19 12:47:43.527 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:47:43.530 [info] request done: requestId: [f65f7ea9-075b-4089-a81e-e622debe97a4] model deployment ID: []
+2026-05-19 12:47:43.531 [info] ccreq:dfef5a2e.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1219ms | [copilotLanguageModelWrapper]
+2026-05-19 12:47:44.105 [info] ccreq:f4fee5f9.copilotmd | success | gpt-5.3-codex | 9393ms | [panel/editAgent]
+2026-05-19 12:48:17.510 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 12:48:31.207 [info] ccreq:e81ac514.copilotmd | success | gpt-5.3-codex | 46605ms | [panel/editAgent]
+2026-05-19 12:48:35.557 [info] ccreq:ff1f48dd.copilotmd | success | gpt-5.3-codex | 3544ms | [panel/editAgent]
+2026-05-19 12:48:42.994 [info] ccreq:be610178.copilotmd | success | gpt-5.3-codex | 7085ms | [panel/editAgent]
+2026-05-19 12:48:47.759 [info] ccreq:07a8fc92.copilotmd | success | gpt-5.3-codex | 4355ms | [panel/editAgent]
+2026-05-19 12:48:55.457 [info] ccreq:45da23d1.copilotmd | success | gpt-5.3-codex | 7206ms | [panel/editAgent]
+2026-05-19 12:48:59.369 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:48:59.371 [info] request done: requestId: [27d8b521-e51a-4416-b4bd-f3942ade9f4a] model deployment ID: []
+2026-05-19 12:48:59.372 [info] ccreq:3fd6a0c7.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1146ms | [copilotLanguageModelWrapper]
+2026-05-19 12:48:59.660 [info] ccreq:e1185858.copilotmd | success | gpt-5.3-codex | 3768ms | [panel/editAgent]
+2026-05-19 12:49:26.488 [info] Fetched model metadata in 144ms e2938e6c-85d6-4f9a-9e0b-31d420429fec
+2026-05-19 12:49:26.558 [info] ccreq:83f7585c.copilotmd | markdown
+2026-05-19 12:49:31.860 [info] ccreq:d4cafae5.copilotmd | success | gpt-5.3-codex | 4805ms | [panel/editAgent]
+2026-05-19 12:49:33.656 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:49:33.659 [info] request done: requestId: [47331424-2a2d-437e-b3aa-856e2f2dabde] model deployment ID: []
+2026-05-19 12:49:33.660 [info] ccreq:adfe1109.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1276ms | [copilotLanguageModelWrapper]
+2026-05-19 12:49:58.485 [info] ccreq:72944c60.copilotmd | success | gpt-5.3-codex | 7137ms | [panel/editAgent]
+2026-05-19 12:50:09.957 [info] ccreq:a0648f2e.copilotmd | success | gpt-5.3-codex | 11242ms | [panel/editAgent]
+2026-05-19 12:50:09.969 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 12:54:17.134 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 12:55:13.031 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:55:13.033 [info] request done: requestId: [00a245f7-65ea-40f4-92c2-64230e8790c0] model deployment ID: []
+2026-05-19 12:55:13.034 [info] ccreq:8999eacf.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1424ms | [copilotLanguageModelWrapper]
+2026-05-19 12:55:29.449 [info] ccreq:a1e9b736.copilotmd | success | gpt-5.3-codex | 15841ms | [panel/editAgent]
+2026-05-19 12:55:35.291 [info] ccreq:b75b0c0f.copilotmd | success | gpt-5.3-codex | 5151ms | [panel/editAgent]
+2026-05-19 12:55:59.097 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 12:56:21.810 [info] ccreq:c6c5236e.copilotmd | success | gpt-5.3-codex | 46249ms | [panel/editAgent]
+2026-05-19 12:56:26.174 [info] ccreq:76351e11.copilotmd | success | gpt-5.3-codex | 3404ms | [panel/editAgent]
+2026-05-19 12:56:27.849 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:56:27.852 [info] request done: requestId: [61c53c76-c7a4-49da-b531-5de897fa6f0e] model deployment ID: []
+2026-05-19 12:56:27.853 [info] ccreq:4fc7dd9a.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1210ms | [copilotLanguageModelWrapper]
+2026-05-19 12:56:45.120 [info] ccreq:1e8b1196.copilotmd | success | gpt-5.3-codex | 5466ms | [panel/editAgent]
+2026-05-19 12:56:50.774 [info] ccreq:7c5e7145.copilotmd | success | gpt-5.3-codex | 5361ms | [panel/editAgent]
+2026-05-19 12:56:50.790 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 12:58:50.820 [info] ccreq:4660efcd.copilotmd | success | gpt-5.3-codex | 8968ms | [panel/editAgent]
+2026-05-19 12:58:56.361 [info] ccreq:a61c11ec.copilotmd | success | gpt-5.3-codex | 5311ms | [panel/editAgent]
+2026-05-19 12:59:00.290 [info] ccreq:15e4bd6e.copilotmd | success | gpt-5.3-codex | 3484ms | [panel/editAgent]
+2026-05-19 12:59:02.284 [info] message 0 returned. finish reason: [stop]
+2026-05-19 12:59:02.287 [info] request done: requestId: [ec08861c-2194-4b72-931a-79b9550705ef] model deployment ID: []
+2026-05-19 12:59:02.288 [info] ccreq:cf89479f.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1570ms | [copilotLanguageModelWrapper]
+2026-05-19 12:59:11.722 [info] ccreq:bf67f639.copilotmd | success | gpt-5.3-codex | 3707ms | [panel/editAgent]
+2026-05-19 12:59:15.126 [info] ccreq:03947718.copilotmd | success | gpt-5.3-codex | 3183ms | [panel/editAgent]
+2026-05-19 12:59:15.148 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 13:00:09.805 [info] Fetched model metadata in 226ms 4ab3ac35-8594-4012-b364-7ec917ddb93a
+2026-05-19 13:00:09.911 [info] ccreq:bb655c34.copilotmd | markdown
+2026-05-19 13:00:17.421 [info] ccreq:e3fac699.copilotmd | success | gpt-5.3-codex | 6547ms | [panel/editAgent]
+2026-05-19 13:00:20.546 [info] ccreq:71e9cdcb.copilotmd | success | gpt-5.3-codex | 2872ms | [panel/editAgent]
+2026-05-19 13:00:21.013 [info] Logged in as juan1417
+2026-05-19 13:00:21.452 [info] Got Copilot token for juan1417
+2026-05-19 13:00:21.452 [info] Copilot Chat: 0.47.0, VS Code: 1.119.0
+2026-05-19 13:00:21.521 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-05-19 13:00:21.521 [info] copilot token sku: free_educational_quota
+2026-05-19 13:00:21.521 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-05-19 13:00:21.521 [info] [code-referencing] Public code references are enabled.
+2026-05-19 13:00:21.544 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 13:00:21.544 [error] [CopilotCLIModels] Failed to fetch available models: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 13:00:21.675 [info] Fetched model metadata in 158ms 92161c35-78fc-4d2e-b6d6-53ea8f37f838
+2026-05-19 13:00:21.680 [info] ccreq:9e4ea3c6.copilotmd | markdown
+2026-05-19 13:00:23.725 [info] ccreq:739ca2fc.copilotmd | success | gpt-5.3-codex | 2726ms | [panel/editAgent]
+2026-05-19 13:00:32.646 [info] message 0 returned. finish reason: [stop]
+2026-05-19 13:00:32.650 [info] request done: requestId: [11b59241-35da-48ad-b84e-6421d2e27c19] model deployment ID: []
+2026-05-19 13:00:32.651 [info] ccreq:16915a00.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1074ms | [copilotLanguageModelWrapper]
+2026-05-19 13:00:40.159 [info] ccreq:79fafb5c.copilotmd | success | gpt-5.3-codex | 15905ms | [panel/editAgent]
+2026-05-19 13:00:43.825 [info] ccreq:fbfa47b8.copilotmd | success | gpt-5.3-codex | 3362ms | [panel/editAgent]
+2026-05-19 13:00:45.730 [info] message 0 returned. finish reason: [stop]
+2026-05-19 13:00:45.734 [info] request done: requestId: [92dbf1e8-9431-41ed-9770-95228a297bba] model deployment ID: []
+2026-05-19 13:00:45.735 [info] ccreq:c0d3e337.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1478ms | [copilotLanguageModelWrapper]
+2026-05-19 13:00:54.577 [info] ccreq:5a8ee48d.copilotmd | success | gpt-5.3-codex | 3127ms | [panel/editAgent]
+2026-05-19 13:00:59.028 [info] ccreq:1e38171e.copilotmd | success | gpt-5.3-codex | 4240ms | [panel/editAgent]
+2026-05-19 13:00:59.046 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 13:08:34.176 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 13:08:42.561 [info] [ConversationHistorySummarizer] [simple] summarization prompt rendered in 1167ms.
+2026-05-19 13:09:10.282 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 13:09:39.988 [info] ccreq:3b8e6473.copilotmd | success | gpt-5-mini | 57426ms | [summarizeConversationHistory-simple]
+2026-05-19 13:09:40.724 [info] [ConversationHistorySummarizer] [simple] Summarization usage: prompt=53145, cached=1152, completion=4889
+2026-05-19 13:09:59.984 [info] ccreq:86c847f9.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 19168ms | [panel/editAgent]
+2026-05-19 13:10:07.847 [info] ccreq:3784525f.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 5207ms | [panel/editAgent]
+2026-05-19 13:10:07.920 [error] Error from tool read_file with args {"filePath":"UI/ptk_app.py","startLine":1,"endLine":400}: Invalid input path: UI/ptk_app.py. Be sure to use an absolute path.: Error: Invalid input path: UI/ptk_app.py. Be sure to use an absolute path.
+	at _c (/usr/lib/code/extensions/copilot/dist/extension.js:1986:1921)
+	at gLe.prepareInvocation (/usr/lib/code/extensions/copilot/dist/extension.js:5892:12027)
+	at Hk.$prepareToolInvocation (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:624:5207)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:110293)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:110041)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:108772)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:107661)
+	at up.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:407:105736)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at ls.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at up.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:9911)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at ls.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-05-19 13:10:16.142 [info] ccreq:966cb150.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 8196ms | [panel/editAgent]
+2026-05-19 13:10:18.623 [info] ccreq:5148e233.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 2151ms | [panel/editAgent]
+2026-05-19 13:10:27.996 [info] Fetched model metadata in 156ms 545d4aad-cde1-4bf3-9078-5cc8cd603433
+2026-05-19 13:10:27.999 [info] ccreq:78eaaa73.copilotmd | markdown
+2026-05-19 13:10:28.923 [info] message 0 returned. finish reason: [stop]
+2026-05-19 13:10:28.926 [info] request done: requestId: [87945c8f-1f59-44fd-a5da-ce734cc83e2c] model deployment ID: []
+2026-05-19 13:10:28.928 [info] ccreq:7872a1cb.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 877ms | [copilotLanguageModelWrapper]
+2026-05-19 13:10:34.468 [info] ccreq:3f2a328b.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 15616ms | [panel/editAgent]
+2026-05-19 13:10:39.519 [info] ccreq:23bd9b4d.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 4615ms | [panel/editAgent]
+2026-05-19 13:10:42.505 [info] message 0 returned. finish reason: [stop]
+2026-05-19 13:10:42.508 [info] request done: requestId: [fd4db8c7-0c59-49d4-adfc-62310683467d] model deployment ID: []
+2026-05-19 13:10:42.509 [info] ccreq:630213de.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1426ms | [copilotLanguageModelWrapper]
+2026-05-19 13:10:43.284 [info] ccreq:4926ec23.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 3589ms | [panel/editAgent]
+2026-05-19 13:11:46.090 [info] ccreq:fa748e10.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 9940ms | [panel/editAgent]
+2026-05-19 13:11:50.863 [info] message 0 returned. finish reason: [stop]
+2026-05-19 13:11:50.866 [info] request done: requestId: [1e55d8da-a7b4-4950-9065-9b61eaa5a817] model deployment ID: []
+2026-05-19 13:11:50.867 [info] ccreq:451eceb9.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1342ms | [copilotLanguageModelWrapper]
+2026-05-19 13:12:00.480 [info] ccreq:f1d9a6da.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 14241ms | [panel/editAgent]
+2026-05-19 13:12:00.490 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 13:12:29.736 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-19 13:14:29.961 [info] ccreq:ca1ff6f1.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 19865ms | [panel/editAgent]
+2026-05-19 13:14:31.038 [info] message 0 returned. finish reason: [stop]
+2026-05-19 13:14:31.041 [info] request done: requestId: [56f861ed-86ac-4320-a91b-cd7f7ca6035f] model deployment ID: []
+2026-05-19 13:14:31.042 [info] ccreq:4bce6ece.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1539ms | [copilotLanguageModelWrapper]
+2026-05-19 13:14:34.883 [info] ccreq:b302a8d2.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 4688ms | [panel/editAgent]
+2026-05-19 13:14:38.750 [info] ccreq:10f7016e.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 3650ms | [panel/editAgent]
+2026-05-19 13:14:40.298 [info] message 0 returned. finish reason: [stop]
+2026-05-19 13:14:40.301 [info] request done: requestId: [04acea62-a876-4782-8ccb-47adf7e4fd8b] model deployment ID: []
+2026-05-19 13:14:40.302 [info] ccreq:0077ed63.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1328ms | [copilotLanguageModelWrapper]
+2026-05-19 13:14:55.350 [info] ccreq:f5f7bad0.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 2580ms | [panel/editAgent]
+2026-05-19 13:15:01.605 [info] ccreq:06caf431.copilotmd | success | gpt-5-mini -> gpt-5-mini-2025-08-07 | 6086ms | [panel/editAgent]
+2026-05-19 13:15:01.618 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-19 13:16:28.545 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js

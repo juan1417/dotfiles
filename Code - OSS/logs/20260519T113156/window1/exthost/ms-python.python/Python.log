@@ -1,0 +1,49 @@
+2026-05-19 11:32:02.815 [warning] Dir "/home/juan/projects/TermChat/.pixi/envs" is not watchable (directory does not exist)
+2026-05-19 11:32:02.988 [info] Python interpreter path: ./.venv/bin/python
+2026-05-19 11:32:03.241 [info] > pyenv which python
+2026-05-19 11:32:03.242 [info] cwd: .
+2026-05-19 11:32:04.189 [info] Starting Jedi language server for TermChat.
+2026-05-19 11:47:07.789 [info] Running installed packages checker:  {
+  id: '/home/juan/projects/TermChat/.venv/bin/python',
+  sysPrefix: '/home/juan/projects/TermChat/.venv',
+  envType: 'Venv',
+  envName: '.venv',
+  envPath: '/home/juan/projects/TermChat/.venv',
+  path: '/home/juan/projects/TermChat/.venv/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.13 (main, May 10 2026, 19:30:01) [Clang 22.1.3 ]',
+  version: {
+    raw: '3.12.13',
+    major: 3,
+    minor: 12,
+    patch: 13,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.12.13 ('.venv')",
+  detailedDisplayName: "Python 3.12.13 ('.venv': venv)",
+  type: 'Virtual'
+} /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /home/juan/projects/TermChat/pyproject.toml
+2026-05-19 11:47:07.790 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ./pyproject.toml
+2026-05-19 11:47:07.805 [info] Running installed packages checker:  {
+  id: '/home/juan/projects/TermChat/.venv/bin/python',
+  sysPrefix: '/home/juan/projects/TermChat/.venv',
+  envType: 'Venv',
+  envName: '.venv',
+  envPath: '/home/juan/projects/TermChat/.venv',
+  path: '/home/juan/projects/TermChat/.venv/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.13 (main, May 10 2026, 19:30:01) [Clang 22.1.3 ]',
+  version: {
+    raw: '3.12.13',
+    major: 3,
+    minor: 12,
+    patch: 13,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.12.13 ('.venv')",
+  detailedDisplayName: "Python 3.12.13 ('.venv': venv)",
+  type: 'Virtual'
+} /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /home/juan/projects/TermChat/pyproject.toml
+2026-05-19 11:47:07.805 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ./pyproject.toml

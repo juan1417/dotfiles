@@ -1,0 +1,18 @@
+[ollama]
+host = "http://localhost:11434"
+model = "llama3.1"
+stream = true
+
+[ui]
+panel_opacity = 24
+accent = "#7aa2f7"
+transparent_background = true
+
+[assistant]
+mode = "default"
+system_prompt = "You are TermChat, a concise local terminal assistant. Prioritize actionable responses and keep answers direct."
+skills = []
+rules = []
+context_files = []
+
+history_limit = 24

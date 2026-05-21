@@ -1,0 +1,398 @@
+Output of terminal 09cf76a5-df85-4e32-8b9e-e165f5492b90:
+           .-------------------------:                    juan@System98
+          .+=========================.                    -------------
+         :++===++==================-       :++-           OS: CachyOS x86_64
+        :*++====+++++=============-        .==:           Host: Vivobook Go E15)
+       -*+++=====+***++==========:                        Kernel: Linux 7.0.8-1s
+      =*++++========------------:                         Uptime: 2 days, 44 mis
+     =*+++++=====-                     ...                Packages: 1249 (pacma)
+   .+*+++++=-===:                    .=+++=:              Shell: fish 4.7.1
+  :++++=====-==:                     -*****+              Display (CMN15F5): 19]
+ :++========-=.                      .=+**+.              WM: Hyprland 0.55.2 ()
+.+==========-.                          .                 Theme: vimix-dark-ber]
+ :+++++++====-                                .--==-.     Icons: Fluent-teal-da]
+  :++==========.                             :+++++++:    Font: IBM Plex Sans M]
+   .-===========.                            =*****+*+    Cursor: Adwaita
+    .-===========:                           .+*****+:    Terminal: electron
+      -=======++++:::::::::::::::::::::::::-:  .---:      CPU: Intel(R) Core(TMz
+       :======++++====+++******************=.             GPU: Intel UHD Graphi]
+        :=====+++==========++++++++++++++*-               Memory: 3.45 GiB / 7.)
+         .====++==============++++++++++*-                Swap: 1.48 GiB / 7.38)
+          .===+==================+++++++:                 Disk (/): 49.38 GiB /s
+           .-=======================+++:                  Local IP (wlan0): 1924
+             ..........................                   Battery (X160535): 19]
+                                                          Locale: es_MX.UTF-8
+
+                                                                                
+                                                                                
+~/projects/TermChat master*
+❯ npx ctx7@latest library ollama "Python async client generate list models"
+
+1. Title: Ollama Python
+   Context7-compatible library ID: /ollama/ollama-python
+   Description: The Ollama Python library provides an easy way to integrate Python 3.8+ projects with Ollama, supporting chat, generation, streaming, and custom client configurations.
+   Code Snippets: 75
+   Source Reputation: High
+   Benchmark Score: 90.17
+
+2. Title: Ollama
+   Context7-compatible library ID: /websites/ollama
+   Description: Ollama is the easiest way to get up and running with large language models such as gpt-oss, Gemma 3, DeepSeek-R1, Qwen3 and more.
+   Code Snippets: 353
+   Source Reputation: High
+   Benchmark Score: 80.61
+
+3. Title: Ollama
+   Context7-compatible library ID: /llmstxt/ollama_llms_txt
+   Description: Ollama is a platform for running and managing large language models locally, with support for chat, embeddings, vision, tool calling, and OpenAI-compatible APIs.
+   Code Snippets: 590
+   Source Reputation: High
+   Benchmark Score: 85.6
+
+4. Title: Ollama
+   Context7-compatible library ID: /llmstxt/ollama_llms-full_txt
+   Description: Ollama is an API platform that allows you to run and interact with large language models programmatically, with support for chat generation, embeddings, model management, and OpenAI API compatibility.
+   Code Snippets: 2106
+   Source Reputation: High
+   Benchmark Score: 77.85
+
+5. Title: Ollama API
+   Context7-compatible library ID: /websites/ollama_api
+   Description: Ollama's API allows developers to programmatically run and interact with large language models, offering endpoints for generating responses, chat messages, embeddings, and managing models.
+   Code Snippets: 115
+   Source Reputation: High
+   Benchmark Score: 85.69
+
+Quick command:
+  ctx7 docs "/ollama/ollama-python" "<your question>"
+
+
+~/projects/TermChat master*
+❯ npx ctx7@latest docs /ollama/ollama-python "Python async client chat stream generate list models create custom host base_url examples"
+### Async Client for Ollama Python
+
+Source: https://context7.com/ollama/ollama-python/llms.txt
+
+Demonstrates the use of the `AsyncClient` for performing non-blocking chat completions and streaming responses within asynchronous Python applications.
+
+```python
+import asyncio
+from ollama import AsyncClient
+
+async def main():
+    client = AsyncClient()
+
+    # Async chat
+    response = await client.chat(
+        model='gemma3',
+        messages=[{'role': 'user', 'content': 'Why is the sky blue?'}]
+    )
+    print(response['message']['content'])
+
+    # Async streaming
+    async for chunk in await client.chat(
+        model='gemma3',
+        messages=[{'role': 'user', 'content': 'Tell me a joke'}],
+        stream=True
+    ):
+        print(chunk['message']['content'], end='', flush=True)
+
+asyncio.run(main())
+```
+
+--------------------------------
+
+### Model Management - Create Custom Model
+
+Source: https://context7.com/ollama/ollama-python/llms.txt
+
+Creates a custom model, either from an existing model with a custom system prompt or as a new model. Supports both non-streaming and streaming for progress updates.
+
+```python
+from ollama import Client
+
+client = Client()
+
+# Create from existing model with custom system prompt
+response = client.create(
+    model='my-assistant',
+    from_='gemma3',
+    system='You are Mario from Super Mario Bros.',
+    stream=False
+)
+print(response.status)
+
+# Create with streaming progress
+for progress in client.create(
+    model='custom-model',
+    from_='llama3.1',
+    system='You are a helpful coding assistant.',
+    stream=True
+):
+    print(progress.status)
+```
+
+--------------------------------
+
+### Basic Chat Completion with Ollama Python
+
+Source: https://context7.com/ollama/ollama-python/llms.txt
+
+Demonstrates how to perform a basic chat completion with a specified model and user message. It shows how to access the response content as both a dictionary and an object, and how to handle streaming responses.
+
+```python
+from ollama import chat, ChatResponse
+
+# Basic chat completion
+response: ChatResponse = chat(
+    model='gemma3',
+    messages=[
+        {'role': 'user', 'content': 'Why is the sky blue?'}
+    ]
+)
+print(response.message.content)
+# Output: "The sky appears blue because of a phenomenon called Rayleigh scattering..."
+
+# Access response as dict or object
+print(response['message']['content'])  # Dict-style access
+print(response.message.content)         # Object-style access
+
+# Streaming response
+stream = chat(
+    model='gemma3',
+    messages=[{'role': 'user', 'content': 'Tell me a short story'}],
+    stream=True
+)
+for chunk in stream:
+    print(chunk['message']['content'], end='', flush=True)
+```
+
+--------------------------------
+
+### Ollama API: List Models
+
+Source: https://github.com/ollama/ollama-python/blob/main/README.md
+
+Example of using the ollama.list function to retrieve a list of all models available in Ollama.
+
+```python
+ollama.list()
+```
+
+--------------------------------
+
+### Custom Client Configuration for Ollama Python
+
+Source: https://context7.com/ollama/ollama-python/llms.txt
+
+Explains how to configure the Ollama Python client with custom host, headers, and authentication, including connecting to local instances or the cloud API using Bearer tokens.
+
+```python
+from ollama import Client
+import os
+
+# Local Ollama instance
+client = Client(
+    host='http://localhost:11434',
+    headers={'x-custom-header': 'value'}
+)
+
+# Cloud API with authentication
+client = Client(
+    host='https://ollama.com',
+    headers={'Authorization': f'Bearer {os.environ.get("OLLAMA_API_KEY")}'}
+)
+
+response = client.chat(
+    model='gpt-oss:120b',
+    messages=[{'role': 'user', 'content': 'Hello!'}]
+)
+print(response.message.content)
+
+# Environment variables also supported:
+# OLLAMA_HOST - sets default host
+# OLLAMA_API_KEY - sets default Bearer token
+```
+
+~/projects/TermChat master*
+❯ npx ctx7@latest docs /ollama/ollama-python "AsyncClient list models async list method example"
+### Async Client for Ollama Python
+
+Source: https://context7.com/ollama/ollama-python/llms.txt
+
+Demonstrates the use of the `AsyncClient` for performing non-blocking chat completions and streaming responses within asynchronous Python applications.
+
+```python
+import asyncio
+from ollama import AsyncClient
+
+async def main():
+    client = AsyncClient()
+
+    # Async chat
+    response = await client.chat(
+        model='gemma3',
+        messages=[{'role': 'user', 'content': 'Why is the sky blue?'}]
+    )
+    print(response['message']['content'])
+
+    # Async streaming
+    async for chunk in await client.chat(
+        model='gemma3',
+        messages=[{'role': 'user', 'content': 'Tell me a joke'}],
+        stream=True
+    ):
+        print(chunk['message']['content'], end='', flush=True)
+
+asyncio.run(main())
+```
+
+--------------------------------
+
+### Model Management - List Models
+
+Source: https://context7.com/ollama/ollama-python/llms.txt
+
+List all models available on the Ollama instance.
+
+```APIDOC
+## Model Management - List Models
+
+### Description
+List all models available on the Ollama instance.
+
+### Method
+GET
+
+### Endpoint
+/api/tags
+
+### Parameters
+None
+
+### Request Example
+```python
+from ollama import list
+
+response = list()
+```
+
+### Response
+#### Success Response (200)
+- **models** (array) - An array of model objects.
+  - **model** (string) - The name of the model.
+  - **size** (integer) - The size of the model in bytes.
+  - **modified_at** (string) - The date and time the model was last modified.
+  - **details** (object) - Details about the model.
+    - **parent_model** (string) - The parent model name.
+    - **format** (string) - The model file format.
+    - **family** (string) - The model family.
+    - **families** (array) - An array of model families.
+    - **parameter_size** (string) - The size of the model parameters.
+    - **quantization_level** (string) - The quantization level of the model.
+
+#### Response Example
+```json
+{
+  "models": [
+    {
+      "model": "llama3",
+      "size": 4700000000,
+      "modified_at": "2024-05-01T12:00:00Z",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": ["llama"],
+        "parameter_size": "7B",
+        "quantization_level": "Q4_0"
+      }
+    }
+  ]
+}
+```
+```
+
+--------------------------------
+
+### Model Management - List Models
+
+Source: https://context7.com/ollama/ollama-python/llms.txt
+
+Lists all models available on the Ollama instance. It iterates through the response to print details like model name, size, modification time, and other details.
+
+```python
+from ollama import list
+
+response = list()
+for model in response.models:
+    print(f"Model: {model.model}")
+    print(f"  Size: {model.size}")
+    print(f"  Modified: {model.modified_at}")
+    print(f"  Details: {model.details}")
+```
+
+### Ollama Python Library > Async client
+
+Source: https://github.com/ollama/ollama-python/blob/main/README.md
+
+For applications requiring non-blocking operations, the AsyncClient class provides an asynchronous interface for interacting with Ollama. This is particularly beneficial in web servers or concurrent applications where you need to handle multiple requests simultaneously. When using the AsyncClient, you can await standard chat requests or iterate over asynchronous generators when streaming is enabled, ensuring that your application remains responsive during long-running model inference tasks.
+
+--------------------------------
+
+### Ollama Python Library > Async Client
+
+Source: https://context7.com/ollama/ollama-python/llms.txt
+
+Use AsyncClient for non-blocking operations in async applications. This allows for concurrent execution of Ollama API calls without blocking the event loop. You can perform asynchronous chat completions and stream responses asynchronously.
+
+~/projects/TermChat master*
+❯ uv lock
+Resolved 22 packages in 704ms
+Added linkify-it-py v2.1.0
+Added markdown-it-py v4.2.0
+Added mdit-py-plugins v0.6.1
+Added mdurl v0.1.2
+Added platformdirs v4.9.6
+Added pygments v2.20.0
+Added rich v15.0.0
+Added textual v8.2.7
+Added uc-micro-py v2.0.0
+
+~/projects/TermChat master*
+❯ uv sync
+Resolved 22 packages in 0.63ms
+warning: Skipping installation of entry points (`project.scripts`) for package `termchat` because this project is not packaged; to install entry points, set `tool.uv.package = true` or define a `build-system`
+Uninstalled 2 packages in 3ms
+ - pytermgui==7.7.4
+ - wcwidth==0.7.0
+
+~/projects/TermChat master*
+❯ /home/juan/projects/TermChat/.venv/bin/python - <<'PY'
+  from UI.app import TermChat
+  from agent.config import load_config
+  from agent.ollama_client import OllamaClient
+
+  config = load_config()
+  print(config.ollama.host)
+  print(config.ollama.model)
+  app = TermChat()
+  print(type(app.app).__name__)
+  print('import-ok')
+  PY
+fish: Se esperaba a string, pero se encontró a redirection
+/home/juan/projects/TermChat/.venv/bin/python - <<'PY'
+                                                 ^
+~/projects/TermChat master*
+❯ /home/juan/projects/TermChat/.venv/bin/python - <<'PY'
+  from UI.app import TermChat
+  from agent.config import load_config
+  from agent.ollama_client import OllamaClient
+
+  config = load_config()
+  print(config.ollama.host)
+  print(config.ollama.model)
+  app = TermChat()
+  print(type(app.app).__name__)
+  print('import-ok')
+  PYdoc 

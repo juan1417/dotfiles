@@ -1,0 +1,14 @@
+context7_enabled: true
+context7_max_tokens: 8000
+context_window: 8192
+history_enabled: true
+max_history_sessions: 50
+model: qwen2.5-coder:1.5b
+ollama_url: http://localhost:11434
+stream: true
+system_prompt: "Eres un asistente inteligente, conciso y amigable corriendo en la\
+  \ terminal. Responde naturalmente a la conversaci\xF3n. Si el usuario hace una pregunta\
+  \ simple o charla, responde con naturalidad. SOLO genera c\xF3digo o archivos si\
+  \ el usuario te lo pide expl\xEDcitamente."
+temperature: 0.7
+theme: dark

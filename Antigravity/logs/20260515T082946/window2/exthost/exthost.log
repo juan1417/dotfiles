@@ -1,0 +1,20 @@
+2026-05-15 08:29:50.618 [info] Extension host with pid 3634 started
+2026-05-15 08:29:50.769 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-15 08:29:50.833 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-15 08:29:50.860 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-15 08:29:50.983 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-15 08:29:51.591 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-15 08:29:51.734 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-05-15 08:29:51.871 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-15 08:29:52.224 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-05-15 08:29:53.293 [info] Extension host terminating: renderer closed the MessagePort
+2026-05-15 08:29:53.361 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new mne (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:122279)
+	at D9.U (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:126901)
+	at s.<computed>.r.charCodeAt.s.<computed> (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:124393)
+	at LS.resolveProxy (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:77316)
+	at Object.resolveProxy (file:///opt/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:217:23838)
+	at useProxySettings (/opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:208:16)
+	at /opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:145:13
+	at /opt/Antigravity/resources/app/node_modules/@vscode/proxy-agent/out/index.js:791:13 
+2026-05-15 08:29:53.737 [info] Extension host with pid 3634 exiting with code 0

@@ -1,0 +1,166 @@
+starting generic LSP server
+ INFO Reading messages
+ INFO Unhandled notification: Notification { method: "$/setTrace", params: Object {"value": String("off")}, activity_key: None }
+ INFO File /home/juan/projects/TermChat/main.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/main.py
+ INFO Validated open files and committed transaction.
+ INFO Cleared 2 dropped configs from config cache
+ INFO Language server processed event `DidOpenTextDocument` in 0.36s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (1)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.36s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.33s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (2)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.33s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (3)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.33s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (4)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.32s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (5)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.31s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (6)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.31s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (7)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.16s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (8)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.12s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (9)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.09s waiting)
+ INFO We should cancel request RequestId(I32(2))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.00s waiting)
+ INFO We should cancel request RequestId(I32(9))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (10)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO We should cancel request RequestId(I32(3))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (11)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO We should cancel request RequestId(I32(7))
+ INFO Language server processed event `CancelRequest` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (12)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/range (13)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/range)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (14)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (15)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (16)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO [Pyrefly] DidChangeWatchedFiles: 1 file(s) changed (0 created, 1 modified, 0 removed, 0 unknown)
+ INFO [Pyrefly] Re-registering file watchers
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Invalidated state, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (17)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO File /home/juan/projects/TermChat/termchat/__init__.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/termchat/__init__.py
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/main.py
+ INFO Validated open files and committed transaction.
+ INFO Cleared 3 dropped configs from config cache
+ INFO Language server processed event `DidOpenTextDocument` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO File /home/juan/projects/TermChat/termchat/config.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/termchat/config.py
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/termchat/__init__.py
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.04s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO [Pyrefly] DidChangeWatchedFiles: 1 file(s) changed (1 created, 0 modified, 0 removed, 0 unknown)
+ INFO [Pyrefly] Re-registering file watchers
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Invalidated state, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.08
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/termchat/config.py
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/termchat/__init__.py
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO File /home/juan/projects/TermChat/termchat/history.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/termchat/config.py
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/termchat/history.py
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/termchat/__init__.py
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 0.01s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO [Pyrefly] DidChangeWatchedFiles: 1 file(s) changed (1 created, 0 modified, 0 removed, 0 unknown)
+ INFO [Pyrefly] Re-registering file watchers
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Invalidated state, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.02
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/termchat/config.py
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/termchat/history.py
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/termchat/__init__.py
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (18)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (19)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (20)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (21)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.03s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (22)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (23)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (24)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (25)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (26)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request pyrefly/textDocument/typeErrorDisplayStatus (27)
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (28)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (29)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (30)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/range (31)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/range)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (32)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeLens (33)
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/range (34)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/range)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (35)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/documentSymbol (36)
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/inlayHint (37)
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (0.00s waiting)
+ INFO Published 0 diagnostics for file:///home/juan/projects/TermChat/termchat/__init__.py
+ INFO Language server processed event `DidCloseTextDocument` in 0.00s (0.00s waiting)
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.00, task time: 0.00
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 0.00

@@ -1,0 +1,6 @@
+{
+    "python.languageServer": "Default",
+    "editor.fontFamily": "Iosevka Custom Medium",
+    "files.autoSave": "afterDelay",
+    "editor.fontLigatures": true
+}

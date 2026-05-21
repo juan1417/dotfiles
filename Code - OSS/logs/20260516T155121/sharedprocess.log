@@ -1,0 +1,12 @@
+2026-05-16 15:55:48.888 [info] Getting Manifest... alexdauenhauer.catppuccin-noctis-icons
+2026-05-16 15:55:49.722 [info] Installing extension: alexdauenhauer.catppuccin-noctis-icons {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/juan/.vscode-oss/extensions/extensions.json","path":"/home/juan/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.119.0","date":"2026-05-05T11:23:50-07:00"}}
+2026-05-16 15:55:52.286 [info] Extension signature verification result for alexdauenhauer.catppuccin-noctis-icons: Success. Executed: true. Duration: 517ms.
+2026-05-16 15:55:53.356 [info] Extracted extension to file:///home/juan/.vscode-oss/extensions/alexdauenhauer.catppuccin-noctis-icons-0.3.0-universal: alexdauenhauer.catppuccin-noctis-icons
+2026-05-16 15:55:53.410 [info] Renamed to /home/juan/.vscode-oss/extensions/alexdauenhauer.catppuccin-noctis-icons-0.3.0-universal
+2026-05-16 15:55:53.435 [info] Extension installed successfully: alexdauenhauer.catppuccin-noctis-icons vscode-userdata:/home/juan/.vscode-oss/extensions/extensions.json
+2026-05-16 15:56:57.077 [info] Getting Manifest... miguelsolorio.symbols
+2026-05-16 15:56:57.638 [info] Installing extension: miguelsolorio.symbols {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/juan/.vscode-oss/extensions/extensions.json","path":"/home/juan/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.119.0","date":"2026-05-05T11:23:50-07:00"}}
+2026-05-16 15:57:02.208 [info] Extension signature verification result for miguelsolorio.symbols: Success. Executed: true. Duration: 646ms.
+2026-05-16 15:57:02.870 [info] Extracted extension to file:///home/juan/.vscode-oss/extensions/miguelsolorio.symbols-0.0.25-universal: miguelsolorio.symbols
+2026-05-16 15:57:02.903 [info] Renamed to /home/juan/.vscode-oss/extensions/miguelsolorio.symbols-0.0.25-universal
+2026-05-16 15:57:02.928 [info] Extension installed successfully: miguelsolorio.symbols vscode-userdata:/home/juan/.vscode-oss/extensions/extensions.json

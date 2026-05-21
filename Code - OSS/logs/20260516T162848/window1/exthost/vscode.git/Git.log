@@ -1,0 +1,73 @@
+2026-05-16 16:28:54.122 [info] [main] Log level: Info
+2026-05-16 16:28:54.122 [info] [main] Validating found git in: "git"
+2026-05-16 16:28:54.122 [info] [main] Using git "2.54.0" from "git"
+2026-05-16 16:28:54.122 [info] [Model][doInitialScan] Initial repository scan started
+2026-05-16 16:28:54.122 [info] > git rev-parse --show-toplevel [3ms]
+2026-05-16 16:28:54.122 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-16 16:28:54.122 [info] > git rev-parse --show-toplevel [8ms]
+2026-05-16 16:28:54.122 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-16 16:28:54.123 [info] > git rev-parse --show-toplevel [4ms]
+2026-05-16 16:28:54.123 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-16 16:28:54.133 [info] > git rev-parse --show-toplevel [2ms]
+2026-05-16 16:28:54.133 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-16 16:28:54.269 [info] > git rev-parse --show-toplevel [75ms]
+2026-05-16 16:28:54.269 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-16 16:28:54.300 [info] > git rev-parse --show-toplevel [6ms]
+2026-05-16 16:28:54.315 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [5ms]
+2026-05-16 16:28:54.623 [info] [Model][openRepository] Opened repository (path): /home/juan/projects/XDitor/neovim
+2026-05-16 16:28:54.623 [info] [Model][openRepository] Opened repository (real path): /home/juan/projects/XDitor/neovim
+2026-05-16 16:28:54.623 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-16 16:28:54.634 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-05-16 16:28:54.652 [info] > git config --get --local core.virtualfilesystem [18ms]
+2026-05-16 16:28:54.652 [warning] [Git][config] git config failed: Failed to execute git
+2026-05-16 16:28:54.726 [info] > git config --get commit.template [75ms]
+2026-05-16 16:28:54.734 [info] > git rev-parse --show-toplevel [9ms]
+2026-05-16 16:28:54.734 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-16 16:28:54.792 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [51ms]
+2026-05-16 16:28:54.805 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/juan/projects/XDitor/neovim/.git/refs/remotes/origin/master'
+2026-05-16 16:28:54.806 [info] > git rev-parse --show-toplevel [37ms]
+2026-05-16 16:28:54.806 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-16 16:28:54.809 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2026-05-16 16:28:54.858 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [30ms]
+2026-05-16 16:28:55.346 [info] > git check-ignore -v -z --stdin [5ms]
+2026-05-16 16:28:55.348 [info] > git status -z -uall [531ms]
+2026-05-16 16:28:55.378 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-05-16 16:28:55.388 [info] > git config --get --local branch.master.vscode-merge-base [3ms]
+2026-05-16 16:28:55.395 [info] > git config --get commit.template [18ms]
+2026-05-16 16:28:55.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [9ms]
+2026-05-16 16:28:55.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2026-05-16 16:28:55.421 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/juan/projects/XDitor/neovim/.git/refs/remotes/origin/master'
+2026-05-16 16:28:55.421 [info] > git merge-base refs/heads/master refs/remotes/origin/master [9ms]
+2026-05-16 16:28:55.430 [info] > git rev-parse refs/remotes/origin/master [9ms]
+2026-05-16 16:28:55.447 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 7d99104058fd2653903830c2b39b42d80092e646...refs/remotes/origin/master -- [17ms]
+2026-05-16 16:28:55.453 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-05-16 16:28:55.652 [info] > git status -z -uall [216ms]
+2026-05-16 16:28:55.791 [info] > git rev-parse --show-toplevel [1ms]
+2026-05-16 16:28:55.791 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-16 16:28:56.336 [info] > git rev-parse --show-toplevel [4ms]
+2026-05-16 16:28:56.337 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-16 16:29:03.525 [info] > git rev-parse --show-toplevel [2ms]
+2026-05-16 16:29:03.525 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-16 16:29:06.090 [info] > git check-ignore -v -z --stdin [6ms]
+2026-05-16 16:29:09.051 [info] > git rev-parse --show-toplevel [2ms]
+2026-05-16 16:29:09.051 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-16 16:29:11.852 [info] > git rev-parse --show-toplevel [2ms]
+2026-05-16 16:29:11.852 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-16 16:29:12.561 [info] > git rev-parse --show-toplevel [3ms]
+2026-05-16 16:29:12.561 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-16 18:16:35.875 [info] > git rev-parse --show-toplevel [3ms]
+2026-05-16 18:16:35.875 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

@@ -1,0 +1,80 @@
+2026-05-19 08:24:12.098 [info] [main] Log level: Info
+2026-05-19 08:24:12.098 [info] [main] Validating found git in: "git"
+2026-05-19 08:24:12.098 [info] [main] Using git "2.54.0" from "git"
+2026-05-19 08:24:12.098 [info] [Model][doInitialScan] Initial repository scan started
+2026-05-19 08:24:12.098 [info] > git rev-parse --show-toplevel [23ms]
+2026-05-19 08:24:12.098 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [61ms]
+2026-05-19 08:24:12.373 [info] [Model][openRepository] Opened repository (path): /home/juan/projects/TermChat
+2026-05-19 08:24:12.373 [info] [Model][openRepository] Opened repository (real path): /home/juan/projects/TermChat
+2026-05-19 08:24:12.373 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-19 08:24:12.396 [info] > git config --get commit.template [7ms]
+2026-05-19 08:24:12.397 [info] > git config --get --local core.virtualfilesystem [14ms]
+2026-05-19 08:24:12.397 [warning] [Git][config] git config failed: Failed to execute git
+2026-05-19 08:24:12.398 [info] > git rev-parse --show-toplevel [4ms]
+2026-05-19 08:24:12.404 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-19 08:24:12.411 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2026-05-19 08:24:12.411 [warning] [Git][getBranch] No such branch: master
+2026-05-19 08:24:12.429 [info] > git status -z -uall [12ms]
+2026-05-19 08:24:12.430 [info] > git rev-parse --show-toplevel [20ms]
+2026-05-19 08:24:12.436 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-05-19 08:24:12.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [274ms]
+2026-05-19 08:24:12.726 [warning] [Git][getBranch] No such branch: master
+2026-05-19 08:24:12.727 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-05-19 08:24:12.728 [info] > git rev-parse --show-toplevel [293ms]
+2026-05-19 08:24:12.766 [info] > git config --get commit.template [48ms]
+2026-05-19 08:24:12.797 [info] > git rev-parse --show-toplevel [32ms]
+2026-05-19 08:24:12.798 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-05-19 08:24:12.808 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-19 08:24:12.851 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [44ms]
+2026-05-19 08:24:12.852 [warning] [Git][getBranch] No such branch: master
+2026-05-19 08:24:12.874 [info] > git status -z -uall [14ms]
+2026-05-19 08:24:12.874 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-05-19 08:24:13.247 [info] > git check-ignore -v -z --stdin [3ms]
+2026-05-19 08:24:16.436 [info] > git check-ignore -v -z --stdin [2ms]
+2026-05-19 08:24:20.049 [info] > git check-ignore -v -z --stdin [2ms]
+2026-05-19 08:24:20.098 [info] > git show --textconv :main.py [25ms]
+2026-05-19 08:24:20.098 [info] > git show --textconv HEAD:main.py [13ms]
+2026-05-19 08:24:20.122 [info] > git hash-object -t tree /dev/null [14ms]
+2026-05-19 08:24:20.123 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/juan/projects/TermChat/main.py.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Fmain.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-19 08:24:20.125 [info] > git ls-files --stage -- main.py [29ms]
+2026-05-19 08:24:20.134 [info] > git ls-tree -l HEAD -- main.py [14ms]
+2026-05-19 08:24:20.134 [info] fatal: Not a valid object name HEAD
+2026-05-19 08:24:20.134 [warning] [GitFileSystemProvider][stat] File not found - git:/home/juan/projects/TermChat/main.py.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Fmain.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-19 08:24:20.135 [info] > git cat-file -s dd2669a5b421d1eb067b1fb830269db43a335819 [3ms]
+2026-05-19 08:24:25.595 [info] > git check-ignore -v -z --stdin [4ms]
+2026-05-19 08:24:25.644 [info] > git show --textconv :README.md [25ms]
+2026-05-19 08:24:25.644 [info] > git show --textconv HEAD:README.md [18ms]
+2026-05-19 08:24:25.644 [info] > git ls-files --stage -- README.md [10ms]
+2026-05-19 08:24:25.653 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/juan/projects/TermChat/README.md.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2FREADME.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-19 08:24:25.655 [info] > git ls-tree -l HEAD -- README.md [13ms]
+2026-05-19 08:24:25.655 [info] fatal: Not a valid object name HEAD
+2026-05-19 08:24:25.657 [warning] [GitFileSystemProvider][stat] File not found - git:/home/juan/projects/TermChat/README.md.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2FREADME.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-19 08:24:25.658 [info] > git cat-file -s 32f93aa5eb5063b326c7ebb1f239ebf9aa6af23a [6ms]
+2026-05-19 08:24:26.080 [info] > git check-ignore -v -z --stdin [3ms]
+2026-05-19 08:24:26.133 [info] > git show --textconv :pyproject.toml [28ms]
+2026-05-19 08:24:26.133 [info] > git show --textconv HEAD:pyproject.toml [19ms]
+2026-05-19 08:24:26.133 [info] > git ls-files --stage -- pyproject.toml [11ms]
+2026-05-19 08:24:26.141 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/juan/projects/TermChat/pyproject.toml.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Fpyproject.toml%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-19 08:24:26.145 [info] > git cat-file -s 25f60ac06669aa359ce23996fcdf6caf8b118462 [5ms]
+2026-05-19 08:24:26.146 [info] > git ls-tree -l HEAD -- pyproject.toml [16ms]
+2026-05-19 08:24:26.146 [info] fatal: Not a valid object name HEAD
+2026-05-19 08:24:26.147 [warning] [GitFileSystemProvider][stat] File not found - git:/home/juan/projects/TermChat/pyproject.toml.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Fpyproject.toml%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-19 08:24:38.134 [info] > git check-ignore -v -z --stdin [69ms]
+2026-05-19 08:24:38.181 [info] > git show --textconv :termchat/main.py [29ms]
+2026-05-19 08:24:38.181 [info] > git show --textconv HEAD:termchat/main.py [21ms]
+2026-05-19 08:24:38.181 [info] > git ls-files --stage -- termchat/main.py [11ms]
+2026-05-19 08:24:38.192 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/juan/projects/TermChat/termchat/main.py.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fmain.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-19 08:24:38.195 [info] > git cat-file -s 8a4fee1ec970dbb44086a9a659fe614083d7a675 [5ms]
+2026-05-19 08:24:38.196 [info] > git ls-tree -l HEAD -- termchat/main.py [18ms]
+2026-05-19 08:24:38.196 [info] fatal: Not a valid object name HEAD
+2026-05-19 08:24:38.197 [warning] [GitFileSystemProvider][stat] File not found - git:/home/juan/projects/TermChat/termchat/main.py.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fmain.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-19 08:24:53.279 [info] > git check-ignore -v -z --stdin [2ms]
+2026-05-19 08:24:55.770 [info] > git check-ignore -v -z --stdin [2ms]
+2026-05-19 08:24:55.802 [info] > git show --textconv :termchat/ui/app.py [23ms]
+2026-05-19 08:24:55.802 [info] > git show --textconv HEAD:termchat/ui/app.py [16ms]
+2026-05-19 08:24:55.802 [info] > git ls-files --stage -- termchat/ui/app.py [8ms]
+2026-05-19 08:24:55.809 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/juan/projects/TermChat/termchat/ui/app.py.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fui%2Fapp.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-19 08:24:55.811 [info] > git cat-file -s eb6220550ae0af5170e624dcb2e1ea5ec9f203c5 [3ms]
+2026-05-19 08:24:55.811 [info] > git ls-tree -l HEAD -- termchat/ui/app.py [11ms]
+2026-05-19 08:24:55.811 [info] fatal: Not a valid object name HEAD
+2026-05-19 08:24:55.812 [warning] [GitFileSystemProvider][stat] File not found - git:/home/juan/projects/TermChat/termchat/ui/app.py.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fui%2Fapp.py%22%2C%22ref%22%3A%22HEAD%22%7D

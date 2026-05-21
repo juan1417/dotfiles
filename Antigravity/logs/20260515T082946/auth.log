@@ -1,0 +1,16 @@
+2026-05-15 08:29:46.485 [info] [Auth] Auth state changed to: uninitialized
+2026-05-15 08:29:46.560 [info] [Auth] Auth state changed to: validatingLogin
+2026-05-15 08:29:46.561 [info] [Auth] Auth state changed to: validatingLogin
+2026-05-15 08:29:51.072 [info] [Auth] Auth state changed to: signedIn
+2026-05-15 08:29:51.073 [info] [Auth] Auth state changed to: signedIn
+2026-05-15 08:29:51.073 [info] [Auth] AntigravityAuthMainService initialized
+2026-05-15 08:31:29.515 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 09:29:47.324 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 09:29:48.603 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 09:29:50.190 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 10:25:10.368 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 10:25:10.913 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 10:35:47.403 [error] [Auth] Error refreshing user status: The service is currently unavailable.
+2026-05-15 11:24:46.926 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 11:24:47.583 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-05-15 11:24:48.013 [info] OAuth token changed, executing antigravity.handleAuthRefresh

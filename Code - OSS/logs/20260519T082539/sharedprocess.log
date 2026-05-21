@@ -1,0 +1,18 @@
+2026-05-19 08:31:50.975 [info] Getting Manifest... ms-python.python
+2026-05-19 08:31:51.625 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/juan/.vscode-oss/extensions/extensions.json","path":"/home/juan/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.119.0","date":"2026-05-05T11:23:50-07:00"}}
+2026-05-19 08:31:52.269 [info] Getting Manifest... ms-python.debugpy
+2026-05-19 08:31:52.600 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-05-19 08:31:52.833 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/juan/.vscode-oss/extensions/extensions.json","path":"/home/juan/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.119.0","date":"2026-05-05T11:23:50-07:00"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-05-19 08:31:52.833 [info] Installing extension: ms-python.vscode-python-envs {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/juan/.vscode-oss/extensions/extensions.json","path":"/home/juan/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.119.0","date":"2026-05-05T11:23:50-07:00"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-05-19 08:31:55.063 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Executed: true. Duration: 429ms.
+2026-05-19 08:31:55.166 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 533ms.
+2026-05-19 08:31:55.478 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 876ms.
+2026-05-19 08:31:55.516 [info] Extracted extension to file:///home/juan/.vscode-oss/extensions/ms-python.vscode-python-envs-1.30.0-universal: ms-python.vscode-python-envs
+2026-05-19 08:31:55.529 [info] Renamed to /home/juan/.vscode-oss/extensions/ms-python.vscode-python-envs-1.30.0-universal
+2026-05-19 08:31:56.204 [info] Extracted extension to file:///home/juan/.vscode-oss/extensions/ms-python.debugpy-2026.6.0-linux-x64: ms-python.debugpy
+2026-05-19 08:31:56.227 [info] Renamed to /home/juan/.vscode-oss/extensions/ms-python.debugpy-2026.6.0-linux-x64
+2026-05-19 08:31:57.912 [info] Extracted extension to file:///home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal: ms-python.python
+2026-05-19 08:31:58.046 [info] Renamed to /home/juan/.vscode-oss/extensions/ms-python.python-2026.4.0-universal
+2026-05-19 08:31:58.073 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/juan/.vscode-oss/extensions/extensions.json
+2026-05-19 08:31:58.073 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/juan/.vscode-oss/extensions/extensions.json
+2026-05-19 08:31:58.074 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/juan/.vscode-oss/extensions/extensions.json

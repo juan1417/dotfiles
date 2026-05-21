@@ -1,0 +1,13 @@
+2026-05-14 19:24:11.228 [info] I0514 19:24:11.227763 19706 server.go:1236] Starting language server process with pid 19706
+2026-05-14 19:24:11.228 [info] I0514 19:24:11.227846 19706 server.go:301] Setting GOMAXPROCS to 4
+2026-05-14 19:24:11.229 [info] I0514 19:24:11.229020 19706 server.go:440] Language server will attempt to listen on host 127.0.0.1
+2026-05-14 19:24:11.229 [info] I0514 19:24:11.229236 19706 server.go:454] Language server listening on random port at 44895 for HTTPS (gRPC)
+2026-05-14 19:24:11.229 [info] I0514 19:24:11.229270 19706 server.go:461] Language server listening on random port at 40565 for HTTP
+2026-05-14 19:24:11.542 [info] I0514 19:24:11.541670 19706 server.go:433] Created extension server client at port 33955
+2026-05-14 19:24:11.583 [info] I0514 19:24:11.582390 19706 cascade_manager.go:773] Reactive state is disabled
+2026-05-14 19:24:11.611 [info] (Antigravity) 2026-05-14 19:24:11.609 [INFO]: Language server started
+2026-05-14 19:24:11.662 [info] I0514 19:24:11.627950 19706 server.go:1693] initialized server successfully in 400.077277ms
+2026-05-14 19:24:11.703 [info] (Antigravity) 2026-05-14 19:24:11.703 [INFO]: LS lspClient started successfully
+2026-05-14 19:24:12.061 [info] I0514 19:24:12.061259 19706 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc8627a08e8c0b224
+2026-05-14 19:24:12.331 [info] I0514 19:24:12.330580 19706 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9814dd1fb2a58444
+2026-05-14 19:24:12.581 [info] I0514 19:24:12.580672 19706 http_helpers.go:151] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x26a5a63affd09ab4

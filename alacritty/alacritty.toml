@@ -1,0 +1,98 @@
+# ═══════════════════════════════════════════════════════════
+# FUENTE (Optimizada para ligaduras)
+# ═══════════════════════════════════════════════════════════
+[font]
+normal = { family = "Iosevka Custom", style = "Regular" }
+bold = { family = "Iosevka Custom", style = "Bold" }
+italic = { family = "Iosevka Custom", style = "Italic" }
+size = 14.0
+
+# ═══════════════════════════════════════════════════════════
+# COLORES (Catppuccin Mocha + Naranja)
+# ═══════════════════════════════════════════════════════════
+[colors.primary]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+dim_foreground = "#7f849c"
+bright_foreground = "#cdd6f4"
+
+[colors.cursor]
+text = "#1e1e2e"
+cursor = "#ff6b35"
+
+[colors.selection]
+text = "#1e1e2e"
+background = "#f5e0dc"
+
+[colors.normal]
+black = "#45475a"
+red = "#f38ba8"
+green = "#a6e3a1"
+yellow = "#f9e2af"
+blue = "#89b4fa"
+magenta = "#cba6f7"
+cyan = "#94e2d5"
+white = "#bac2de"
+
+[colors.bright]
+black = "#585b70"
+red = "#f38ba8"
+green = "#a6e3a1"
+yellow = "#f9e2af"
+blue = "#89b4fa"
+magenta = "#cba6f7"
+cyan = "#94e2d5"
+white = "#a6adc8"
+
+# ═══════════════════════════════════════════════════════════
+# VENTANA
+# ═══════════════════════════════════════════════════════════
+[window]
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+decorations = "none"
+opacity = 0.80
+blur = true
+
+[window.dimensions]
+columns = 100
+lines = 30
+
+# ═══════════════════════════════════════════════════════════
+# CURSOR
+# ═══════════════════════════════════════════════════════════
+[cursor]
+style = { shape = "Block", blinking = "On" }
+vi_mode_style = { shape = "Underline", blinking = "On" }
+blink_interval = 500
+unfocused_hollow = false
+
+# ═══════════════════════════════════════════════════════════
+# SCROLLING
+# ═══════════════════════════════════════════════════════════
+[scrolling]
+history = 10000
+multiplier = 3
+
+# ═══════════════════════════════════════════════════════════
+# BELL
+# ═══════════════════════════════════════════════════════════
+[bell]
+animation = "Linear"
+duration = 0
+command = { program = "paplay", args = ["/usr/share/sounds/freedesktop/stereo/dialog-warning.oga"] }
+
+# ═══════════════════════════════════════════════════════════
+# SELECTION
+# ═══════════════════════════════════════════════════════════
+[selection]
+save_to_clipboard = true
+
+# ═══════════════════════════════════════════════════════════
+# TERMINAL & SHELL (Corregido)
+# ═══════════════════════════════════════════════════════════
+[terminal]
+osc52 = "CopyPaste"
+
+[terminal.shell]
+program = "/usr/bin/fish"

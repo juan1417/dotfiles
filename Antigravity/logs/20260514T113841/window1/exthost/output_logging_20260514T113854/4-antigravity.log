@@ -1,0 +1,14 @@
+[Error - 12:11:58 p.m.] Server initialization failed.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Info  - 12:11:58 p.m.] Connection to server got closed. Server will restart.
+true
+[Error - 12:11:58 p.m.] antigravity client: couldn't create connection to server.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 12:11:58 p.m.] antigravity client: couldn't create connection to server.
+Error: connect ECONNREFUSED 127.0.0.1:46641
+	at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[Error - 12:11:58 p.m.] Restarting server failed
+Error: connect ECONNREFUSED 127.0.0.1:46641
+	at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)

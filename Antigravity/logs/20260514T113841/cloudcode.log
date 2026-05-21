@@ -1,0 +1,47 @@
+2026-05-14 11:38:41.423 [error] Failed to set Cloud Code URL on Language Server: Language server client has not been initialized!
+2026-05-14 11:38:44.025 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 5466850b3f9c3833
+2026-05-14 11:38:44.185 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 98776f1579273eb3
+2026-05-14 11:38:44.639 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: a2a72a8ee2d7cec0
+2026-05-14 11:38:44.928 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: fe45c4dba35a9ace
+2026-05-14 11:38:45.708 [info] [CloudCode] POST v1internal:onboardUser traceId: e309acd518bcef07
+2026-05-14 11:38:46.355 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 4132df725aa19316
+2026-05-14 11:38:46.763 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 1677ec7a6fcd1b62
+2026-05-14 11:39:45.822 [error] Failed to make POST request: The service is currently unavailable.
+2026-05-14 11:39:46.198 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 648450d4781623e4
+2026-05-14 11:43:42.243 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: c2d72f6c07b33f4c
+2026-05-14 11:43:42.785 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: eb6be1f4a412539b
+2026-05-14 11:43:44.914 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 526d12c2af3f1e4f
+2026-05-14 11:48:43.017 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 85a72517da3dd987
+2026-05-14 11:49:17.221 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 8527d050f959971b
+2026-05-14 11:49:17.486 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 61b8cd5bb1ef6440
+2026-05-14 11:53:41.916 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 25d7d0c6c5f56f02
+2026-05-14 11:53:42.257 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: d5addadc93fe35a1
+2026-05-14 11:53:42.531 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 856c4f32caacf04b
+2026-05-14 11:58:43.588 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 7c7712f9c485f81a
+2026-05-14 11:58:45.124 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: e4da1318b0a6a86d
+2026-05-14 11:58:45.433 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 2f25edeac86c58f0
+2026-05-14 12:03:41.753 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 4b0642e2c10f6007
+2026-05-14 12:03:42.053 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 8ec98d2e02b9979d
+2026-05-14 12:03:42.604 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: db4a72d94e2f0d14
+2026-05-14 12:03:52.468 [error] Failed to make POST request: The service is currently unavailable.
+2026-05-14 12:08:42.447 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 3c0710a96710c1f9
+2026-05-14 12:08:43.430 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: a8bf0bb9194e8b42
+2026-05-14 12:08:43.846 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: aa024e67bbf9af39
+2026-05-14 12:11:34.073 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 36a27e525a81556b
+2026-05-14 12:11:34.526 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: dcff5ea08d551d11
+2026-05-14 12:11:50.026 [info] [CloudCode] POST v1internal:onboardUser traceId: 969c242c30df293b
+2026-05-14 12:11:50.884 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 403adb07afd1c4a1
+2026-05-14 12:11:51.730 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: fb107de000eeb1c8
+2026-05-14 12:11:52.336 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 5cc9a0c72cafb2
+2026-05-14 12:13:43.475 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 7a743c80feeab96b
+2026-05-14 12:13:43.758 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 551f21b0646f0d4e
+2026-05-14 12:13:44.026 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 4bf7a8ee2a3235de
+2026-05-14 12:31:48.461 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 463b19884421e691
+2026-05-14 12:31:48.900 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 2cbcbf13d46da4d0
+2026-05-14 12:31:55.424 [info] [CloudCode] POST v1internal:onboardUser traceId: 8bda07746e60fc83
+2026-05-14 12:31:56.659 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 8be5cd0bb989a4e1
+2026-05-14 12:31:57.016 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 2bb5f14985384a9b
+2026-05-14 12:31:57.324 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: ca06c3933e26e396
+2026-05-14 12:33:43.675 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: d6003c65977fa523
+2026-05-14 12:33:43.973 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: d36b002c3904e486
+2026-05-14 12:33:44.300 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 9a7ce498f838fce9

@@ -1,0 +1,291 @@
+2026-05-15 11:12:10.602 [info] [main] Log level: Info
+2026-05-15 11:12:10.602 [info] [main] Validating found git in: "git"
+2026-05-15 11:12:10.602 [info] [main] Using git "2.54.0" from "git"
+2026-05-15 11:12:10.602 [info] [Model][doInitialScan] Initial repository scan started
+2026-05-15 11:12:10.602 [info] > git rev-parse --show-toplevel [30ms]
+2026-05-15 11:12:10.602 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [8ms]
+2026-05-15 11:12:10.602 [info] [Model][openRepository] Opened repository (path): /home/juan/projects/TermChat
+2026-05-15 11:12:10.602 [info] [Model][openRepository] Opened repository (real path): /home/juan/projects/TermChat
+2026-05-15 11:12:10.602 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-15 11:12:10.602 [info] > git rev-parse --show-toplevel [17ms]
+2026-05-15 11:12:10.602 [info] > git config --get commit.template [27ms]
+2026-05-15 11:12:10.602 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:12:10.602 [info] > git rev-parse --show-toplevel [84ms]
+2026-05-15 11:12:10.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [133ms]
+2026-05-15 11:12:10.602 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:12:10.607 [info] > git status -z -uall [618ms]
+2026-05-15 11:12:10.609 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [604ms]
+2026-05-15 11:12:10.631 [info] > git rev-parse --show-toplevel [677ms]
+2026-05-15 11:12:10.639 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-05-15 11:12:10.732 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [105ms]
+2026-05-15 11:12:10.733 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:12:10.734 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-05-15 11:12:10.780 [info] > git config --get commit.template [52ms]
+2026-05-15 11:12:10.792 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:12:10.797 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2026-05-15 11:12:10.797 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:12:10.825 [info] > git status -z -uall [20ms]
+2026-05-15 11:12:10.826 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-05-15 11:12:11.191 [info] > git check-ignore -v -z --stdin [6ms]
+2026-05-15 11:12:13.557 [info] > git check-ignore -v -z --stdin [3ms]
+2026-05-15 11:12:20.310 [info] > git check-ignore -v -z --stdin [2ms]
+2026-05-15 11:12:30.557 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:12:30.568 [info] > git config --get commit.template [13ms]
+2026-05-15 11:12:30.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 11:12:30.570 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:12:30.591 [info] > git status -z -uall [12ms]
+2026-05-15 11:12:30.593 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-05-15 11:22:39.090 [info] > git check-ignore -v -z --stdin [23ms]
+2026-05-15 11:22:51.528 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [9ms]
+2026-05-15 11:22:51.528 [info] fatal: bad revision 'refs/heads/master'
+2026-05-15 11:22:51.529 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2026-05-15 11:22:56.130 [info] > git add -A -- . [19ms]
+2026-05-15 11:22:56.150 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [7ms]
+2026-05-15 11:22:56.150 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-05-15 11:22:56.162 [info] > git config --get-all user.name [2ms]
+2026-05-15 11:22:56.178 [info] > git config --get commit.template [6ms]
+2026-05-15 11:22:56.187 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:22:56.189 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2026-05-15 11:22:56.189 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:22:56.226 [info] > git status -z -uall [21ms]
+2026-05-15 11:22:56.227 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-05-15 11:22:56.725 [info] > git show --textconv :test_debug.py [38ms]
+2026-05-15 11:22:56.725 [info] > git show --textconv HEAD:test_debug.py [24ms]
+2026-05-15 11:22:56.725 [info] > git ls-files --stage -- test_debug.py [11ms]
+2026-05-15 11:22:56.756 [info] > git hash-object -t tree /dev/null [11ms]
+2026-05-15 11:22:56.756 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/juan/projects/TermChat/test_debug.py.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftest_debug.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:22:56.757 [info] > git cat-file -s 0ae7056ab8c613fdbe894431ac973bc81feee27a [24ms]
+2026-05-15 11:22:56.761 [info] > git ls-tree -l HEAD -- test_debug.py [38ms]
+2026-05-15 11:22:56.761 [info] fatal: Not a valid object name HEAD
+2026-05-15 11:22:56.762 [warning] [GitFileSystemProvider][stat] File not found - git:/home/juan/projects/TermChat/test_debug.py.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftest_debug.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:22:57.373 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:22:57.375 [info] > git config --get commit.template [11ms]
+2026-05-15 11:22:57.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2026-05-15 11:22:57.376 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:22:57.395 [info] > git status -z -uall [12ms]
+2026-05-15 11:22:57.395 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-05-15 11:22:57.469 [info] > git ls-files --stage -- test_debug.py [4ms]
+2026-05-15 11:22:57.480 [info] > git cat-file -s 0ae7056ab8c613fdbe894431ac973bc81feee27a [3ms]
+2026-05-15 11:22:57.497 [info] > git show --textconv :test_debug.py [6ms]
+2026-05-15 11:32:43.787 [info] > git config --get commit.template [2ms]
+2026-05-15 11:32:43.797 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:32:43.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2026-05-15 11:32:43.802 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:32:43.821 [info] > git status -z -uall [10ms]
+2026-05-15 11:32:43.823 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-05-15 11:34:45.912 [info] > git check-ignore -v -z --stdin [6ms]
+2026-05-15 11:34:46.096 [info] > git check-ignore -v -z --stdin [4ms]
+2026-05-15 11:34:46.207 [info] > git show --textconv :scripts/install.sh [31ms]
+2026-05-15 11:34:46.207 [info] > git show --textconv HEAD:scripts/install.sh [22ms]
+2026-05-15 11:34:46.207 [info] > git ls-files --stage -- scripts/install.sh [12ms]
+2026-05-15 11:34:46.219 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/juan/projects/TermChat/scripts/install.sh.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Fscripts%2Finstall.sh%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:34:46.221 [info] > git cat-file -s bde339282c2dfed4a0b0908be685d77111d05f60 [4ms]
+2026-05-15 11:34:46.223 [info] > git ls-tree -l HEAD -- scripts/install.sh [18ms]
+2026-05-15 11:34:46.223 [info] fatal: Not a valid object name HEAD
+2026-05-15 11:34:46.224 [warning] [GitFileSystemProvider][stat] File not found - git:/home/juan/projects/TermChat/scripts/install.sh.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Fscripts%2Finstall.sh%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:37:51.925 [info] > git config --get commit.template [1ms]
+2026-05-15 11:37:51.933 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:37:51.935 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 11:37:51.935 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:37:51.948 [info] > git status -z -uall [6ms]
+2026-05-15 11:37:51.949 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-05-15 11:38:01.108 [info] > git check-ignore -v -z --stdin [3ms]
+2026-05-15 11:38:01.507 [info] > git config --get commit.template [3ms]
+2026-05-15 11:38:01.513 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:38:01.515 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 11:38:01.515 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:38:01.531 [info] > git status -z -uall [9ms]
+2026-05-15 11:38:01.532 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-05-15 11:43:11.770 [info] > git check-ignore -v -z --stdin [3ms]
+2026-05-15 11:43:12.384 [info] > git check-ignore -v -z --stdin [20ms]
+2026-05-15 11:43:19.707 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:43:19.708 [info] > git config --get commit.template [8ms]
+2026-05-15 11:43:19.709 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 11:43:19.709 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:43:19.725 [info] > git status -z -uall [9ms]
+2026-05-15 11:43:19.727 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-05-15 11:47:59.400 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:47:59.409 [info] > git config --get commit.template [10ms]
+2026-05-15 11:47:59.410 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 11:47:59.410 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:47:59.426 [info] > git status -z -uall [10ms]
+2026-05-15 11:47:59.428 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-05-15 11:53:20.806 [info] > git check-ignore -v -z --stdin [4ms]
+2026-05-15 11:53:21.025 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:53:21.026 [info] > git config --get commit.template [13ms]
+2026-05-15 11:53:21.028 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2026-05-15 11:53:21.028 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:53:21.065 [info] > git status -z -uall [24ms]
+2026-05-15 11:53:21.068 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-05-15 11:53:30.611 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:53:30.612 [info] > git config --get commit.template [8ms]
+2026-05-15 11:53:30.613 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 11:53:30.613 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:53:30.629 [info] > git status -z -uall [9ms]
+2026-05-15 11:53:30.631 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-05-15 11:53:41.545 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:53:41.546 [info] > git config --get commit.template [13ms]
+2026-05-15 11:53:41.547 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2026-05-15 11:53:41.547 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:53:41.565 [info] > git status -z -uall [10ms]
+2026-05-15 11:53:41.567 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-05-15 11:54:43.541 [info] > git config --get commit.template [2ms]
+2026-05-15 11:54:43.542 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:54:43.550 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 11:54:43.550 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:54:43.566 [info] > git status -z -uall [9ms]
+2026-05-15 11:54:43.567 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-05-15 11:56:01.277 [info] > git check-ignore -v -z --stdin [6ms]
+2026-05-15 11:56:01.536 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:56:01.544 [info] > git config --get commit.template [10ms]
+2026-05-15 11:56:01.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 11:56:01.545 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:56:01.561 [info] > git status -z -uall [8ms]
+2026-05-15 11:56:01.563 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-05-15 11:56:12.706 [info] > git config --get commit.template [3ms]
+2026-05-15 11:56:12.706 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:56:12.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 11:56:12.715 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:56:12.731 [info] > git status -z -uall [8ms]
+2026-05-15 11:56:12.733 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-05-15 11:57:56.069 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:57:56.070 [info] > git config --get commit.template [9ms]
+2026-05-15 11:57:56.070 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2026-05-15 11:57:56.071 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:57:56.086 [info] > git status -z -uall [9ms]
+2026-05-15 11:57:56.087 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-05-15 11:58:01.114 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:58:01.115 [info] > git config --get commit.template [9ms]
+2026-05-15 11:58:01.116 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 11:58:01.116 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:58:01.134 [info] > git status -z -uall [10ms]
+2026-05-15 11:58:01.136 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-05-15 11:58:06.159 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:58:06.160 [info] > git config --get commit.template [8ms]
+2026-05-15 11:58:06.161 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 11:58:06.161 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:58:06.176 [info] > git status -z -uall [8ms]
+2026-05-15 11:58:06.177 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-05-15 11:58:39.803 [info] > git check-ignore -v -z --stdin [5ms]
+2026-05-15 11:58:40.010 [info] > git check-ignore -v -z --stdin [3ms]
+2026-05-15 11:58:40.125 [info] > git show --textconv :termchat/skills/builtins/calculator.md [32ms]
+2026-05-15 11:58:40.125 [info] > git show --textconv HEAD:termchat/skills/builtins/calculator.md [21ms]
+2026-05-15 11:58:40.126 [info] > git ls-files --stage -- termchat/skills/builtins/calculator.md [14ms]
+2026-05-15 11:58:40.136 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/juan/projects/TermChat/termchat/skills/builtins/calculator.md.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fskills%2Fbuiltins%2Fcalculator.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:58:40.138 [info] > git ls-tree -l HEAD -- termchat/skills/builtins/calculator.md [17ms]
+2026-05-15 11:58:40.138 [info] fatal: Not a valid object name HEAD
+2026-05-15 11:58:40.139 [warning] [GitFileSystemProvider][stat] File not found - git:/home/juan/projects/TermChat/termchat/skills/builtins/calculator.md.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fskills%2Fbuiltins%2Fcalculator.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:58:40.140 [info] > git cat-file -s a2573166303d3a50ec30f839327fa90948461bd0 [5ms]
+2026-05-15 11:58:40.865 [info] > git check-ignore -v -z --stdin [4ms]
+2026-05-15 11:58:41.011 [info] > git check-ignore -v -z --stdin [3ms]
+2026-05-15 11:58:41.094 [info] > git show --textconv :termchat/skills/builtins/context7.md [24ms]
+2026-05-15 11:58:41.094 [info] > git show --textconv HEAD:termchat/skills/builtins/context7.md [19ms]
+2026-05-15 11:58:41.094 [info] > git ls-files --stage -- termchat/skills/builtins/context7.md [10ms]
+2026-05-15 11:58:41.104 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/juan/projects/TermChat/termchat/skills/builtins/context7.md.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fskills%2Fbuiltins%2Fcontext7.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:58:41.107 [info] > git cat-file -s a83334a35879372f96d6802adca56a91373cf3a7 [4ms]
+2026-05-15 11:58:41.108 [info] > git ls-tree -l HEAD -- termchat/skills/builtins/context7.md [16ms]
+2026-05-15 11:58:41.108 [info] fatal: Not a valid object name HEAD
+2026-05-15 11:58:41.109 [warning] [GitFileSystemProvider][stat] File not found - git:/home/juan/projects/TermChat/termchat/skills/builtins/context7.md.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fskills%2Fbuiltins%2Fcontext7.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:58:47.568 [info] > git check-ignore -v -z --stdin [4ms]
+2026-05-15 11:58:47.658 [info] > git check-ignore -v -z --stdin [2ms]
+2026-05-15 11:58:47.794 [info] > git show --textconv :termchat/skills/builtins/datetime_info.md [31ms]
+2026-05-15 11:58:47.794 [info] > git show --textconv HEAD:termchat/skills/builtins/datetime_info.md [22ms]
+2026-05-15 11:58:47.794 [info] > git ls-files --stage -- termchat/skills/builtins/datetime_info.md [13ms]
+2026-05-15 11:58:47.805 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/juan/projects/TermChat/termchat/skills/builtins/datetime_info.md.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fskills%2Fbuiltins%2Fdatetime_info.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:58:47.812 [info] > git cat-file -s d41f590d42fa49cdf4847be3049824520447c917 [9ms]
+2026-05-15 11:58:47.813 [info] > git ls-tree -l HEAD -- termchat/skills/builtins/datetime_info.md [22ms]
+2026-05-15 11:58:47.813 [info] fatal: Not a valid object name HEAD
+2026-05-15 11:58:47.814 [warning] [GitFileSystemProvider][stat] File not found - git:/home/juan/projects/TermChat/termchat/skills/builtins/datetime_info.md.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fskills%2Fbuiltins%2Fdatetime_info.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:58:48.858 [info] > git check-ignore -v -z --stdin [4ms]
+2026-05-15 11:58:49.006 [info] > git check-ignore -v -z --stdin [2ms]
+2026-05-15 11:58:49.107 [info] > git show --textconv :termchat/skills/builtins/file_reader.md [31ms]
+2026-05-15 11:58:49.107 [info] > git show --textconv HEAD:termchat/skills/builtins/file_reader.md [20ms]
+2026-05-15 11:58:49.107 [info] > git ls-files --stage -- termchat/skills/builtins/file_reader.md [12ms]
+2026-05-15 11:58:49.116 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/juan/projects/TermChat/termchat/skills/builtins/file_reader.md.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fskills%2Fbuiltins%2Ffile_reader.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:58:49.122 [info] > git cat-file -s 1388663d20bc4c8395ff737695f1042058bfbbd6 [8ms]
+2026-05-15 11:58:49.123 [info] > git ls-tree -l HEAD -- termchat/skills/builtins/file_reader.md [18ms]
+2026-05-15 11:58:49.123 [info] fatal: Not a valid object name HEAD
+2026-05-15 11:58:49.124 [warning] [GitFileSystemProvider][stat] File not found - git:/home/juan/projects/TermChat/termchat/skills/builtins/file_reader.md.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fskills%2Fbuiltins%2Ffile_reader.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:58:50.000 [info] > git check-ignore -v -z --stdin [3ms]
+2026-05-15 11:58:50.139 [info] > git check-ignore -v -z --stdin [4ms]
+2026-05-15 11:58:51.186 [info] > git check-ignore -v -z --stdin [3ms]
+2026-05-15 11:58:51.281 [info] > git check-ignore -v -z --stdin [3ms]
+2026-05-15 11:58:51.422 [info] > git show --textconv :termchat/skills/builtins/web_search.md [31ms]
+2026-05-15 11:58:51.422 [info] > git show --textconv HEAD:termchat/skills/builtins/web_search.md [22ms]
+2026-05-15 11:58:51.422 [info] > git ls-files --stage -- termchat/skills/builtins/web_search.md [13ms]
+2026-05-15 11:58:51.431 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/juan/projects/TermChat/termchat/skills/builtins/web_search.md.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fskills%2Fbuiltins%2Fweb_search.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:58:51.435 [info] > git cat-file -s 116d6a6f5fc9c9285202478bbc2aa5c1d21a59d7 [5ms]
+2026-05-15 11:58:51.436 [info] > git ls-tree -l HEAD -- termchat/skills/builtins/web_search.md [16ms]
+2026-05-15 11:58:51.436 [info] fatal: Not a valid object name HEAD
+2026-05-15 11:58:51.437 [warning] [GitFileSystemProvider][stat] File not found - git:/home/juan/projects/TermChat/termchat/skills/builtins/web_search.md.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fskills%2Fbuiltins%2Fweb_search.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 11:59:35.467 [info] > git config --get commit.template [6ms]
+2026-05-15 11:59:35.477 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:59:35.480 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2026-05-15 11:59:35.480 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:59:35.508 [info] > git status -z -uall [17ms]
+2026-05-15 11:59:35.511 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-05-15 11:59:53.521 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 11:59:53.522 [info] > git config --get commit.template [10ms]
+2026-05-15 11:59:53.523 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 11:59:53.524 [warning] [Git][getBranch] No such branch: master
+2026-05-15 11:59:53.548 [info] > git status -z -uall [16ms]
+2026-05-15 11:59:53.551 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2026-05-15 12:06:37.964 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 12:06:37.965 [info] > git config --get commit.template [10ms]
+2026-05-15 12:06:37.965 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 12:06:37.965 [warning] [Git][getBranch] No such branch: master
+2026-05-15 12:06:37.981 [info] > git status -z -uall [9ms]
+2026-05-15 12:06:37.983 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-05-15 12:06:40.518 [info] > git check-ignore -v -z --stdin [5ms]
+2026-05-15 12:06:40.855 [info] > git check-ignore -v -z --stdin [3ms]
+2026-05-15 12:06:41.233 [info] > git show --textconv :termchat/ui/app.py [36ms]
+2026-05-15 12:06:41.233 [info] > git show --textconv HEAD:termchat/ui/app.py [25ms]
+2026-05-15 12:06:41.234 [info] > git ls-tree -l HEAD -- termchat/ui/app.py [6ms]
+2026-05-15 12:06:41.234 [info] fatal: Not a valid object name HEAD
+2026-05-15 12:06:41.235 [warning] [GitFileSystemProvider][stat] File not found - git:/home/juan/projects/TermChat/termchat/ui/app.py.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fui%2Fapp.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 12:06:41.235 [info] > git ls-files --stage -- termchat/ui/app.py [18ms]
+2026-05-15 12:06:41.248 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/juan/projects/TermChat/termchat/ui/app.py.git?%7B%22path%22%3A%22%2Fhome%2Fjuan%2Fprojects%2FTermChat%2Ftermchat%2Fui%2Fapp.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-05-15 12:06:41.251 [info] > git cat-file -s eb6220550ae0af5170e624dcb2e1ea5ec9f203c5 [5ms]
+2026-05-15 12:06:44.740 [info] > git config --get commit.template [3ms]
+2026-05-15 12:06:44.749 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 12:06:44.753 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2026-05-15 12:06:44.753 [warning] [Git][getBranch] No such branch: master
+2026-05-15 12:06:44.773 [info] > git status -z -uall [11ms]
+2026-05-15 12:06:44.775 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-05-15 12:08:15.974 [info] > git check-ignore -v -z --stdin [2ms]
+2026-05-15 12:08:16.361 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 12:08:16.361 [info] > git config --get commit.template [12ms]
+2026-05-15 12:08:16.362 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 12:08:16.363 [warning] [Git][getBranch] No such branch: master
+2026-05-15 12:08:16.379 [info] > git status -z -uall [10ms]
+2026-05-15 12:08:16.381 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-05-15 12:08:16.505 [info] > git check-ignore -v -z --stdin [15ms]
+2026-05-15 12:09:36.138 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 12:09:36.145 [info] > git config --get commit.template [8ms]
+2026-05-15 12:09:36.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-05-15 12:09:36.146 [warning] [Git][getBranch] No such branch: master
+2026-05-15 12:09:36.161 [info] > git status -z -uall [7ms]
+2026-05-15 12:09:36.163 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-05-15 12:13:30.284 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-15 12:13:30.287 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2026-05-15 12:13:30.287 [warning] [Git][getBranch] No such branch: master
+2026-05-15 12:13:30.288 [info] > git config --get commit.template [11ms]
+2026-05-15 12:13:30.307 [info] > git status -z -uall [12ms]
+2026-05-15 12:13:30.310 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
