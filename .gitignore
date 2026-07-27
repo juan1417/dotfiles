@@ -1,0 +1,17 @@
+# System
+*.bak.*
+*.swp
+*.swo
+*~
+
+# Node
+node_modules/
+package-lock.json
+
+# Neovim
+nvim/lazy-lock.json
+nvim/.neoconf.json
+
+# Sensitive
+*.pem
+*.key
