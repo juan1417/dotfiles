@@ -3,6 +3,9 @@
   "tui": {
     "transparent_background": true
   },
+  "skills": {
+    "paths": ["~/.config/opencode/skills"]
+  },
   "agent": {
     "project-planner": {
       "mode": "primary",
