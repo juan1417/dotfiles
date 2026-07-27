@@ -1,1 +1,113 @@
-@import "/usr/share/rofi/themes/solarized_alternate.rasi"
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    icon-theme: "Breeze Chameleon Dark";
+    display-drun: " Apps";
+    display-run: " Ejecutar";
+    display-window: " Ventanas";
+    drun-display-format: "{name}";
+    font: "IosevkaTerm Nerd Font 14";
+    click-to-exit: true;
+    sidebar-mode: false;
+}
+
+* {
+    bg:       #1E1E2E;
+    bg-alt:   #313244;
+    fg:       #BAC2DE;
+    fg-alt:   #A6ADC8;
+    accent:   #CBA6F7;
+    urgent:   #F38BA8;
+
+    background-color: @bg;
+    text-color:       @fg;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+window {
+    width:            600px;
+    background-color: @bg;
+    border-color:     @accent;
+    border:           2px;
+    border-radius:    16px;
+    padding:          20px;
+}
+
+inputbar {
+    children: [ prompt, entry ];
+    background-color: @bg-alt;
+    border-radius:    10px;
+    padding:          12px 16px;
+    spacing:          12px;
+}
+
+prompt {
+    background-color: @accent;
+    text-color:       @bg;
+    padding:          8px 12px;
+    border-radius:    8px;
+}
+
+entry {
+    placeholder:       "Buscar...";
+    placeholder-color: @fg-alt;
+    padding:           4px 8px;
+}
+
+listview {
+    lines:    5;
+    columns:  3;
+    fixed-height: true;
+    spacing:  12px;
+    padding:  16px 0 0 0;
+}
+
+element {
+    background-color: @bg-alt;
+    border-radius:    10px;
+    padding:          12px 8px;
+    spacing:          8px;
+    orientation:      vertical;
+}
+
+element normal.normal {
+    background-color: @bg-alt;
+    text-color:       @fg;
+}
+
+element alternate.normal {
+    background-color: @bg-alt;
+    text-color:       @fg;
+}
+
+element selected.normal {
+    background-color: @accent;
+    text-color:       @bg;
+}
+
+element active.normal {
+    background-color: @accent;
+    text-color:       @bg;
+}
+
+element-icon {
+    size: 48px;
+}
+
+element-text {
+    expand:    horizontal;
+    vertical-align: 0.5;
+    font-size: 13px;
+}
+
+message {
+    padding: 8px;
+}
+
+textbox {
+    background-color: @bg-alt;
+    border-radius:    8px;
+    padding:          8px 12px;
+}

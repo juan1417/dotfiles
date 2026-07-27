@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/tui.json",
+  "theme": "system",
+  "plugin": [
+    "opencode-subagent-statusline",
+    "@tarquinen/opencode-dcp",
+    "opencode-notify",
+    "opencode-wakatime"
+  ]
+}

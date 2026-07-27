@@ -1,21 +1,25 @@
-anchor=bottom-right
-width=350
-height=200
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#89b4fa
+
+width=300
+height=100
 margin=10
 padding=12
-font=JetBrains Mono 11
-background-color=#1e1e2eCC
-text-color=#cdd6f4
-border-color=#ff6b35
-border-radius=8
 border-size=2
+border-radius=8
+
+default-timeout=3000
+max-visible=5
 layer=overlay
-icon-location=left
-max-history=50
-sort=-time
 
 [urgency=low]
-border-color=#45475a
+border-color=#89b4fa
+
+[urgency=normal]
+border-color=#89b4fa
 
 [urgency=high]
 border-color=#f38ba8
+background-color=#f38ba8
+text-color=#1e1e2e

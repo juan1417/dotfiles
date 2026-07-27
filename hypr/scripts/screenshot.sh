@@ -1,40 +1,34 @@
-#!/usr/bin/env bash
-# Script de Screenshots para Hyprland
+#!/bin/bash
+# Screenshot helper for Hyprland using grim + slurp + wl-copy
 
-# Directorio para guardar
 DIR="$HOME/Pictures/Screenshots"
 mkdir -p "$DIR"
 
-# Nombre del archivo con fecha
-FILE="screenshot_$(date +%Y-%m-%d_%H-%M-%S).png"
-
-# Función para notificar
-notify() {
-    notify-send "📸 Captura guardada" "$DIR/$FILE" -i camera-photo
-}
+TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 
 case "$1" in
-    # Pantalla completa
-    full)
-        grim "$DIR/$FILE"
-        notify
-        ;;
-    # Ventana activa
-    active)
-        # Obtiene las coordenadas de la ventana activa
-        GEOM=$(hyprctl activewindow | grep at: | head -n 1 | awk '{print $2}' | sed 's/,//')
-        SIZE=$(hyprctl activewindow | grep size: | head -n 1 | awk '{print $2}' | sed 's/,//')
-        grim -g "$GEOM,$SIZE" "$DIR/$FILE"
-        notify
-        ;;
-    # Selección de zona
-    area)
-        grim -g "$(slurp)" "$DIR/$FILE"
-        notify
-        ;;
-    # Editar inmediatamente con Satty (Recomendado)
-    edit)
-        grim -g "$(slurp)" - | satty -f - -o "$DIR/$FILE"
-        notify
-        ;;
+	screen)
+		grim "$DIR/screenshot_$TIMESTAMP.png"
+		grim - | wl-copy
+		;;
+	region)
+		REGION=$(slurp)
+		if [ -n "$REGION" ]; then
+			grim -g "$REGION" "$DIR/screenshot_$TIMESTAMP.png"
+			grim -g "$REGION" - | wl-copy
+		fi
+		;;
+	window)
+		ACTIVE=$(hyprctl activewindow -j)
+		AT_X=$(echo "$ACTIVE" | jq -r '.at[0]')
+		AT_Y=$(echo "$ACTIVE" | jq -r '.at[1]')
+		SIZE_W=$(echo "$ACTIVE" | jq -r '.size[0]')
+		SIZE_H=$(echo "$ACTIVE" | jq -r '.size[1]')
+		grim -g "${AT_X},${AT_Y} ${SIZE_W}x${SIZE_H}" "$DIR/screenshot_$TIMESTAMP.png"
+		grim -g "${AT_X},${AT_Y} ${SIZE_W}x${SIZE_H}" - | wl-copy
+		;;
+	*)
+		echo "Uso: $0 {screen|region|window}"
+		exit 1
+		;;
 esac

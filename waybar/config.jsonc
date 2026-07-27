@@ -1,302 +1,109 @@
-//  █████  ████████ ██ ███████        ██ ██   ██  ██████  ██████  
-// ██   ██    ██    ██ ██            ███ ██   ██ ██  ████      ██ 
-// ███████    ██    ██ █████   █████  ██ ███████ ██ ██ ██  █████  
-// ██   ██    ██    ██ ██             ██      ██ ████  ██ ██      
-// ██   ██    ██    ██ ██             ██      ██  ██████  ███████ 
-                                                                       
 {
-  "reload_style_on_change": true,
-  "layer": "top",
-  "position": "top",
-  "spacing": 0,
-  "height": 24,
-
-  "border-radius": 25,
-
-  "margin-top": 2,
-  "margin-left": 10,
-  "margin-right": 10,
-
-  "modules-left": [
-    "custom/omarchy",
-    "hyprland/workspaces",
-    "mpris"
-  ],
-
-  "modules-center": [
-    "custom/mpris"
-  ],
-
-  "modules-right": [
-    "group/ctl",
-    "group/stats",
-    "clock"
-  ],
-
-  // ======================
-  // HYPRLAND
-  // ======================
-
-  "hyprland/workspaces": {
-    "on-click": "activate",
-    "format": "{icon}",
-    "format-icons": {
-      "1": "<span size='13500'>󰬺</span>",
-      "2": "<span size='13500'>󰬻</span>",
-      "3": "<span size='13500'>󰬼</span>",
-      "4": "<span size='13500'>󰬽</span>",
-      "5": "<span size='13500'>󰬾</span>",
-      "6": "<span size='13500'>󰬿</span>",
-      "7": "<span size='13500'>󰭀</span>",
-      "8": "<span size='13500'>󰭁</span>",
-      "9": "<span size='13500'>󰭂</span>",
-      "10": "<span size='13500'>󰿩</span>"
-    },
-    "persistent-workspaces": {
-      "1": [],
-      "2": [],
-      "3": [],
-      "4": [],
-      "5": []
-    }
-  },
-
-  // ======================
-  // CORE MODULES
-  // ======================
-
-  "clock": {
-    "format": "{:%I:%M %p}",
-    "format-alt": "{:%e %B %A}",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
-  },
-
-  "cpu": {
-    "interval": 2,
-    "format": "{icon} {usage} ",
-    "format-icons": ["󰪞","󰪟","󰪠","󰪡","󰪢","󰪣","󰪤","󰪥"],
-    "on-click": "omarchy-launch-or-focus-tui btop"
-  },
-
-  "memory": {
-    "interval": 2,
-    "format": "{icon} {percentage}",
-    "format-icons": ["󰪞","󰪟","󰪠","󰪡","󰪢","󰪣","󰪤","󰪥"],
-    "on-click": "omarchy-launch-or-focus-tui btop"
-  },
-
-  "network": {
-    "interval": 3,
-    "spacing": 1,
-
-    "format": "{icon}",
-    "format-wifi": "{icon}",
-    "format-ethernet": "󰌘",
-    "format-disconnected": "󰤮",
-
-    "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
-
-    "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes} ⇡{bandwidthUpBytes}",
-    "tooltip-format-ethernet": "⇣{bandwidthDownBytes} ⇡{bandwidthUpBytes}",
-    "tooltip-format-disconnected": "Disconnected",
-
-    "on-click": "omarchy-launch-wifi"
-  },
-
-  "battery": {
-    "interval": 5,
-
-    "format": "{capacity}% {icon}",
-    "format-discharging": "{icon}",
-    "format-charging": "{icon}",
-    "format-plugged": "",
-    "format-full": "󰂅",
-
-    "format-icons": {
-      "charging": ["󰢜","󰂆","󰂇","󰂈","󰢝","󰂉","󰢞","󰂊","󰂋","󰂅"],
-      "default": ["󰁺","󰁻","󰁼","󰁽","󰁾","󰁿","󰂀","󰂁","󰂂","󰁹"]
-    },
-
-    "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
-    "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%",
-
-    "on-click": "omarchy-menu power",
-
-    "states": {
-      "warning": 20,
-      "critical": 10
-    }
-  },
-
-  "bluetooth": {
-    "format": "",
-    "format-disabled": "󰂲",
-    "format-connected": "",
-    "format-no-controller": "",
-    "tooltip-format": "Devices connected: {num_connections}",
-    "on-click": "omarchy-launch-bluetooth"
-  },
-
-  "pulseaudio": {
-    "format": "{icon}",
-    "format-muted": "",
-
-    "format-icons": {
-      "default": ["","",""]
-    },
-
-    "scroll-step": 5,
-    "tooltip-format": "Playing at {volume}%",
-
-    "on-click": "omarchy-launch-or-focus-tui wiremix",
-    "on-click-right": "pamixer -t"
-  },
-
-  "mpris": {
-    "interval": 10,
-
-    "format": "{player_icon} {dynamic}",
-    "format-paused": "{status_icon} {artist} {title}",
-
-    "scroll-step": 5,
-    "smooth-scrolling-threshold": 1,
-
-    "tooltip": true,
-    "tooltip-format": "{status_icon} {dynamic}\nLeft: previous\nMiddle: pause\nRight: next",
-
-    "on-click": "playerctl previous",
-    "on-click-middle": "playerctl play-pause",
-    "on-click-right": "playerctl next",
-
-    "on-scroll-up": "$HOME/.config/hypr/scripts/volume.sh --inc",
-    "on-scroll-down": "$HOME/.config/hypr/scripts/volume.sh --dec",
-
-    "player-icons": {
-      "chromium": "",
-      "firefox": "",
-      "spotify": "󰎆",
-      "vlc": "󰕼",
-      "mpv": "󰐹",
-      "mopidy": "",
-      "kdeconnect": "",
-      "default": ""
-    },
-
-    "status-icons": {
-      "playing": "",
-      "paused": "",
-      "stopped": ""
-    },
-
-    "dynamic-order": ["artist","title"],
-    "ignored-players": ["firefox","zen"],
-    "max-length": 40
-  },
-
-  // ======================
-  // GROUPS
-  // ======================
-
-  "group/stats": {
-    "orientation": "inherit",
-    "modules": [
-      "cpu",
-      "memory",
-      "battery"
-    ]
-  },
-
-  "group/misc-expander": {
-    "orientation": "inherit",
-
-    "modules": [
-      "custom/expand-icon",
-      "custom/screenrecording-indicator",
-      "custom/update",
-      "custom/idle-indicator",
-      "custom/notification-silencing-indicator",
-      "power-profiles-daemon",
-      "tray"
+    "layer": "top",
+    "position": "top",
+    "height": 32,
+    "spacing": 4,
+    "modules-left": [
+        "hyprland/workspaces",
+        "hyprland/window"
     ],
-
-    "drawer": {
-      "transition-duration": 600,
-      "children-class": "misc-group-item"
+    "modules-center": [
+        "custom/media-prev",
+        "custom/media-play",
+        "custom/media-next",
+        "custom/media-title"
+    ],
+    "modules-right": [
+        "tray",
+        "bluetooth",
+        "network",
+        "pulseaudio",
+        "backlight",
+        "battery",
+        "clock"
+    ],
+    "hyprland/workspaces": {
+        "format": "●",
+        "on-click": "activate",
+        "sort-by-number": true,
+        "active-only": false,
+        "all-outputs": false,
+        "format-icons": {
+            "active": "●",
+            "default": "●"
+        }
+    },
+    "hyprland/window": {
+        "format": "{title}",
+        "max-length": 30,
+        "separate-outputs": true
+    },
+    "custom/media-prev": {
+        "format": "\u23EE",
+        "on-click": "playerctl previous",
+        "tooltip": false
+    },
+    "custom/media-play": {
+        "exec": "~/.config/waybar/scripts/media-play.sh",
+        "format": "{}",
+        "on-click": "playerctl play-pause",
+        "tooltip": false,
+        "interval": 1
+    },
+    "custom/media-next": {
+        "format": "\u23ED",
+        "on-click": "playerctl next",
+        "tooltip": false
+    },
+    "custom/media-title": {
+        "format": "{text}",
+        "return-type": "json",
+        "max-length": 40,
+        "exec": "playerctl metadata --format '{\"text\": \"{{ artist }} - {{ title }}\"}' 2>/dev/null || echo '{\"text\": \"\"}'",
+        "exec-if": "playerctl status 2>/dev/null | grep -qE 'Playing|Paused'",
+        "tooltip": false,
+        "interval": 1
+    },
+    "clock": {
+        "format": " \uF017 {:%H:%M}",
+        "interval": 1,
+        "on-click": "bash /home/juan/.config/waybar/scripts/calendar.sh"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "\uF240 {capacity}%",
+        "format-charging": "\uF0E7 {capacity}%",
+        "tooltip-format": "{timeTo}\n{capacity}%"
+    },
+    "network": {
+        "format-wifi": "\uF1EB {signalStrength}%",
+        "format-ethernet": "\uF0AC {ipaddr}",
+        "format-disconnected": "\uF127",
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
+        "on-click": "~/.config/waybar/scripts/wifi-menu.sh"
+    },
+    "bluetooth": {
+        "format-disabled": "\uF127",
+        "format-off": "\uF127",
+        "format-on": "\uF127 {device_alias}",
+        "tooltip-format-enumerate-connected": "{device_enumerate}",
+        "on-click": "~/.config/waybar/scripts/bluetooth-menu.sh"
+    },
+    "pulseaudio": {
+        "format": "\uF028 {volume}%",
+        "format-muted": "\uF131",
+        "on-click": "pavucontrol",
+        "tooltip-format": "{desc}\n{volume}%"
+    },
+    "backlight": {
+        "format": "\uF185 {percent}%",
+        "tooltip-format": "Brightness: {percent}%"
+    },
+    "tray": {
+        "spacing": 8,
+        "show-passive-items": true
     }
-  },
-
-  "group/ctl": {
-    "orientation": "inherit",
-    "modules": [
-      "group/misc-expander",
-      "network",
-      "bluetooth",
-      "pulseaudio"
-    ]
-  },
-
-  // ======================
-  // CUSTOM MODULES
-  // ======================
-
-  "custom/omarchy": {
-    "format": "",
-    "on-click": "omarchy-menu",
-    "on-click-right": "xdg-terminal-exec",
-    "tooltip-format": "Omarchy Menu\n\nSuper + Alt + Space"
-  },
-
-  "custom/update": {
-    "format": "",
-    "exec": "omarchy-update-available",
-    "on-click": "omarchy-launch-floating-terminal-with-presentation omarchy-update",
-    "tooltip-format": "Omarchy update available",
-    "signal": 7,
-    "interval": 21600
-  },
-
-  "custom/screenrecording-indicator": {
-    "exec": "$OMARCHY_PATH/default/waybar/indicators/screen-recording.sh",
-    "on-click": "omarchy-cmd-screenrecord",
-    "signal": 8,
-    "return-type": "json"
-  },
-
-  "custom/idle-indicator": {
-    "exec": "$OMARCHY_PATH/default/waybar/indicators/idle.sh",
-    "on-click": "omarchy-toggle-idle",
-    "signal": 9,
-    "return-type": "json"
-  },
-
-  "custom/notification-silencing-indicator": {
-    "exec": "$OMARCHY_PATH/default/waybar/indicators/notification-silencing.sh",
-    "on-click": "omarchy-toggle-notification-silencing",
-    "signal": 10,
-    "return-type": "json"
-  },
-
-  "custom/expand-icon": {
-    "format": "",
-    "tooltip": false
-  },
-
-  "tray": {
-    "icon-size": 12,
-    "spacing": 4
-  },
-
-  "power-profiles-daemon": {
-    "format": "{icon}",
-
-    "tooltip": true,
-    "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
-
-    "format-icons": {
-      "default": "",
-      "performance": "",
-      "balanced": "",
-      "power-saver": ""
-    }
-  }
 }

@@ -1,44 +1,143 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "tui": {
+    "transparent_background": true
+  },
+  "agent": {
+    "project-planner": {
+      "mode": "primary",
+      "description": "Director de Planificación de Proyectos. Analiza requerimientos, valida stack tecnológico, crea planificación ágil (Scrum/Kanban) y genera project-plan.md completo con validación automática.",
+      "permission": {
+        "bash": "allow",
+        "edit": "allow",
+        "read": "allow",
+        "task": "allow",
+        "webfetch": "allow",
+        "websearch": "allow"
+      }
+    },
+    "stack-validator": {
+      "mode": "subagent",
+      "description": "Valida y recomienda stack tecnológico para proyectos de software",
+      "permission": {
+        "bash": "deny",
+        "edit": "deny",
+        "read": "allow",
+        "webfetch": "allow",
+        "websearch": "allow"
+      }
+    },
+    "agile-validator": {
+      "mode": "subagent",
+      "description": "Crea y valida planificación ágil (Scrum/Kanban) para proyectos",
+      "permission": {
+        "bash": "deny",
+        "edit": "deny",
+        "read": "allow",
+        "webfetch": "allow",
+        "websearch": "allow"
+      }
+    },
+    "feasibility-checker": {
+      "mode": "subagent",
+      "description": "Valida viabilidad y coherencia de planes de proyecto",
+      "permission": {
+        "bash": "deny",
+        "edit": "deny",
+        "read": "allow",
+        "webfetch": "allow",
+        "websearch": "allow"
+      }
+    },
+    "sdd-orchestrator": {
+      "mode": "primary",
+      "description": "Orquestador SDD - coordina sub-agentes, nunca ejecuta trabajo directo",
+      "systemPrompt": "{file:./agents/sdd-orchestrator.md}",
+      "permission": {
+        "bash": "allow",
+        "edit": "allow",
+        "read": "allow",
+        "task": "allow"
+      }
+    },
+    "sdd-explore": {
+      "mode": "subagent",
+      "hidden": true,
+      "description": "Explora el codebase y analiza ideas",
+      "tools": {
+        "read": true,
+        "write": true,
+        "edit": true,
+        "bash": true
+      }
+    },
+    "sdd-spec": {
+      "mode": "subagent",
+      "hidden": true,
+      "description": "Escribe especificaciones detalladas",
+      "tools": {
+        "read": true,
+        "write": true,
+        "edit": true,
+        "bash": true
+      }
+    },
+    "sdd-design": {
+      "mode": "subagent",
+      "hidden": true,
+      "description": "Crea diseño técnico",
+      "tools": {
+        "read": true,
+        "write": true,
+        "edit": true,
+        "bash": true
+      }
+    },
+    "sdd-tasks": {
+      "mode": "subagent",
+      "hidden": true,
+      "description": "Planifica tareas de implementación",
+      "tools": {
+        "read": true,
+        "write": true,
+        "edit": true,
+        "bash": true
+      }
+    },
+    "sdd-apply": {
+      "mode": "subagent",
+      "hidden": true,
+      "description": "Implementa cambios de código",
+      "tools": {
+        "read": true,
+        "write": true,
+        "edit": true,
+        "bash": true
+      }
+    },
+    "sdd-verify": {
+      "mode": "subagent",
+      "hidden": true,
+      "description": "Verifica implementación contra specs",
+      "tools": {
+        "read": true,
+        "write": true,
+        "edit": true,
+        "bash": true
+      }
+    }
+  },
+  "lsp": true,
   "mcp": {
+    "codebase-memory": {
+      "type": "local",
+      "command": ["codebase-memory-mcp"],
+      "enabled": true
+    },
     "context7": {
-      "type": "remote",
-      "url": "https://mcp.context7.com/mcp",
-      "enabled": true,
-      "headers": {
-        "CONTEXT7_API_KEY": "ctx7sk-9abb155d-60e2-4ff1-a8d0-bfd467e08f25"
-      }
-    },
-    "duckduckgo": {
       "type": "local",
-      "command": ["npx", "-y", "duckduckgo-websearch"],
+      "command": ["npx", "-y", "@upstash/context7-mcp"],
       "enabled": true
-    },
-    "fetch": {
-      "type": "local",
-      "command": ["npx", "-y", "mcp-fetch-server"],
-      "enabled": true
-    },
-    "github": {
-      "type": "local",
-      "command": ["npx", "-y", "@modelcontextprotocol/server-github"],
-      "enabled": true,
-      "environment": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
-      }
-    },
-    "filesystem": {
-      "type": "local",
-      "command": ["npx", "-y", "@modelcontextprotocol/server-filesystem", "/home/juan"],
-      "enabled": true
-    },
-    "stitch": {
-      "type": "remote",
-      "url": "https://stitch.googleapis.com/mcp",
-      "enabled": true,
-      "headers": {
-        "X-Goog-Api-Key": "AQ.Ab8RN6LutqbVBalLxaj8GQpqqS2BNqkwXR70_vzd9xPRAqTkaQ"
-      }
     }
   }
 }
