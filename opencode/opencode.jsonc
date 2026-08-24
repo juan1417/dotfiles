@@ -1,15 +1,31 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  
+  // ============================================
+  // CONFIGURACIÓN DE AGENTES, SKILLS Y PLUGINS
+  // ============================================
+  // MCP se configura en: opencode.json
+  
   "tui": {
     "transparent_background": true
   },
+  
+  // ============================================
+  // SKILLS
+  // ============================================
   "skills": {
     "paths": ["~/.config/opencode/skills"]
   },
+  
+  // ============================================
+  // AGENTES
+  // ============================================
   "agent": {
-    "project-planner": {
+    // === MODOS PRINCIPALES ===
+    "sdd-orchestrator": {
       "mode": "primary",
-      "description": "Director de Planificación de Proyectos. Analiza requerimientos, valida stack tecnológico, crea planificación ágil (Scrum/Kanban) y genera project-plan.md completo con validación automática.",
+      "description": "Orquestador SDD - coordina sub-agentes, nunca ejecuta trabajo directo. Modo principal de trabajo.",
+      "systemPrompt": "{file:./agents/sdd-orchestrator.md}",
       "permission": {
         "bash": "allow",
         "edit": "allow",
@@ -19,128 +35,133 @@
         "websearch": "allow"
       }
     },
-    "stack-validator": {
-      "mode": "subagent",
-      "description": "Valida y recomienda stack tecnológico para proyectos de software",
-      "permission": {
-        "bash": "deny",
-        "edit": "deny",
-        "read": "allow",
-        "webfetch": "allow",
-        "websearch": "allow"
-      }
-    },
-    "agile-validator": {
-      "mode": "subagent",
-      "description": "Crea y valida planificación ágil (Scrum/Kanban) para proyectos",
-      "permission": {
-        "bash": "deny",
-        "edit": "deny",
-        "read": "allow",
-        "webfetch": "allow",
-        "websearch": "allow"
-      }
-    },
-    "feasibility-checker": {
-      "mode": "subagent",
-      "description": "Valida viabilidad y coherencia de planes de proyecto",
-      "permission": {
-        "bash": "deny",
-        "edit": "deny",
-        "read": "allow",
-        "webfetch": "allow",
-        "websearch": "allow"
-      }
-    },
-    "sdd-orchestrator": {
+    "sdd-planning": {
       "mode": "primary",
-      "description": "Orquestador SDD - coordina sub-agentes, nunca ejecuta trabajo directo",
-      "systemPrompt": "{file:./agents/sdd-orchestrator.md}",
+      "description": "SDD Planning - Analiza requerimientos, crea historias de usuario, gestiona backlog y planifica proyecto. Al finalizar, conserva solo: planning.md, roadmap.md, backlog.md y documentación en Obsidian.",
+      "systemPrompt": "{file:./subagents/pm.md}",
       "permission": {
         "bash": "allow",
         "edit": "allow",
         "read": "allow",
-        "task": "allow"
+        "task": "allow",
+        "webfetch": "allow",
+        "websearch": "allow"
       }
     },
-    "sdd-explore": {
+    
+    // === SUB-AGENTES (llamados por los modos principales) ===
+    "po": {
       "mode": "subagent",
-      "hidden": true,
-      "description": "Explora el codebase y analiza ideas",
-      "tools": {
-        "read": true,
-        "write": true,
-        "edit": true,
-        "bash": true
+      "description": "Product Owner - Crea historias de usuario y gestiona backlog",
+      "systemPrompt": "{file:./subagents/po.md}",
+      "permission": {
+        "bash": "deny",
+        "edit": "deny",
+        "read": "allow",
+        "task": "deny"
       }
     },
-    "sdd-spec": {
+    "architect": {
       "mode": "subagent",
-      "hidden": true,
-      "description": "Escribe especificaciones detalladas",
-      "tools": {
-        "read": true,
-        "write": true,
-        "edit": true,
-        "bash": true
+      "description": "Architect - Diseña arquitectura y selecciona tecnologías",
+      "systemPrompt": "{file:./subagents/architect.md}",
+      "permission": {
+        "bash": "deny",
+        "edit": "deny",
+        "read": "allow",
+        "task": "deny"
       }
     },
-    "sdd-design": {
+    "developer": {
       "mode": "subagent",
-      "hidden": true,
-      "description": "Crea diseño técnico",
-      "tools": {
-        "read": true,
-        "write": true,
-        "edit": true,
-        "bash": true
+      "description": "Developer - Implementa código según especificaciones",
+      "systemPrompt": "{file:./subagents/developer.md}",
+      "permission": {
+        "bash": "allow",
+        "edit": "allow",
+        "read": "allow",
+        "task": "deny"
       }
     },
-    "sdd-tasks": {
+    "backend-dev": {
       "mode": "subagent",
-      "hidden": true,
-      "description": "Planifica tareas de implementación",
-      "tools": {
-        "read": true,
-        "write": true,
-        "edit": true,
-        "bash": true
+      "description": "Backend Developer - Desarrollo de APIs, lógica de negocio, bases de datos e integraciones del servidor",
+      "systemPrompt": "{file:./subagents/backend-dev.md}",
+      "permission": {
+        "bash": "allow",
+        "edit": "allow",
+        "read": "allow",
+        "task": "deny"
       }
     },
-    "sdd-apply": {
+    "frontend-dev": {
       "mode": "subagent",
-      "hidden": true,
-      "description": "Implementa cambios de código",
-      "tools": {
-        "read": true,
-        "write": true,
-        "edit": true,
-        "bash": true
+      "description": "Frontend Developer - Desarrollo de interfaces de usuario, componentes React/Vue/Angular y experiencia de usuario",
+      "systemPrompt": "{file:./subagents/frontend-dev.md}",
+      "permission": {
+        "bash": "allow",
+        "edit": "allow",
+        "read": "allow",
+        "task": "deny"
       }
     },
-    "sdd-verify": {
+    "e2e-tester": {
       "mode": "subagent",
-      "hidden": true,
-      "description": "Verifica implementación contra specs",
-      "tools": {
-        "read": true,
-        "write": true,
-        "edit": true,
-        "bash": true
+      "description": "E2E Tester - Testing end-to-end con Playwright, validación de flujos de usuario completos y detección de bugs de integración",
+      "systemPrompt": "{file:./subagents/e2e-tester.md}",
+      "permission": {
+        "bash": "allow",
+        "edit": "allow",
+        "read": "allow",
+        "task": "deny"
+      }
+    },
+    "qa": {
+      "mode": "subagent",
+      "description": "QA - Garantiza calidad mediante pruebas",
+      "systemPrompt": "{file:./subagents/qa.md}",
+      "permission": {
+        "bash": "allow",
+        "edit": "allow",
+        "read": "allow",
+        "task": "deny"
+      }
+    },
+    "qc": {
+      "mode": "subagent",
+      "description": "QC - Audita código y reporta deuda técnica",
+      "systemPrompt": "{file:./subagents/qc.md}",
+      "permission": {
+        "bash": "deny",
+        "edit": "deny",
+        "read": "allow",
+        "task": "deny"
+      }
+    },
+    "devops": {
+      "mode": "subagent",
+      "description": "DevOps - Gestiona CI/CD y despliegues",
+      "systemPrompt": "{file:./subagents/devops.md}",
+      "permission": {
+        "bash": "allow",
+        "edit": "allow",
+        "read": "allow",
+        "task": "deny"
+      }
+    },
+    "scrum-master": {
+      "mode": "subagent",
+      "description": "Scrum Master - Facilita ceremonias y remueve impedimentos",
+      "systemPrompt": "{file:./subagents/scrum-master.md}",
+      "permission": {
+        "bash": "allow",
+        "edit": "allow",
+        "read": "allow",
+        "task": "deny"
       }
     }
   },
-  "lsp": true,
-  "mcp": {
-    "codebase-memory": {
-      "type": "local",
-      "command": ["codebase-memory-mcp"],
-      "enabled": true
-    },
-    "context7": {
-      "type": "local",
-      "command": ["npx", "-y", "@upstash/context7-mcp"],
-      "enabled": true
-    }
-  }
+  
+  // LSP habilitado
+  "lsp": true
 }

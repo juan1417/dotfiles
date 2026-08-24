@@ -1,0 +1,196 @@
+version: '3.8'
+
+# Docker Compose para desarrollo paralelo de Frontend + Backend
+# Uso: docker-compose up
+# Uso con rebuild: docker-compose up --build
+
+services:
+  # ============================================
+  # BACKEND - API Server
+  # ============================================
+  backend:
+    build:
+      context: ./apps/backend
+      dockerfile: Dockerfile
+      target: development
+    container_name: project-backend
+    ports:
+      - "4000:4000"
+      - "9229:9229"  # Debug port
+    volumes:
+      - ./apps/backend:/app
+      - /app/node_modules
+      - ./apps/backend/logs:/app/logs
+    environment:
+      - NODE_ENV=development
+      - PORT=4000
+      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/myapp
+      - REDIS_URL=redis://redis:6379
+      - JWT_SECRET=your-secret-key-here
+      - CORS_ORIGIN=http://localhost:3000
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - app-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # ============================================
+  # FRONTEND - React/Vue/Angular
+  # ============================================
+  frontend:
+    build:
+      context: ./apps/frontend
+      dockerfile: Dockerfile
+      target: development
+    container_name: project-frontend
+    ports:
+      - "3000:3000"
+      - "5173:5173"  # Vite port
+      - "24678:24678"  # HMR port
+    volumes:
+      - ./apps/frontend:/app
+      - /app/node_modules
+      - /app/.next
+    environment:
+      - NODE_ENV=development
+      - VITE_API_URL=http://localhost:4000
+      - VITE_WS_URL=ws://localhost:4000
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  # ============================================
+  # DATABASE - PostgreSQL
+  # ============================================
+  postgres:
+    image: postgres:15-alpine
+    container_name: project-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=myapp
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./apps/backend/db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - app-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ============================================
+  # CACHE - Redis
+  # ============================================
+  redis:
+    image: redis:7-alpine
+    container_name: project-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - app-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ============================================
+  # TESTING - Playwright E2E
+  # ============================================
+  playwright:
+    build:
+      context: .
+      dockerfile: Dockerfile.playwright
+    container_name: project-playwright
+    volumes:
+      - ./tests/e2e:/app/tests/e2e
+      - ./playwright-report:/app/playwright-report
+      - ./playwright-results.json:/app/playwright-results.json
+    environment:
+      - BASE_URL=http://frontend:3000
+      - API_URL=http://backend:4000
+    depends_on:
+      frontend:
+        condition: service_healthy
+      backend:
+        condition: service_healthy
+    networks:
+      - app-network
+    # No se ejecuta automáticamente, solo con:
+    # docker-compose run playwright
+
+  # ============================================
+  # UTILITIES - Admin tools
+  # ============================================
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: project-pgadmin
+    ports:
+      - "5050:80"
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@example.com
+      - PGADMIN_DEFAULT_PASSWORD=admin
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - app-network
+    restart: unless-stopped
+    profiles:
+      - tools  # Solo se ejecuta con: docker-compose --profile tools up
+
+  redis-commander:
+    image: rediscommander/redis-commander
+    container_name: project-redis-commander
+    ports:
+      - "8081:8081"
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - app-network
+    restart: unless-stopped
+    profiles:
+      - tools  # Solo se ejecuta con: docker-compose --profile tools up
+
+# ============================================
+# VOLUMES
+# ============================================
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+  pgadmin_data:
+    driver: local
+
+# ============================================
+# NETWORKS
+# ============================================
+networks:
+  app-network:
+    driver: bridge
