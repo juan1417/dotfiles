@@ -10,13 +10,13 @@ window#waybar {
 }
 
 tooltip {
-    background: #1e1e2e;
-    border: 1px solid #cba6f7;
+    background: #1a1b26;
+    border: 1px solid #7aa2f7;
     border-radius: 8px;
 }
 
 tooltip label {
-    color: #cdd6f4;
+    color: #a9b1d6;
 }
 
 /* Workspaces */
@@ -24,26 +24,26 @@ tooltip label {
     padding: 0 6px;
     border-radius: 50%;
     background: transparent;
-    color: #45475a;
+    color: #444b6a;
     min-width: 12px;
     font-size: 10px;
 }
 
 #workspaces button.active,
 #workspaces button.focused {
-    color: #cba6f7;
+    color: #7aa2f7;
     font-size: 14px;
 }
 
 #workspaces button:hover {
-    color: #bac2de;
+    color: #a9b1d6;
 }
 
 /* Window title */
 #window {
     padding: 0 12px;
-    background: #313244;
-    color: #a6adc8;
+    background: #32344a;
+    color: #a9b1d6;
     border-radius: 6px;
     margin-left: 6px;
 }
@@ -54,8 +54,8 @@ tooltip label {
 #custom-media-next {
     padding: 0px 14px;
     border-radius: 8px;
-    background: #313244;
-    color: #a6e3a1;
+    background: #32344a;
+    color: #9ece6a;
     min-width: 40px;
     min-height: 28px;
     margin: 0 3px;
@@ -65,20 +65,20 @@ tooltip label {
 #custom-media-prev:hover,
 #custom-media-play:hover,
 #custom-media-next:hover {
-    background: #45475a;
-    color: #94e2d5;
+    background: #444b6a;
+    color: #7aa2f7;
 }
 
 #custom-media-play {
-    background: #45475a;
+    background: #444b6a;
     font-size: 26px;
     min-width: 48px;
 }
 
 #custom-media-title {
     padding: 0 14px;
-    background: #313244;
-    color: #cdd6f4;
+    background: #32344a;
+    color: #a9b1d6;
     border-radius: 6px;
     margin: 2px;
     font-style: italic;
@@ -88,69 +88,69 @@ tooltip label {
 #network {
     padding: 0 10px;
     border-radius: 6px;
-    background: #313244;
-    color: #89dceb;
+    background: #32344a;
+    color: #449dab;
     margin: 2px;
 }
 
 #network:hover {
-    background: #45475a;
+    background: #444b6a;
 }
 
 /* Bluetooth */
 #bluetooth {
     padding: 0 10px;
     border-radius: 6px;
-    background: #313244;
-    color: #74c7ec;
+    background: #32344a;
+    color: #0db9d7;
     margin: 2px;
 }
 
 #bluetooth:hover {
-    background: #45475a;
+    background: #444b6a;
 }
 
 /* Pulseaudio */
 #pulseaudio {
     padding: 0 10px;
     border-radius: 6px;
-    background: #313244;
-    color: #f38ba8;
+    background: #32344a;
+    color: #f7768e;
     margin: 2px;
 }
 
 #pulseaudio:hover {
-    background: #45475a;
+    background: #444b6a;
 }
 
 /* Battery */
 #battery {
     padding: 0 10px;
     border-radius: 6px;
-    background: #313244;
-    color: #f9e2af;
+    background: #32344a;
+    color: #e0af68;
     margin: 2px;
 }
 
 #battery.warning {
-    color: #fab387;
+    color: #ff9e64;
 }
 
 #battery.critical {
-    color: #f38ba8;
+    color: #f7768e;
     animation: blink 1s linear infinite;
 }
 
 @keyframes blink {
-    to { color: #1e1e2e; }
+    to { color: #1a1b26; }
 }
 
 /* Backlight */
 #backlight {
     padding: 0 10px;
     border-radius: 6px;
-    background: #313244;
-    color: #f9e2af;
+    background: #32344a;
+    color: #e0af68;
     margin: 2px;
 }
 
@@ -158,8 +158,8 @@ tooltip label {
 #clock {
     padding: 0 12px;
     border-radius: 6px;
-    background: #313244;
-    color: #cba6f7;
+    background: #32344a;
+    color: #7aa2f7;
     font-weight: bold;
     margin: 2px;
 }
@@ -168,8 +168,8 @@ tooltip label {
 #tray {
     padding: 0 8px;
     border-radius: 6px;
-    background: #313244;
-    color: #bac2de;
+    background: #32344a;
+    color: #a9b1d6;
     margin: 2px;
 }
 

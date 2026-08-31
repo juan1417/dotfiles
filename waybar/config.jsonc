@@ -65,7 +65,7 @@
         "interval": 1
     },
     "clock": {
-        "format": " \uF017 {:%H:%M}",
+        "format": " \uF017 {:%H:%M  %d/%m/%y}",
         "interval": 1,
         "on-click": "bash /home/juan/.config/waybar/scripts/calendar.sh"
     },
